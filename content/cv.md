@@ -42,6 +42,20 @@ Chemistry Minor · Northeastern Illinois University, Chicago
 
 ## Publications
 
+24\. Pottinger AS, Natarajan B, de Bruyn M, **Martinez CC**. Kigali Sim: Open source simulation toolkit for modeling substances and policies related to the Montreal Protocol. **2026.** [Journal of Open Source Software](https://joss.theoj.org/) 11 (121), 10104
+
+23\. Layritz LS, Zomer M, le Bruyn M, Pottinger S, Gondek N, Steen MK, et al. including **Martinez C**. Removing barriers to science-informed decision-making through data science and human-centered design. **2026.** EGU General Assembly
+
+22\. Yahiaoui W, Smail S, Ayub Y, Lu Q, Cousins P, Diaz-Garcia L, Frank M, et al. including **Martinez C**. Disentangling blade and vasculature shape in grapevine leaves. **2026.** [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.01.27.701982)
+
+21\. Connor T, Montealegre-Mora F, Saxon BJ, Camarena J, et al. including **Martinez C**. Indigenous knowledge and community-derived counts produce robust wildlife population estimates: Roosevelt Elk in Karuk Aboriginal Territory. **2025.** [Ecology and Evolution](https://onlinelibrary.wiley.com/doi/10.1002/ece3.72355) 15 (10), e72355
+
+20\. Pottinger AS, Geyer R, Biyani N, **Martinez CC**, Nathan N, Morse MR, Liu C, et al. Pathways to reduce global plastic waste mismanagement and greenhouse gas emissions by 2050. **2024.** [Science](https://www.science.org/doi/10.1126/science.adp8174) 386 (6726), 1168–1173
+
+19\. Fisher M, Perez F, Renou M, Verma A, Brichet N, Ismail MB, Brochart D, et al. including **Martinez C**. GeoJupyter and JupyterGIS: Exploring more approachable geospatial data workflows as an open source software community. **2025.** AGU Annual Meeting
+
+18\. Perez F, Fisher M, **Martinez C**, Renou M, Corlay S, Verma A, Ismail MB, et al. GeoJupyter: Streamlining the lifecycle of geospatial research with the Jupyter ecosystem. **2025.** AGU Annual Meeting
+
 17\. Holmquist A, Markelz R, **Martinez C**, Gillespie R. The importance of habitat type and historical fire regimes in arthropod community response following large-scale wildfires. *Accepted. In Press.* [Preprint: SocArXiv](https://www.biorxiv.org/content/10.1101/2023.07.17.548903v2.abstract)
 
 16\. Hunter-Zinck H, de Siqueira A, Vásquez V, Barnes R, **Martinez C**. Ten simple rules on writing clean and reliable open-source scientific software. **2021.** [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009481)

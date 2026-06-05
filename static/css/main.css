@@ -137,17 +137,36 @@ a:hover { text-decoration: underline; }
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 4rem 3rem 4rem 3rem;
 }
 
-.headshot {
-  width: 130px;
-  height: 130px;
+.home-bio h1,
+.home-role,
+.home-contact {
+  text-align: center;
+}
+
+.home-bio p:not(.home-role) {
+  text-align: left;
+}
+
+.headshot-wrap {
+  width: 163px;
+  height: 163px;
   border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 1.5rem;
+  border: 3px solid var(--purple);
+  flex-shrink: 0;
+}
+
+.headshot-wrap img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: center top;
-  margin-bottom: 1.5rem;
-  border: 3px solid var(--lavender);
+  display: block;
 }
 
 .home h1 {
