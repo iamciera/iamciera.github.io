@@ -42,59 +42,59 @@ Chemistry Minor · Northeastern Illinois University, Chicago
 
 ## Publications
 
-20\. Pottinger AS, Natarajan B, de Bruyn M, **Martinez CC**. Kigali Sim: Open source simulation toolkit for modeling substances and policies related to the Montreal Protocol. **2026.** [Journal of Open Source Software](https://joss.theoj.org/) 11 (121), 10104
+20\. Kigali Sim: Open source simulation toolkit for modeling substances and policies related to the Montreal Protocol. Pottinger AS, Natarajan B, de Bruyn M, **Martinez CC**. **2026.** [Journal of Open Source Software](https://joss.theoj.org/) 11 (121), 10104
 
-19\. Connor T, Montealegre-Mora F, Saxon BJ, Camarena J, et al. including **Martinez C**. Indigenous knowledge and community-derived counts produce robust wildlife population estimates: Roosevelt Elk in Karuk Aboriginal Territory. **2025.** [Ecology and Evolution](https://onlinelibrary.wiley.com/doi/10.1002/ece3.72355) 15 (10), e72355
+19\. Indigenous knowledge and community-derived counts produce robust wildlife population estimates: Roosevelt Elk in Karuk Aboriginal Territory. Connor T, Montealegre-Mora F, Saxon BJ, Camarena J, et al. including **Martinez C**. **2025.** [Ecology and Evolution](https://onlinelibrary.wiley.com/doi/10.1002/ece3.72355) 15 (10), e72355
 
-18\. Pottinger AS, Geyer R, Biyani N, **Martinez CC**, Nathan N, Morse MR, Liu C, et al. Pathways to reduce global plastic waste mismanagement and greenhouse gas emissions by 2050. **2024.** [Science](https://www.science.org/doi/10.1126/science.adp8174) 386 (6726), 1168–1173
+18\. Pathways to reduce global plastic waste mismanagement and greenhouse gas emissions by 2050. Pottinger AS, Geyer R, Biyani N, **Martinez CC**, Nathan N, Morse MR, Liu C, et al. **2024.** [Science](https://www.science.org/doi/10.1126/science.adp8174) 386 (6726), 1168–1173
 
-17\. Holmquist A, Markelz R, **Martinez C**, Gillespie R. The importance of habitat type and historical fire regimes in arthropod community response following large-scale wildfires. **2024.** [Global Change Biology](https://onlinelibrary.wiley.com/doi/10.1111/gcb.17135)
+17\. The importance of habitat type and historical fire regimes in arthropod community response following large-scale wildfires. Holmquist A, Markelz R, **Martinez C**, Gillespie R. **2024.** [Global Change Biology](https://onlinelibrary.wiley.com/doi/10.1111/gcb.17135)
 
-16\. Hunter-Zinck H, de Siqueira A, Vásquez V, Barnes R, **Martinez C**. Ten simple rules on writing clean and reliable open-source scientific software. **2021.** [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009481)
+16\. Ten simple rules on writing clean and reliable open-source scientific software. Hunter-Zinck H, de Siqueira A, Vásquez V, Barnes R, **Martinez C**. **2021.** [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009481)
 
-15\. Stoudt S\*, Valeri V\*, **Martinez C**. Principles for data analysis workflows. **2021.** [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008770) · [Preprint: arXiv](https://arxiv.org/abs/2007.08708)
+15\. Principles for data analysis workflows. Stoudt S\*, Valeri V\*, **Martinez C**. **2021.** [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008770) · [Preprint: arXiv](https://arxiv.org/abs/2007.08708)
 
-14\. **Martinez C**, Li S, Woodhouse M, Sugimoto K, Sinha N. Spatial transcriptional signatures define margin morphogenesis along the proximal-distal and medio-lateral axes in *Solanum lycopersicum*. **2021.** [Plant Cell](https://academic.oup.com/plcell/advance-article/doi/10.1093/plcell/koaa012/6017183) · [Preprint: BioRxiv](https://www.biorxiv.org/content/10.1101/772228v1)
+14\. Spatial transcriptional signatures define margin morphogenesis along the proximal-distal and medio-lateral axes in *Solanum lycopersicum*. **Martinez C**, Li S, Woodhouse M, Sugimoto K, Sinha N. **2021.** [Plant Cell](https://academic.oup.com/plcell/advance-article/doi/10.1093/plcell/koaa012/6017183) · [Preprint: BioRxiv](https://www.biorxiv.org/content/10.1101/772228v1)
 
-13\. Bronski M, **Martinez C**, Weld H, Eisen M. Whole genome sequences of 23 species from the *Drosophila montium* species group. **2020.** [G3: Genes, Genomes, Genetics](https://www.g3journal.org/content/10/5/1443.long) · [Preprint: BioRxiv](https://www.biorxiv.org/content/10.1101/861005v1)
+13\. Whole genome sequences of 23 species from the *Drosophila montium* species group. Bronski M, **Martinez C**, Weld H, Eisen M. **2020.** [G3: Genes, Genomes, Genetics](https://www.g3journal.org/content/10/5/1443.long) · [Preprint: BioRxiv](https://www.biorxiv.org/content/10.1101/861005v1)
 
-12\. Elya C, Lok T, Spencer Q, McCausland H, **Martinez C**, Eisen M. A fungal pathogen that robustly manipulates the behavior of *Drosophila melanogaster*. **2018.** [eLIFE](https://elifesciences.org/articles/34414)
+12\. A fungal pathogen that robustly manipulates the behavior of *Drosophila melanogaster*. Elya C, Lok T, Spencer Q, McCausland H, **Martinez C**, Eisen M. **2018.** [eLIFE](https://elifesciences.org/articles/34414)
 
-11\. Bucksch A, 37 authors including **Martinez C**. Morphological plant modeling: Unleashing geometric and topologic potential within the plant sciences. **2017.** [Frontiers in Plant Science](http://journal.frontiersin.org/article/10.3389/fpls.2017.00900/full)
+11\. Morphological plant modeling: Unleashing geometric and topologic potential within the plant sciences. Bucksch A, 37 authors including **Martinez C**. **2017.** [Frontiers in Plant Science](http://journal.frontiersin.org/article/10.3389/fpls.2017.00900/full)
 
-10\. **Martinez C\***, Chitwood D\*, Smith R, Sinha N. Left-right leaf asymmetry in decussate and distichous phyllotactic systems. **2016.** [Proceedings of the Royal Society B](http://rstb.royalsocietypublishing.org/content/371/1710/20150412)
+10\. Left-right leaf asymmetry in decussate and distichous phyllotactic systems. **Martinez C\***, Chitwood D\*, Smith R, Sinha N. **2016.** [Proceedings of the Royal Society B](http://rstb.royalsocietypublishing.org/content/371/1710/20150412)
 
-9\. **Martinez C**, Koenig D, Chitwood D, Sinha N. A Sister of PIN1 gene in tomato defines organ initiation patterns by maintaining epidermal auxin flux. **2016.** [Developmental Biology](http://www.sciencedirect.com/science/article/pii/S0012160616303062)
+9\. A Sister of PIN1 gene in tomato defines organ initiation patterns by maintaining epidermal auxin flux. **Martinez C**, Koenig D, Chitwood D, Sinha N. **2016.** [Developmental Biology](http://www.sciencedirect.com/science/article/pii/S0012160616303062)
 
-8\. Chitwood D, Kumar R, Ranjan A, et al. including **Martinez C**. Light-induced indeterminacy alters shade avoiding tomato leaf morphology. **2015.** [Plant Physiology](http://www.plantphysiol.org/content/early/2015/09/17/pp.15.01229.full.pdf)
+8\. Light-induced indeterminacy alters shade avoiding tomato leaf morphology. Chitwood D, Kumar R, Ranjan A, et al. including **Martinez C**. **2015.** [Plant Physiology](http://www.plantphysiol.org/content/early/2015/09/17/pp.15.01229.full.pdf)
 
-7\. Chitwood D, Ranjan A, Kumar R, et al. including **Martinez C**. Resolving distinct genetic regulators of leaf shape within a heteroblastic and ontogenetic context. **2014.** [Plant Cell](http://www.plantcell.org/content/early/2014/09/30/tpc.114.130112.full.pdf+html)
+7\. Resolving distinct genetic regulators of leaf shape within a heteroblastic and ontogenetic context. Chitwood D, Ranjan A, Kumar R, et al. including **Martinez C**. **2014.** [Plant Cell](http://www.plantcell.org/content/early/2014/09/30/tpc.114.130112.full.pdf+html)
 
-6\. Chitwood D, Ranjan A, **Martinez C**, et al. A modern ampelography: a genetic basis for leaf shape and venation patterning in *Vitis vinifera*. **2013.** [Plant Physiology](http://www.plantphysiol.org/content/164/1/259)
+6\. A modern ampelography: a genetic basis for leaf shape and venation patterning in *Vitis vinifera*. Chitwood D, Ranjan A, **Martinez C**, et al. **2013.** [Plant Physiology](http://www.plantphysiol.org/content/164/1/259)
 
-5\. **Martinez C** and Sinha N. Genetic Control of Leaf Shape. **2013.** [Encyclopedia of Life Science](http://www.els.net/WileyCDA/ElsArticle/refId-a0020101.html)
+5\. Genetic Control of Leaf Shape. **Martinez C** and Sinha N. **2013.** [Encyclopedia of Life Science](http://www.els.net/WileyCDA/ElsArticle/refId-a0020101.html)
 
-4\. Ahmad Naz A, Raman S, **Martinez C**, et al. *trifoliate* encodes an R2R3 MYB transcription factor that modulates leaf and shoot architecture in tomato. **2013.** [PNAS](http://www.pnas.org/content/110/6/2401.short)
+4\. *trifoliate* encodes an R2R3 MYB transcription factor that modulates leaf and shoot architecture in tomato. Ahmad Naz A, Raman S, **Martinez C**, et al. **2013.** [PNAS](http://www.pnas.org/content/110/6/2401.short)
 
-3\. Chitwood D, Headland L, Ranjan A, **Martinez C**, et al. Leaf asymmetry as a developmental constraint imposed by auxin-dependent phyllotactic patterning. **2012.** [Plant Cell](http://www.plantcell.org/content/24/6/2318.short)
+3\. Leaf asymmetry as a developmental constraint imposed by auxin-dependent phyllotactic patterning. Chitwood D, Headland L, Ranjan A, **Martinez C**, et al. **2012.** [Plant Cell](http://www.plantcell.org/content/24/6/2318.short)
 
-2\. Preston J, **Martinez C**, Hileman L. Gradual disintegration of the floral symmetry gene network is implicated in the evolution of a wind-pollination syndrome. **2011.** [PNAS](http://www.pnas.org/content/108/6/2343.short)
+2\. Gradual disintegration of the floral symmetry gene network is implicated in the evolution of a wind-pollination syndrome. Preston J, **Martinez C**, Hileman L. **2011.** [PNAS](http://www.pnas.org/content/108/6/2343.short)
 
-1\. Du J, Miura E, Robischon M, **Martinez C**, Groover A. The Populus class III HD ZIP transcription factor POPCORONA affects cell differentiation during secondary growth of woody stems. **2011.** [PLoS ONE](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0017458)
+1\. The Populus class III HD ZIP transcription factor POPCORONA affects cell differentiation during secondary growth of woody stems. Du J, Miura E, Robischon M, **Martinez C**, Groover A. **2011.** [PLoS ONE](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0017458)
 
 **Conference Proceedings**
 
-Layritz LS, Zomer M, le Bruyn M, Pottinger S, Gondek N, Steen MK, et al. including **Martinez C**. Removing barriers to science-informed decision-making through data science and human-centered design. **2026.** EGU General Assembly
+Removing barriers to science-informed decision-making through data science and human-centered design. Layritz LS, Zomer M, le Bruyn M, Pottinger S, Gondek N, Steen MK, et al. including **Martinez C**. **2026.** EGU General Assembly
 
-Fisher M, Perez F, Renou M, Verma A, Brichet N, Ismail MB, Brochart D, et al. including **Martinez C**. GeoJupyter and JupyterGIS: Exploring more approachable geospatial data workflows as an open source software community. **2025.** AGU Annual Meeting
+GeoJupyter and JupyterGIS: Exploring more approachable geospatial data workflows as an open source software community. Fisher M, Perez F, Renou M, Verma A, Brichet N, Ismail MB, Brochart D, et al. including **Martinez C**. **2025.** AGU Annual Meeting
 
-Perez F, Fisher M, **Martinez C**, Renou M, Corlay S, Verma A, Ismail MB, et al. GeoJupyter: Streamlining the lifecycle of geospatial research with the Jupyter ecosystem. **2025.** AGU Annual Meeting
+GeoJupyter: Streamlining the lifecycle of geospatial research with the Jupyter ecosystem. Perez F, Fisher M, **Martinez C**, Renou M, Corlay S, Verma A, Ismail MB, et al. **2025.** AGU Annual Meeting
 
 **Preprints**
 
-Yahiaoui W, Smail S, Ayub Y, Lu Q, Cousins P, Diaz-Garcia L, Frank M, et al. including **Martinez C**. Disentangling blade and vasculature shape in grapevine leaves. **2026.** [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.01.27.701982)
+Disentangling blade and vasculature shape in grapevine leaves. Yahiaoui W, Smail S, Ayub Y, Lu Q, Cousins P, Diaz-Garcia L, Frank M, et al. including **Martinez C**. **2026.** [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.01.27.701982)
 
-Gieger S, and ten other authors including **Martinez C**. Challenges of doing data-intensive research in teams, labs, and groups. [SocArXiv](https://osf.io/preprints/socarxiv/a7b3m/)
+Challenges of doing data-intensive research in teams, labs, and groups. Gieger S, and ten other authors including **Martinez C**. [SocArXiv](https://osf.io/preprints/socarxiv/a7b3m/)
 
 ---
 
