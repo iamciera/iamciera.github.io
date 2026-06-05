@@ -5,10 +5,7 @@ title = "Ciera Martinez"
 [markup.goldmark.renderer]
   unsafe = true
 
-[taxonomies]
-  # disable default taxonomies so no layout warnings
-  tag = ""
-  category = ""
+disableKinds = ["taxonomy", "term"]
 
 [params]
   description = "Senior Program Manager at the Schmidt Center for Data Science and Environment, UC Berkeley"

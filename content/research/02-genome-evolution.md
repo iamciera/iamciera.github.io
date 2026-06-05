@@ -3,6 +3,4 @@ title: "Genome Evolution"
 weight: 2
 ---
 
-As a Postdoc in Michael Eisen's lab at UC Berkeley, I employed comparative computational genomic analysis and confocal microscopy to understand the evolutionary constraints acting on DNA promoters and enhancers. How do these noncoding regions function in controlling spatiotemporal gene transcription, and ultimately direct organismal morphology?
-
-I used *Drosophila* as a system to explore how DNA sequences are grammatically and syntactically defined, and created novel histological protocols and bioengineered imaging lines for 4D confocal microscope imaging.
+During my NSF Postdoctoral Fellowship in Michael Eisen's lab at UC Berkeley, I led comparative computational genomic studies to characterize evolutionary constraints on cis-regulatory elements — promoters and enhancers — and their role in directing spatiotemporal gene expression. I developed novel histological protocols and engineered transgenic *Drosophila* imaging lines to enable 4D confocal microscopy, producing new tools now available to the broader research community.

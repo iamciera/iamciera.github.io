@@ -2,7 +2,7 @@
 title: "Press"
 ---
 
-A collection of press, external writing, and articles in which I was quoted or featured.
+My research and public scholarship have been featured in national and international outlets including *Nature*, *Smithsonian Magazine*, *National Geographic*, and *Mozilla*. Below is a selection of press coverage, interviews, and articles in which I contributed expertise or was recognized for my work.
 
 ---
 

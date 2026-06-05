@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $sections := .Pages.ByWeight }}
+{{ $sections := .RegularPages.ByWeight }}
 <div class="scroll-page">
 
   <!-- Fixed side nav -->
@@ -30,7 +30,6 @@
 </div>
 
 <script>
-  // Highlight active nav item on scroll
   const navItems = document.querySelectorAll('.scroll-nav-item');
   const sections = document.querySelectorAll('.scroll-section');
 

@@ -2,7 +2,7 @@
 title: "Tutorials"
 ---
 
-I am a big proponent of freely sharing knowledge. I especially enjoy breaking down complex topics and presenting them in fun and engaging ways — spanning statistical analysis, modeling, cloud computing, machine learning, biology, data management, reproducibility, and general R & Python programming.
+I have an extensive record of developing and delivering technical education — from one-on-one mentorship to large workshop curricula — across topics including statistical modeling, machine learning, cloud computing, reproducible research, and R & Python programming. I believe rigorous methods should be accessible to anyone willing to learn.
 
 ---
 

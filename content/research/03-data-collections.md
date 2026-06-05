@@ -3,6 +3,4 @@ title: "Biological & Environmental Data Collections"
 weight: 3
 ---
 
-All my research interests converge on my excitement for how data can explain the world around us. My goal is to increase the usability, sustainability, and value of open biological and environmental data collections.
-
-I work with research teams, software developers, designers, and natural history museums to make this data the immense resource it is. I am especially interested in building research projects that combine multidisciplinary domains.
+A cross-cutting theme in my work is improving the usability, discoverability, and long-term sustainability of open biological and environmental data collections. I collaborate with research teams, software engineers, UX designers, and natural history institutions to maximize the scientific value of these resources — and to build the infrastructure and community practices that make them last.
