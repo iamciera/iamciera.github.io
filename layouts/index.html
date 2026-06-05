@@ -1,6 +1,7 @@
 {{ define "main" }}
 <section class="home">
-  <div class="container home-grid">
+  <div class="home-grid">
+
     <div class="home-bio">
       <h1>Ciera Martinez, PhD</h1>
       <p class="home-role">Senior Program Manager · <a href="https://dse.berkeley.edu/">Schmidt Center for Data Science &amp; Environment</a> · UC Berkeley</p>
@@ -14,6 +15,114 @@
         <a href="{{ .Site.Params.github }}">GitHub</a>
       </div>
     </div>
+
+    <div class="home-tree" title="Click to regenerate">
+      <svg id="tree"></svg>
+      <p class="tree-hint">click to regenerate</p>
+    </div>
+
   </div>
 </section>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script>
+const PALETTE = [
+  '#1A2540','#364A70','#9088C8','#D6D0F5',
+  '#4CAF72','#2a6347','#88c8a8',
+  '#b86e18','#d4a830','#a83828','#c07050','#b86878'
+];
+
+function getSize() {
+  const el = document.querySelector('.home-tree');
+  return Math.min(el.offsetWidth, el.offsetHeight) || 400;
+}
+
+let SIZE = getSize();
+let R = SIZE / 2 - 24;
+
+const svg = d3.select('#tree')
+  .attr('width', SIZE)
+  .attr('height', SIZE)
+  .attr('viewBox', [-SIZE/2, -SIZE/2, SIZE, SIZE])
+  .style('cursor', 'pointer');
+
+const linkG = svg.append('g');
+const nodeG = svg.append('g');
+
+function randomTree() {
+  const clades = 5 + Math.floor(Math.random() * 5);
+  function build(depth, name) {
+    const node = { name };
+    if (depth > 0) {
+      const n = depth === 4 ? clades : 2 + Math.floor(Math.random() * 3);
+      node.children = Array.from({ length: n }, (_, i) => build(depth - 1, `${name}.${i}`));
+    }
+    return node;
+  }
+  return build(4, 'root');
+}
+
+function assignColors(root) {
+  const cladeColors = {};
+  root.children?.forEach((child, i) => {
+    cladeColors[child.data.name] = PALETTE[i % PALETTE.length];
+  });
+  root.descendants().forEach(d => {
+    if (d.depth === 0) { d.color = '#D6D0F5'; return; }
+    let anc = d;
+    while (anc.depth > 1) anc = anc.parent;
+    d.color = cladeColors[anc.data.name] ?? PALETTE[0];
+  });
+}
+
+function draw(data, animate) {
+  const root = d3.tree()
+    .size([2 * Math.PI, R])
+    .separation((a, b) => (a.parent === b.parent ? 1 : 2) / a.depth)(
+      d3.hierarchy(data).sort(() => Math.random() - 0.5)
+    );
+
+  assignColors(root);
+  const linkPath = d3.linkRadial().angle(d => d.x).radius(d => d.y);
+
+  const links = linkG.selectAll('path').data(root.links(), d => d.target.data.name);
+  links.join(
+    enter => enter.append('path')
+      .attr('class', 'link').attr('fill', 'none').attr('stroke-linecap', 'round')
+      .attr('stroke', d => d.target.color)
+      .attr('stroke-width', d => Math.max(0.4, 2.2 - d.target.depth * 0.4))
+      .attr('opacity', 0).attr('d', linkPath)
+      .call(e => animate
+        ? e.transition().duration(900).ease(d3.easeCubicInOut).attr('opacity', d => 0.5 + d.target.depth * 0.08)
+        : e.attr('opacity', d => 0.5 + d.target.depth * 0.08)),
+    update => update.call(u => animate
+      ? u.transition().duration(900).ease(d3.easeCubicInOut)
+          .attr('stroke', d => d.target.color).attr('d', linkPath)
+          .attr('opacity', d => 0.5 + d.target.depth * 0.08)
+      : u.attr('stroke', d => d.target.color).attr('d', linkPath)),
+    exit => exit.transition().duration(400).attr('opacity', 0).remove()
+  );
+
+  const nodes = nodeG.selectAll('circle').data(root.descendants(), d => d.data.name);
+  nodes.join(
+    enter => enter.append('circle')
+      .attr('transform', d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0)`)
+      .attr('r', d => d.depth === 0 ? 6 : d.children ? 3 : 2)
+      .attr('fill', d => d.color).attr('opacity', 0)
+      .call(e => animate
+        ? e.transition().delay((_, i) => i * 3).duration(700).attr('opacity', 0.9)
+        : e.attr('opacity', 0.9)),
+    update => update.call(u => animate
+      ? u.transition().duration(900).ease(d3.easeCubicInOut)
+          .attr('transform', d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0)`)
+          .attr('fill', d => d.color)
+      : u.attr('transform', d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0)`)
+           .attr('fill', d => d.color)),
+    exit => exit.transition().duration(300).attr('opacity', 0).remove()
+  );
+}
+
+draw(randomTree(), false);
+document.getElementById('tree').addEventListener('click', () => draw(randomTree(), true));
+</script>
 {{ end }}

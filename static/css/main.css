@@ -43,7 +43,7 @@ a:hover { text-decoration: underline; }
   position: fixed;
   top: 0; left: 0; right: 0;
   height: var(--nav-h);
-  background: var(--navy);
+  background: var(--lavender);
   border-bottom: none;
   z-index: 100;
 }
@@ -59,7 +59,7 @@ a:hover { text-decoration: underline; }
 .nav-brand {
   font-weight: 600;
   font-size: 1rem;
-  color: #ffffff;
+  color: var(--navy);
   letter-spacing: -0.01em;
   white-space: nowrap;
 }
@@ -73,12 +73,12 @@ a:hover { text-decoration: underline; }
 
 .nav-links a {
   font-size: 0.9rem;
-  color: var(--lavender);
+  color: var(--navy-mid);
   font-weight: 400;
   transition: color 0.15s;
 }
 .nav-links a:hover,
-.nav-links a.active { color: #ffffff; text-decoration: none; }
+.nav-links a.active { color: var(--navy); text-decoration: none; }
 
 .nav-toggle {
   display: none;
@@ -93,12 +93,48 @@ a:hover { text-decoration: underline; }
   display: block;
   width: 22px;
   height: 2px;
-  background: #ffffff;
+  background: var(--navy);
   border-radius: 2px;
 }
 
 /* ── Home ──────────────────────────────────────────────────── */
-.home { padding: 5rem 0 4rem; }
+.home { padding: 0; }
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: calc(100vh - var(--nav-h));
+}
+
+.home-bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 3rem 4rem 2rem;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.home-tree {
+  background: var(--navy);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.tree-hint {
+  position: absolute;
+  bottom: 1.25rem;
+  font-size: 0.72rem;
+  color: var(--lavender);
+  opacity: 0.5;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  pointer-events: none;
+}
 
 .home h1 {
   font-size: 2rem;
@@ -346,10 +382,10 @@ a:hover { text-decoration: underline; }
     position: absolute;
     top: var(--nav-h);
     left: 0; right: 0;
-    background: var(--navy);
+    background: var(--lavender);
     flex-direction: column;
     gap: 0;
-    border-bottom: 1px solid var(--navy-mid);
+    border-bottom: 1px solid var(--purple);
     padding: 0.5rem 0;
   }
   .nav-links.open { display: flex; }
@@ -359,6 +395,9 @@ a:hover { text-decoration: underline; }
     font-size: 1rem;
   }
 
+  .home-grid { grid-template-columns: 1fr; }
+  .home-tree { min-height: 320px; }
+  .home-bio { padding: 3rem 1.5rem 2rem; max-width: 100%; }
   .home h1 { font-size: 1.6rem; }
   .page-title { font-size: 1.4rem; }
   .scroll-nav { display: none; }
