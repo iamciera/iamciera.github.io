@@ -2,6 +2,11 @@
 <section class="home">
   <div class="home-grid">
 
+    <div class="home-tree" title="Click to regenerate">
+      <svg id="tree"></svg>
+      <p class="tree-hint">click to regenerate</p>
+    </div>
+
     <div class="home-bio">
       <h1>Ciera Martinez, PhD</h1>
       <p class="home-role">Senior Program Manager · <a href="https://dse.berkeley.edu/">Schmidt Center for Data Science &amp; Environment</a> · UC Berkeley</p>
@@ -14,11 +19,6 @@
         <span>·</span>
         <a href="{{ .Site.Params.github }}">GitHub</a>
       </div>
-    </div>
-
-    <div class="home-tree" title="Click to regenerate">
-      <svg id="tree"></svg>
-      <p class="tree-hint">click to regenerate</p>
     </div>
 
   </div>
@@ -34,17 +34,19 @@ const PALETTE = [
 
 function getSize() {
   const el = document.querySelector('.home-tree');
-  return Math.min(el.offsetWidth, el.offsetHeight) || 400;
+  return Math.min(el.offsetWidth, el.offsetHeight);
 }
 
 let SIZE = getSize();
-let R = SIZE / 2 - 24;
+let R = SIZE / 2 - 40;
 
 const svg = d3.select('#tree')
   .attr('width', SIZE)
   .attr('height', SIZE)
   .attr('viewBox', [-SIZE/2, -SIZE/2, SIZE, SIZE])
-  .style('cursor', 'pointer');
+  .style('cursor', 'pointer')
+  .style('max-width', '100%')
+  .style('max-height', '100%');
 
 const linkG = svg.append('g');
 const nodeG = svg.append('g');
