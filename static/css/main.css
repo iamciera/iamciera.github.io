@@ -249,6 +249,89 @@ a:hover { text-decoration: underline; }
 }
 .footer-copy a { color: var(--muted); }
 
+/* ── Scroll Research Page ──────────────────────────────────── */
+.scroll-page {
+  position: relative;
+}
+
+.scroll-intro {
+  padding: 4rem 0 3rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.scroll-intro h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+
+.scroll-intro-desc {
+  font-size: 1.05rem;
+  color: #374151;
+  max-width: 600px;
+  line-height: 1.7;
+}
+
+.scroll-nav {
+  position: fixed;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  z-index: 50;
+}
+
+.scroll-nav-item {
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-decoration: none;
+  padding: 0.2rem 0.5rem;
+  border-left: 2px solid var(--border);
+  transition: color 0.15s, border-color 0.15s;
+  max-width: 140px;
+  line-height: 1.3;
+}
+
+.scroll-nav-item:hover,
+.scroll-nav-item.active {
+  color: var(--accent);
+  border-left-color: var(--accent);
+  text-decoration: none;
+}
+
+.scroll-section {
+  padding: 4rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.scroll-section--alt {
+  background: var(--accent-lt);
+}
+
+.scroll-section-inner {
+  max-width: 620px;
+}
+
+.scroll-section h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.25rem;
+  color: var(--accent);
+}
+
+.scroll-section-body p {
+  font-size: 1rem;
+  color: #374151;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.scroll-section-body em { font-style: italic; }
+
 /* ── Mobile ────────────────────────────────────────────────── */
 @media (max-width: 640px) {
   .nav-toggle { display: flex; }
@@ -273,6 +356,6 @@ a:hover { text-decoration: underline; }
 
   .home h1 { font-size: 1.6rem; }
   .page-title { font-size: 1.4rem; }
-
+  .scroll-nav { display: none; }
   .footer-inner { flex-direction: column; align-items: flex-start; }
 }

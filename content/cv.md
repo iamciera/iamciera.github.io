@@ -76,12 +76,12 @@ Gieger S, and ten other authors including **Martinez C**. Challenges of doing da
 
 ## Research Experience
 
-**UC Berkeley** · March 2016 – July 2020 · Advisor: Michael Eisen
-**UC Davis** · January 2010 – March 2016 · Advisor: Neelima Sinha
-**RIKEN, Yokohama, Japan** · December 2014 – April 2015 · Advisor: Keiko Sugimoto
-**University of Kansas** · August 2008 – August 2009 · Advisors: Lena Hileman & Jill Preston
-**Chicago Field Museum of Natural History** · September 2007 – August 2008 · Advisor: Rick Ree
-**University of Colorado, Boulder** · April – August 2007 · Advisor: Pamela Diggle
+**UC Berkeley** · March 2016 – July 2020 · Advisor: Michael Eisen\
+**UC Davis** · January 2010 – March 2016 · Advisor: Neelima Sinha\
+**RIKEN, Yokohama, Japan** · December 2014 – April 2015 · Advisor: Keiko Sugimoto\
+**University of Kansas** · August 2008 – August 2009 · Advisors: Lena Hileman & Jill Preston\
+**Chicago Field Museum of Natural History** · September 2007 – August 2008 · Advisor: Rick Ree\
+**University of Colorado, Boulder** · April – August 2007 · Advisor: Pamela Diggle\
 **Northeastern Illinois University** · September 2006 – May 2008 · Advisor: Joel Olfelt
 
 ---
@@ -111,40 +111,40 @@ Gieger S, and ten other authors including **Martinez C**. Challenges of doing da
 
 ## Selected Presentations
 
-**2023** Lewis & Clark College — *Uncovering Patterns in Nature with Data Science Tools* (invited)
-**2023** Academic Data Science Alliance — *Informal Training Opportunities in Data Science* (invited)
-**2022** Women in Data Science (WiDS) Berkeley — *Designing Our World with Data* (invited)
-**2021** Data Science Coast to Coast — *Open science in the wild* (invited)
-**2020** Open Science Symposium, Carnegie Mellon University (invited)
-**2019** Alien CSI, Ljubljana, Slovenia — *Defining the Usability of Biodiversity Databases* (plenary)
-**2019** Yale Digital Data Conference (selected abstract)
-**2019** rOpenSci Community Call — *Research Applications of rOpenSci Taxonomy and Biodiversity Tools* (invited)
-**2018** UC Berkeley Statistics and Genomics Seminar Series (invited)
-**2017** EARL Conference, San Francisco — *R-Ladies: promoting gender diversity in the R community* (keynote)
+**2023** Lewis & Clark College — *Uncovering Patterns in Nature with Data Science Tools* (invited)\
+**2023** Academic Data Science Alliance — *Informal Training Opportunities in Data Science* (invited)\
+**2022** Women in Data Science (WiDS) Berkeley — *Designing Our World with Data* (invited)\
+**2021** Data Science Coast to Coast — *Open science in the wild* (invited)\
+**2020** Open Science Symposium, Carnegie Mellon University (invited)\
+**2019** Alien CSI, Ljubljana, Slovenia — *Defining the Usability of Biodiversity Databases* (plenary)\
+**2019** Yale Digital Data Conference (selected abstract)\
+**2019** rOpenSci Community Call — *Research Applications of rOpenSci Taxonomy and Biodiversity Tools* (invited)\
+**2018** UC Berkeley Statistics and Genomics Seminar Series (invited)\
+**2017** EARL Conference, San Francisco — *R-Ladies: promoting gender diversity in the R community* (keynote)\
 **2016** Leonardo Art Science Evening Rendezvous, UC Davis — *The hidden beauty of plant architecture* (invited)
 
 ---
 
 ## Service & Professional Development
 
-**2023** [ImageXD 2023](http://imageXD.org/) — Lead Organizer
-**2021–present** [Data Science by Design (DSxD)](http://datasciencebydesign.org/) — Co-founder, Leadership Team
-**2018–2022** [TextXD Annual Conference](https://www.textxd.org/) — Organizing Committee
-**2019–2021** ADSA CDN Executive Committee
-**2017–2021** [BIDS Best Practices Working Group](https://osf.io/ctfqn/) — Lead
-**2017–2018** Co-Organizer, R-Ladies San Francisco
+**2023** [ImageXD 2023](http://imageXD.org/) — Lead Organizer\
+**2021–present** [Data Science by Design (DSxD)](http://datasciencebydesign.org/) — Co-founder, Leadership Team\
+**2018–2022** [TextXD Annual Conference](https://www.textxd.org/) — Organizing Committee\
+**2019–2021** ADSA CDN Executive Committee\
+**2017–2021** [BIDS Best Practices Working Group](https://osf.io/ctfqn/) — Lead\
+**2017–2018** Co-Organizer, R-Ladies San Francisco\
 **2016** Reviewer, PLOS One · Annals of Botany · New Phytologist · Molecular Biology and Evolution
 
 ---
 
 ## Teaching
 
-**2021** Reproducibility for Collaborative Science, BITSS · UC Berkeley
-**2020** [INBRE 2020 Summer of Code](https://iamciera.github.io/wym_reprod/), University of Wyoming
-**2018** Plant Development, Instructor · Mills College, CA
-**2017** [Evolutionary Development Lab](https://iamciera.github.io/evoDevoClass/), Instructor · SF Institute of Art, CA
-**2017** [Git and GitHub Tutorial](http://www.thehackerwithin.org/berkeley/posts/git-github), Instructor · Berkeley, CA
-**2016** [SOM Clustering Tutorial](https://iamciera.github.io/SOMexample/), Instructor · Davis, CA
-**2015** [Reproducible Research Bootcamp](http://reproducible-science-curriculum.github.io/2015-06-01-reproducible-science-idigbio/), Instructor · Gainesville, FL
-**2014** [BIS 180L Genomics](http://jnmaloof.github.io/BIS180L_web/), Teaching Assistant · UC Davis
+**2021** Reproducibility for Collaborative Science, BITSS · UC Berkeley\
+**2020** [INBRE 2020 Summer of Code](https://iamciera.github.io/wym_reprod/), University of Wyoming\
+**2018** Plant Development, Instructor · Mills College, CA\
+**2017** [Evolutionary Development Lab](https://iamciera.github.io/evoDevoClass/), Instructor · SF Institute of Art, CA\
+**2017** [Git and GitHub Tutorial](http://www.thehackerwithin.org/berkeley/posts/git-github), Instructor · Berkeley, CA\
+**2016** [SOM Clustering Tutorial](https://iamciera.github.io/SOMexample/), Instructor · Davis, CA\
+**2015** [Reproducible Research Bootcamp](http://reproducible-science-curriculum.github.io/2015-06-01-reproducible-science-idigbio/), Instructor · Gainesville, FL\
+**2014** [BIS 180L Genomics](http://jnmaloof.github.io/BIS180L_web/), Teaching Assistant · UC Davis\
 **2014** Introduction to R, Instructor · Woodland Pioneer High School

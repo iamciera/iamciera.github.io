@@ -1,0 +1,49 @@
+{{ define "main" }}
+{{ $sections := .Pages.ByWeight }}
+<div class="scroll-page">
+
+  <!-- Fixed side nav -->
+  <nav class="scroll-nav" aria-label="Section navigation">
+    {{ range $sections }}
+    <a class="scroll-nav-item" href="#{{ .Title | anchorize }}">{{ .Title }}</a>
+    {{ end }}
+  </nav>
+
+  <!-- Intro -->
+  <div class="scroll-intro">
+    <div class="container">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="scroll-intro-desc">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+
+  <!-- Sections -->
+  {{ range $i, $s := $sections }}
+  <section id="{{ .Title | anchorize }}" class="scroll-section{{ if modBool $i 2 }} scroll-section--alt{{ end }}">
+    <div class="container scroll-section-inner">
+      <h2>{{ .Title }}</h2>
+      <div class="scroll-section-body">{{ .Content }}</div>
+    </div>
+  </section>
+  {{ end }}
+
+</div>
+
+<script>
+  // Highlight active nav item on scroll
+  const navItems = document.querySelectorAll('.scroll-nav-item');
+  const sections = document.querySelectorAll('.scroll-section');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        navItems.forEach(a => a.classList.remove('active'));
+        const active = document.querySelector(`.scroll-nav-item[href="#${entry.target.id}"]`);
+        if (active) active.classList.add('active');
+      }
+    });
+  }, { threshold: 0.4 });
+
+  sections.forEach(s => observer.observe(s));
+</script>
+{{ end }}
