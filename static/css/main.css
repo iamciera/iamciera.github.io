@@ -226,9 +226,31 @@ a:hover { text-decoration: underline; }
 
 /* ── CV specifics ──────────────────────────────────────────── */
 .cv-header {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.cv-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--navy);
+  margin-bottom: 0.35rem;
+  border: none;
+  padding: 0;
+}
+
+.cv-title {
+  font-size: 1rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.cv-contact {
+  margin-top: 0.5rem;
   font-size: 0.9rem;
   color: var(--muted);
-  margin-bottom: 2rem;
 }
 
 .page table {

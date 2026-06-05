@@ -3,7 +3,14 @@ title: "CV"
 ---
 
 <div class="cv-header">
-  <p><a href="mailto:ccmartinez@berkeley.edu">ccmartinez@berkeley.edu</a> · <a href="https://scholar.google.com/citations?user=JGUnmZoAAAAJ&hl=en&oi=ao">Google Scholar</a></p>
+  <h1 class="cv-name">Ciera C. Martinez, PhD</h1>
+  <p class="cv-title">Senior Program Manager</p>
+  <p class="cv-title">University of California, Berkeley</p>
+  <p class="cv-contact">
+    <a href="mailto:ccmartinez@berkeley.edu">ccmartinez@berkeley.edu</a>
+    &nbsp;·&nbsp;
+    <a href="https://scholar.google.com/citations?user=JGUnmZoAAAAJ&hl=en&oi=ao">Google Scholar Profile</a>
+  </p>
 </div>
 
 ## Appointments
