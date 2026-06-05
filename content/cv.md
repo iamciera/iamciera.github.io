@@ -42,11 +42,9 @@ Chemistry Minor · Northeastern Illinois University, Chicago
 
 ## Publications
 
-24\. Pottinger AS, Natarajan B, de Bruyn M, **Martinez CC**. Kigali Sim: Open source simulation toolkit for modeling substances and policies related to the Montreal Protocol. **2026.** [Journal of Open Source Software](https://joss.theoj.org/) 11 (121), 10104
+23\. Pottinger AS, Natarajan B, de Bruyn M, **Martinez CC**. Kigali Sim: Open source simulation toolkit for modeling substances and policies related to the Montreal Protocol. **2026.** [Journal of Open Source Software](https://joss.theoj.org/) 11 (121), 10104
 
-23\. Layritz LS, Zomer M, le Bruyn M, Pottinger S, Gondek N, Steen MK, et al. including **Martinez C**. Removing barriers to science-informed decision-making through data science and human-centered design. **2026.** EGU General Assembly
-
-22\. Yahiaoui W, Smail S, Ayub Y, Lu Q, Cousins P, Diaz-Garcia L, Frank M, et al. including **Martinez C**. Disentangling blade and vasculature shape in grapevine leaves. **2026.** [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.01.27.701982)
+22\. Layritz LS, Zomer M, le Bruyn M, Pottinger S, Gondek N, Steen MK, et al. including **Martinez C**. Removing barriers to science-informed decision-making through data science and human-centered design. **2026.** EGU General Assembly
 
 21\. Connor T, Montealegre-Mora F, Saxon BJ, Camarena J, et al. including **Martinez C**. Indigenous knowledge and community-derived counts produce robust wildlife population estimates: Roosevelt Elk in Karuk Aboriginal Territory. **2025.** [Ecology and Evolution](https://onlinelibrary.wiley.com/doi/10.1002/ece3.72355) 15 (10), e72355
 
@@ -91,6 +89,8 @@ Chemistry Minor · Northeastern Illinois University, Chicago
 1\. Du J, Miura E, Robischon M, **Martinez C**, Groover A. The Populus class III HD ZIP transcription factor POPCORONA affects cell differentiation during secondary growth of woody stems. **2011.** [PLoS ONE](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0017458)
 
 **Preprints**
+
+Yahiaoui W, Smail S, Ayub Y, Lu Q, Cousins P, Diaz-Garcia L, Frank M, et al. including **Martinez C**. Disentangling blade and vasculature shape in grapevine leaves. **2026.** [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.01.27.701982)
 
 Gieger S, and ten other authors including **Martinez C**. Challenges of doing data-intensive research in teams, labs, and groups. [SocArXiv](https://osf.io/preprints/socarxiv/a7b3m/)
 
