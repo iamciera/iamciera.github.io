@@ -2,11 +2,16 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --accent:    #4a7c59;
-  --accent-lt: #e8f0eb;
-  --text:      #1a1a1a;
-  --muted:     #6b7280;
-  --border:    #e5e7eb;
+  --navy:      #1A2540;
+  --navy-mid:  #364A70;
+  --purple:    #9088C8;
+  --lavender:  #D6D0F5;
+  --green:     #4CAF72;
+  --accent:    var(--green);
+  --accent-lt: var(--lavender);
+  --text:      var(--navy);
+  --muted:     var(--navy-mid);
+  --border:    #dde1ea;
   --bg:        #ffffff;
   --max-w:     720px;
   --nav-h:     64px;
@@ -38,8 +43,8 @@ a:hover { text-decoration: underline; }
   position: fixed;
   top: 0; left: 0; right: 0;
   height: var(--nav-h);
-  background: var(--bg);
-  border-bottom: 1px solid var(--border);
+  background: var(--navy);
+  border-bottom: none;
   z-index: 100;
 }
 
@@ -54,11 +59,11 @@ a:hover { text-decoration: underline; }
 .nav-brand {
   font-weight: 600;
   font-size: 1rem;
-  color: var(--text);
+  color: #ffffff;
   letter-spacing: -0.01em;
   white-space: nowrap;
 }
-.nav-brand:hover { text-decoration: none; color: var(--accent); }
+.nav-brand:hover { text-decoration: none; color: var(--green); }
 
 .nav-links {
   display: flex;
@@ -68,12 +73,12 @@ a:hover { text-decoration: underline; }
 
 .nav-links a {
   font-size: 0.9rem;
-  color: var(--muted);
+  color: var(--lavender);
   font-weight: 400;
   transition: color 0.15s;
 }
 .nav-links a:hover,
-.nav-links a.active { color: var(--text); text-decoration: none; }
+.nav-links a.active { color: #ffffff; text-decoration: none; }
 
 .nav-toggle {
   display: none;
@@ -88,7 +93,7 @@ a:hover { text-decoration: underline; }
   display: block;
   width: 22px;
   height: 2px;
-  background: var(--text);
+  background: #ffffff;
   border-radius: 2px;
 }
 
@@ -308,7 +313,7 @@ a:hover { text-decoration: underline; }
 }
 
 .scroll-section--alt {
-  background: var(--accent-lt);
+  background: #f4f2fc;
 }
 
 .scroll-section-inner {
@@ -341,10 +346,10 @@ a:hover { text-decoration: underline; }
     position: absolute;
     top: var(--nav-h);
     left: 0; right: 0;
-    background: var(--bg);
+    background: var(--navy);
     flex-direction: column;
     gap: 0;
-    border-bottom: 1px solid var(--border);
+    border-bottom: 1px solid var(--navy-mid);
     padding: 0.5rem 0;
   }
   .nav-links.open { display: flex; }
