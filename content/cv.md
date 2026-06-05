@@ -1,5 +1,6 @@
 ---
 title: "CV"
+hide_title: true
 ---
 
 <div class="cv-header">
