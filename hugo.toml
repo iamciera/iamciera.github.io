@@ -2,6 +2,14 @@ baseURL = "https://iamciera.github.io/"
 languageCode = "en-us"
 title = "Ciera Martinez"
 
+[markup.goldmark.renderer]
+  unsafe = true
+
+[taxonomies]
+  # disable default taxonomies so no layout warnings
+  tag = ""
+  category = ""
+
 [params]
   description = "Senior Program Manager at the Schmidt Center for Data Science and Environment, UC Berkeley"
   github = "https://github.com/iamciera"
