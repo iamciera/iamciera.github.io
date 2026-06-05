@@ -140,6 +140,16 @@ a:hover { text-decoration: underline; }
   padding: 4rem 3rem 4rem 3rem;
 }
 
+.headshot {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  margin-bottom: 1.5rem;
+  border: 3px solid var(--lavender);
+}
+
 .home h1 {
   font-size: 2rem;
   font-weight: 600;
