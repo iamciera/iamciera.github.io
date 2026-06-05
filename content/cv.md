@@ -54,7 +54,7 @@ Chemistry Minor · Northeastern Illinois University, Chicago
 
 18\. Perez F, Fisher M, **Martinez C**, Renou M, Corlay S, Verma A, Ismail MB, et al. GeoJupyter: Streamlining the lifecycle of geospatial research with the Jupyter ecosystem. **2025.** AGU Annual Meeting
 
-17\. Holmquist A, Markelz R, **Martinez C**, Gillespie R. The importance of habitat type and historical fire regimes in arthropod community response following large-scale wildfires. *Accepted. In Press.* [Preprint: SocArXiv](https://www.biorxiv.org/content/10.1101/2023.07.17.548903v2.abstract)
+17\. Holmquist A, Markelz R, **Martinez C**, Gillespie R. The importance of habitat type and historical fire regimes in arthropod community response following large-scale wildfires. **2024.** [Global Change Biology](https://onlinelibrary.wiley.com/doi/10.1111/gcb.17135)
 
 16\. Hunter-Zinck H, de Siqueira A, Vásquez V, Barnes R, **Martinez C**. Ten simple rules on writing clean and reliable open-source scientific software. **2021.** [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009481)
 
