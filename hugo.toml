@@ -1,0 +1,28 @@
+baseURL = "https://iamciera.github.io/"
+languageCode = "en-us"
+title = "Ciera Martinez"
+
+[params]
+  description = "Senior Program Manager at the Schmidt Center for Data Science and Environment, UC Berkeley"
+  github = "https://github.com/iamciera"
+  twitter = "https://twitter.com/CieraReports"
+  scholar = "https://scholar.google.com/citations?user=JGUnmZoAAAAJ&hl=en&oi=ao"
+  email = "ccmartinez@berkeley.edu"
+
+[menu]
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 1
+  [[menu.main]]
+    name = "CV"
+    url = "/cv/"
+    weight = 2
+  [[menu.main]]
+    name = "Tutorials"
+    url = "/tutorials/"
+    weight = 3
+  [[menu.main]]
+    name = "Press"
+    url = "/press/"
+    weight = 4

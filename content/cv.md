@@ -1,0 +1,150 @@
+---
+title: "CV"
+---
+
+<div class="cv-header">
+  <p><a href="mailto:ccmartinez@berkeley.edu">ccmartinez@berkeley.edu</a> · <a href="https://scholar.google.com/citations?user=JGUnmZoAAAAJ&hl=en&oi=ao">Google Scholar</a></p>
+</div>
+
+## Appointments
+
+**Senior Program Manager**
+April 2023 – present · Eric and Wendy Schmidt Center for Data Science and Environment · UC Berkeley
+
+**Research Lead, Biodiversity and Environmental Data Science**
+July 2020 – March 2023 · Berkeley Institute for Data Science (BIDS) · UC Berkeley
+
+**BIDS Postdoctoral Fellow**
+March 2018 – June 2020 · Berkeley Institute for Data Science · UC Berkeley
+
+**NSF Postdoctoral Fellow**
+March 2016 – February 2018 · Molecular and Cell Biology · UC Berkeley
+
+---
+
+## Education
+
+**PhD, Plant Biology** — March 2016
+Emphasis in Molecular Biology and Genomics · UC Davis
+
+**BS, Biology** — May 2008
+Chemistry Minor · Northeastern Illinois University, Chicago
+
+---
+
+## Publications
+
+17\. Holmquist A, Markelz R, **Martinez C**, Gillespie R. The importance of habitat type and historical fire regimes in arthropod community response following large-scale wildfires. *Accepted. In Press.* [Preprint: SocArXiv](https://www.biorxiv.org/content/10.1101/2023.07.17.548903v2.abstract)
+
+16\. Hunter-Zinck H, de Siqueira A, Vásquez V, Barnes R, **Martinez C**. Ten simple rules on writing clean and reliable open-source scientific software. **2021.** [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009481)
+
+15\. Stoudt S\*, Valeri V\*, **Martinez C**. Principles for data analysis workflows. **2021.** [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008770) · [Preprint: arXiv](https://arxiv.org/abs/2007.08708)
+
+14\. **Martinez C**, Li S, Woodhouse M, Sugimoto K, Sinha N. Spatial transcriptional signatures define margin morphogenesis along the proximal-distal and medio-lateral axes in *Solanum lycopersicum*. **2021.** [Plant Cell](https://academic.oup.com/plcell/advance-article/doi/10.1093/plcell/koaa012/6017183) · [Preprint: BioRxiv](https://www.biorxiv.org/content/10.1101/772228v1)
+
+13\. Bronski M, **Martinez C**, Weld H, Eisen M. Whole genome sequences of 23 species from the *Drosophila montium* species group. **2020.** [G3: Genes, Genomes, Genetics](https://www.g3journal.org/content/10/5/1443.long) · [Preprint: BioRxiv](https://www.biorxiv.org/content/10.1101/861005v1)
+
+12\. Elya C, Lok T, Spencer Q, McCausland H, **Martinez C**, Eisen M. A fungal pathogen that robustly manipulates the behavior of *Drosophila melanogaster*. **2018.** [eLIFE](https://elifesciences.org/articles/34414)
+
+11\. Bucksch A, 37 authors including **Martinez C**. Morphological plant modeling: Unleashing geometric and topologic potential within the plant sciences. **2017.** [Frontiers in Plant Science](http://journal.frontiersin.org/article/10.3389/fpls.2017.00900/full)
+
+10\. **Martinez C\***, Chitwood D\*, Smith R, Sinha N. Left-right leaf asymmetry in decussate and distichous phyllotactic systems. **2016.** [Proceedings of the Royal Society B](http://rstb.royalsocietypublishing.org/content/371/1710/20150412)
+
+9\. **Martinez C**, Koenig D, Chitwood D, Sinha N. A Sister of PIN1 gene in tomato defines organ initiation patterns by maintaining epidermal auxin flux. **2016.** [Developmental Biology](http://www.sciencedirect.com/science/article/pii/S0012160616303062)
+
+8\. Chitwood D, Kumar R, Ranjan A, et al. including **Martinez C**. Light-induced indeterminacy alters shade avoiding tomato leaf morphology. **2015.** [Plant Physiology](http://www.plantphysiol.org/content/early/2015/09/17/pp.15.01229.full.pdf)
+
+7\. Chitwood D, Ranjan A, Kumar R, et al. including **Martinez C**. Resolving distinct genetic regulators of leaf shape within a heteroblastic and ontogenetic context. **2014.** [Plant Cell](http://www.plantcell.org/content/early/2014/09/30/tpc.114.130112.full.pdf+html)
+
+6\. Chitwood D, Ranjan A, **Martinez C**, et al. A modern ampelography: a genetic basis for leaf shape and venation patterning in *Vitis vinifera*. **2013.** [Plant Physiology](http://www.plantphysiol.org/content/164/1/259)
+
+5\. **Martinez C** and Sinha N. Genetic Control of Leaf Shape. **2013.** [Encyclopedia of Life Science](http://www.els.net/WileyCDA/ElsArticle/refId-a0020101.html)
+
+4\. Ahmad Naz A, Raman S, **Martinez C**, et al. *trifoliate* encodes an R2R3 MYB transcription factor that modulates leaf and shoot architecture in tomato. **2013.** [PNAS](http://www.pnas.org/content/110/6/2401.short)
+
+3\. Chitwood D, Headland L, Ranjan A, **Martinez C**, et al. Leaf asymmetry as a developmental constraint imposed by auxin-dependent phyllotactic patterning. **2012.** [Plant Cell](http://www.plantcell.org/content/24/6/2318.short)
+
+2\. Preston J, **Martinez C**, Hileman L. Gradual disintegration of the floral symmetry gene network is implicated in the evolution of a wind-pollination syndrome. **2011.** [PNAS](http://www.pnas.org/content/108/6/2343.short)
+
+1\. Du J, Miura E, Robischon M, **Martinez C**, Groover A. The Populus class III HD ZIP transcription factor POPCORONA affects cell differentiation during secondary growth of woody stems. **2011.** [PLoS ONE](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0017458)
+
+**Preprints**
+
+Gieger S, and ten other authors including **Martinez C**. Challenges of doing data-intensive research in teams, labs, and groups. [SocArXiv](https://osf.io/preprints/socarxiv/a7b3m/)
+
+---
+
+## Research Experience
+
+**UC Berkeley** · March 2016 – July 2020 · Advisor: Michael Eisen
+**UC Davis** · January 2010 – March 2016 · Advisor: Neelima Sinha
+**RIKEN, Yokohama, Japan** · December 2014 – April 2015 · Advisor: Keiko Sugimoto
+**University of Kansas** · August 2008 – August 2009 · Advisors: Lena Hileman & Jill Preston
+**Chicago Field Museum of Natural History** · September 2007 – August 2008 · Advisor: Rick Ree
+**University of Colorado, Boulder** · April – August 2007 · Advisor: Pamela Diggle
+**Northeastern Illinois University** · September 2006 – May 2008 · Advisor: Joel Olfelt
+
+---
+
+## Grants, Fellowships & Awards
+
+| Year | Award |
+|------|-------|
+| 2023 | Alfred P. Sloan Foundation Grant |
+| 2021 | Code for Science and Society Grant |
+| 2020 | Academic Data Science Alliance CDN Seed Grant |
+| 2020 | The Coaching Fellowship |
+| 2018 | Mozilla Open Science Fellowship |
+| 2017 | BIDS Data Science Fellowship |
+| 2017 | Burroughs Wellcome Postdoctoral Enrichment Grant |
+| 2016 | NSF Postdoctoral Fellowship |
+| 2015 | Katherine Esau Summer Graduate Fellowship |
+| 2014 | NSF Graduate Research Opportunities Worldwide (GROW) Fellowship |
+| 2014 | Walter R. and Roselinde H. Russell Fellowship |
+| 2013 | Elsie Taylor Stocking Fellowship |
+| 2012 | Excellence in Mentorship Award |
+| 2011 | GFRP NSF Pre-doctoral Fellowship |
+| 2008 | PREP Fellow, University of Kansas |
+| 2007 | REU Fellowship, University of Colorado, Boulder |
+
+---
+
+## Selected Presentations
+
+**2023** Lewis & Clark College — *Uncovering Patterns in Nature with Data Science Tools* (invited)
+**2023** Academic Data Science Alliance — *Informal Training Opportunities in Data Science* (invited)
+**2022** Women in Data Science (WiDS) Berkeley — *Designing Our World with Data* (invited)
+**2021** Data Science Coast to Coast — *Open science in the wild* (invited)
+**2020** Open Science Symposium, Carnegie Mellon University (invited)
+**2019** Alien CSI, Ljubljana, Slovenia — *Defining the Usability of Biodiversity Databases* (plenary)
+**2019** Yale Digital Data Conference (selected abstract)
+**2019** rOpenSci Community Call — *Research Applications of rOpenSci Taxonomy and Biodiversity Tools* (invited)
+**2018** UC Berkeley Statistics and Genomics Seminar Series (invited)
+**2017** EARL Conference, San Francisco — *R-Ladies: promoting gender diversity in the R community* (keynote)
+**2016** Leonardo Art Science Evening Rendezvous, UC Davis — *The hidden beauty of plant architecture* (invited)
+
+---
+
+## Service & Professional Development
+
+**2023** [ImageXD 2023](http://imageXD.org/) — Lead Organizer
+**2021–present** [Data Science by Design (DSxD)](http://datasciencebydesign.org/) — Co-founder, Leadership Team
+**2018–2022** [TextXD Annual Conference](https://www.textxd.org/) — Organizing Committee
+**2019–2021** ADSA CDN Executive Committee
+**2017–2021** [BIDS Best Practices Working Group](https://osf.io/ctfqn/) — Lead
+**2017–2018** Co-Organizer, R-Ladies San Francisco
+**2016** Reviewer, PLOS One · Annals of Botany · New Phytologist · Molecular Biology and Evolution
+
+---
+
+## Teaching
+
+**2021** Reproducibility for Collaborative Science, BITSS · UC Berkeley
+**2020** [INBRE 2020 Summer of Code](https://iamciera.github.io/wym_reprod/), University of Wyoming
+**2018** Plant Development, Instructor · Mills College, CA
+**2017** [Evolutionary Development Lab](https://iamciera.github.io/evoDevoClass/), Instructor · SF Institute of Art, CA
+**2017** [Git and GitHub Tutorial](http://www.thehackerwithin.org/berkeley/posts/git-github), Instructor · Berkeley, CA
+**2016** [SOM Clustering Tutorial](https://iamciera.github.io/SOMexample/), Instructor · Davis, CA
+**2015** [Reproducible Research Bootcamp](http://reproducible-science-curriculum.github.io/2015-06-01-reproducible-science-idigbio/), Instructor · Gainesville, FL
+**2014** [BIS 180L Genomics](http://jnmaloof.github.io/BIS180L_web/), Teaching Assistant · UC Davis
+**2014** Introduction to R, Instructor · Woodland Pioneer High School
