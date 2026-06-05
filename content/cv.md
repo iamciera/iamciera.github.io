@@ -42,12 +42,9 @@ Chemistry Minor · Northeastern Illinois University, Chicago
 
 ## Publications
 
-20\. Kigali Sim: Open source simulation toolkit for modeling substances and policies related to the Montreal Protocol. Pottinger AS, Natarajan B, de Bruyn M, **Martinez CC**. **2026.** [Journal of Open Source Software](https://joss.theoj.org/) 11 (121), 10104
-
-19\. Indigenous knowledge and community-derived counts produce robust wildlife population estimates: Roosevelt Elk in Karuk Aboriginal Territory. Connor T, Montealegre-Mora F, Saxon BJ, Camarena J, et al. including **Martinez C**. **2025.** [Ecology and Evolution](https://onlinelibrary.wiley.com/doi/10.1002/ece3.72355) 15 (10), e72355
-
-18\. Pathways to reduce global plastic waste mismanagement and greenhouse gas emissions by 2050. Pottinger AS, Geyer R, Biyani N, **Martinez CC**, Nathan N, Morse MR, Liu C, et al. **2024.** [Science](https://www.science.org/doi/10.1126/science.adp8174) 386 (6726), 1168–1173
-
+20\. Kigali Sim: Open source simulation toolkit for modeling substances and policies related to the Montreal Protocol. Pottinger AS, Natarajan B, de Bruyn M, **Martinez CC**. **2026.** [Journal of Open Source Software](https://joss.theoj.org/)
+19\. Indigenous knowledge and community-derived counts produce robust wildlife population estimates: Roosevelt Elk in Karuk Aboriginal Territory. Connor T, Montealegre-Mora F, Saxon BJ, Camarena J, et al. including **Martinez C**. **2025.** [Ecology and Evolution](https://onlinelibrary.wiley.com/doi/10.1002/ece3.72355)
+18\. Pathways to reduce global plastic waste mismanagement and greenhouse gas emissions by 2050. Pottinger AS, Geyer R, Biyani N, **Martinez CC**, Nathan N, Morse MR, Liu C, et al. **2024.** [Science](https://www.science.org/doi/10.1126/science.adp8174)
 17\. The importance of habitat type and historical fire regimes in arthropod community response following large-scale wildfires. Holmquist A, Markelz R, **Martinez C**, Gillespie R. **2024.** [Global Change Biology](https://onlinelibrary.wiley.com/doi/10.1111/gcb.17135)
 
 16\. Ten simple rules on writing clean and reliable open-source scientific software. Hunter-Zinck H, de Siqueira A, Vásquez V, Barnes R, **Martinez C**. **2021.** [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009481)
