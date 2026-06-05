@@ -42,17 +42,11 @@ Chemistry Minor · Northeastern Illinois University, Chicago
 
 ## Publications
 
-23\. Pottinger AS, Natarajan B, de Bruyn M, **Martinez CC**. Kigali Sim: Open source simulation toolkit for modeling substances and policies related to the Montreal Protocol. **2026.** [Journal of Open Source Software](https://joss.theoj.org/) 11 (121), 10104
+20\. Pottinger AS, Natarajan B, de Bruyn M, **Martinez CC**. Kigali Sim: Open source simulation toolkit for modeling substances and policies related to the Montreal Protocol. **2026.** [Journal of Open Source Software](https://joss.theoj.org/) 11 (121), 10104
 
-22\. Layritz LS, Zomer M, le Bruyn M, Pottinger S, Gondek N, Steen MK, et al. including **Martinez C**. Removing barriers to science-informed decision-making through data science and human-centered design. **2026.** EGU General Assembly
+19\. Connor T, Montealegre-Mora F, Saxon BJ, Camarena J, et al. including **Martinez C**. Indigenous knowledge and community-derived counts produce robust wildlife population estimates: Roosevelt Elk in Karuk Aboriginal Territory. **2025.** [Ecology and Evolution](https://onlinelibrary.wiley.com/doi/10.1002/ece3.72355) 15 (10), e72355
 
-21\. Connor T, Montealegre-Mora F, Saxon BJ, Camarena J, et al. including **Martinez C**. Indigenous knowledge and community-derived counts produce robust wildlife population estimates: Roosevelt Elk in Karuk Aboriginal Territory. **2025.** [Ecology and Evolution](https://onlinelibrary.wiley.com/doi/10.1002/ece3.72355) 15 (10), e72355
-
-20\. Pottinger AS, Geyer R, Biyani N, **Martinez CC**, Nathan N, Morse MR, Liu C, et al. Pathways to reduce global plastic waste mismanagement and greenhouse gas emissions by 2050. **2024.** [Science](https://www.science.org/doi/10.1126/science.adp8174) 386 (6726), 1168–1173
-
-19\. Fisher M, Perez F, Renou M, Verma A, Brichet N, Ismail MB, Brochart D, et al. including **Martinez C**. GeoJupyter and JupyterGIS: Exploring more approachable geospatial data workflows as an open source software community. **2025.** AGU Annual Meeting
-
-18\. Perez F, Fisher M, **Martinez C**, Renou M, Corlay S, Verma A, Ismail MB, et al. GeoJupyter: Streamlining the lifecycle of geospatial research with the Jupyter ecosystem. **2025.** AGU Annual Meeting
+18\. Pottinger AS, Geyer R, Biyani N, **Martinez CC**, Nathan N, Morse MR, Liu C, et al. Pathways to reduce global plastic waste mismanagement and greenhouse gas emissions by 2050. **2024.** [Science](https://www.science.org/doi/10.1126/science.adp8174) 386 (6726), 1168–1173
 
 17\. Holmquist A, Markelz R, **Martinez C**, Gillespie R. The importance of habitat type and historical fire regimes in arthropod community response following large-scale wildfires. **2024.** [Global Change Biology](https://onlinelibrary.wiley.com/doi/10.1111/gcb.17135)
 
@@ -87,6 +81,14 @@ Chemistry Minor · Northeastern Illinois University, Chicago
 2\. Preston J, **Martinez C**, Hileman L. Gradual disintegration of the floral symmetry gene network is implicated in the evolution of a wind-pollination syndrome. **2011.** [PNAS](http://www.pnas.org/content/108/6/2343.short)
 
 1\. Du J, Miura E, Robischon M, **Martinez C**, Groover A. The Populus class III HD ZIP transcription factor POPCORONA affects cell differentiation during secondary growth of woody stems. **2011.** [PLoS ONE](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0017458)
+
+**Conference Proceedings**
+
+Layritz LS, Zomer M, le Bruyn M, Pottinger S, Gondek N, Steen MK, et al. including **Martinez C**. Removing barriers to science-informed decision-making through data science and human-centered design. **2026.** EGU General Assembly
+
+Fisher M, Perez F, Renou M, Verma A, Brichet N, Ismail MB, Brochart D, et al. including **Martinez C**. GeoJupyter and JupyterGIS: Exploring more approachable geospatial data workflows as an open source software community. **2025.** AGU Annual Meeting
+
+Perez F, Fisher M, **Martinez C**, Renou M, Corlay S, Verma A, Ismail MB, et al. GeoJupyter: Streamlining the lifecycle of geospatial research with the Jupyter ecosystem. **2025.** AGU Annual Meeting
 
 **Preprints**
 
