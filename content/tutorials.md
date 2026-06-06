@@ -10,7 +10,7 @@ I build the educational infrastructure, communities, and curricula that make rig
 
 The most durable training happens through community. I have co-founded and led organizations that create sustained spaces for knowledge sharing, peer learning, and collaborative publishing.
 
-- [**Data Science by Design (DSxD)**](http://datasciencebydesign.org/blog/): Co-founded and led this international organization of data scientists, artists, and designers dedicated to communicating data science visually and accessibly. I led the editorial and leadership team, coordinating contributions from across the community. Our collective work is published as a [print book](http://datasciencebydesign.org/book) and continues to grow as a living resource.
+- [**Data Science by Design (DSxD)**](http://datasciencebydesign.org/blog/): Co-founded and led this international organization of data scientists, artists, and designers dedicated to communicating data science visually and accessibly. I led the editorial and leadership team, coordinating contributions from across the community. Our collective work has been published as two print books: [Volume 1](http://datasciencebydesign.org/book) and [Volume 2](https://datasciencebydesign.org/book-2), and continues to grow as a living resource.
 
 - [**Curiosity Data Project**](https://cabinetofcuriosity.github.io/cabinetofcuriosity_site/): Founded and directed this open tutorial platform exploring biodiversity and ecological data — from dinosaur fossils and 3D CT scans to Google Earth fire data and animal movement. Produced in collaboration with contributors and a team of UC Berkeley undergraduate researchers I mentored during 2018–2019.
 
