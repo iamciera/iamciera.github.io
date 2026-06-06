@@ -68,18 +68,25 @@ function randomTree() {
 }
 
 function randomizeBranchLengths(root) {
-  // Assign each node a random radius, keeping children always further than parents
-  const maxDepth = 4;
-  root.descendants().forEach(d => {
-    if (d.depth === 0) { d.y = 0; return; }
-    const minR = d.parent.y + R * 0.08;
-    const maxR = d.parent.y + R * (0.35 + Math.random() * 0.35);
-    // Leaf nodes should reach closer to the edge
-    const target = d.children
-      ? Math.random() * (maxR - minR) + minR
-      : R * (0.75 + Math.random() * 0.25);
-    d.y = Math.min(target, R);
-  });
+  // Walk top-down so each node's parent.y is finalized before the child is processed
+  const minStep = R * 0.08; // minimum branch length away from parent
+  root.y = 0;
+  root.descendants()
+    .sort((a, b) => a.depth - b.depth)
+    .forEach(d => {
+      if (d.depth === 0) return;
+      const parentR = d.parent.y;
+      const remaining = R - parentR;
+      if (d.children) {
+        // Internal node: place somewhere between minStep and 60% of remaining
+        d.y = parentR + minStep + Math.random() * (remaining * 0.55);
+      } else {
+        // Leaf: always push close to the edge with some variation
+        d.y = parentR + minStep + Math.random() * (remaining * 0.85);
+      }
+      // Hard clamp — never exceed R, never go backwards
+      d.y = Math.max(parentR + minStep, Math.min(d.y, R));
+    });
 }
 
 function assignColors(root) {
