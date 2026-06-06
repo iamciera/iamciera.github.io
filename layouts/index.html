@@ -67,6 +67,21 @@ function randomTree() {
   return build(4, 'root');
 }
 
+function randomizeBranchLengths(root) {
+  // Assign each node a random radius, keeping children always further than parents
+  const maxDepth = 4;
+  root.descendants().forEach(d => {
+    if (d.depth === 0) { d.y = 0; return; }
+    const minR = d.parent.y + R * 0.08;
+    const maxR = d.parent.y + R * (0.35 + Math.random() * 0.35);
+    // Leaf nodes should reach closer to the edge
+    const target = d.children
+      ? Math.random() * (maxR - minR) + minR
+      : R * (0.75 + Math.random() * 0.25);
+    d.y = Math.min(target, R);
+  });
+}
+
 function assignColors(root) {
   const cladeColors = {};
   root.children?.forEach((child, i) => {
@@ -87,6 +102,7 @@ function draw(data, animate) {
       d3.hierarchy(data).sort(() => Math.random() - 0.5)
     );
 
+  randomizeBranchLengths(root);
   assignColors(root);
   const linkPath = d3.linkRadial().angle(d => d.x).radius(d => d.y);
 
