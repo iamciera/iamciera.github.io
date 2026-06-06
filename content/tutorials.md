@@ -1,55 +1,59 @@
 ---
-title: "Tutorials"
+title: "Training & Community"
 ---
 
-I have an extensive record of developing and delivering technical education, from one-on-one mentorship to large workshop curricula, across topics including statistical modeling, machine learning, cloud computing, reproducible research, and R & Python programming. I believe rigorous methods should be accessible to anyone willing to learn.
-
----
-
-## Community Knowledge Sharing
-
-One of the most powerful ways to build community is to leverage the knowledge of the people within it and create mechanisms for showcasing those unique voices.
-
-- [**Data Science by Design (DSxD)**](http://datasciencebydesign.org/blog/): I am a co-founder and lead organizer for this organization of data scientists, artists, and designers. I head the leadership team in the editing and displaying of all contributions. Posts are also available as a [book](http://datasciencebydesign.org/book).
-
-- [**Curiosity Data Project**](https://cabinetofcuriosity.github.io/cabinetofcuriosity_site/): Tutorials using biodiversity and ecological data, named after the *Cabinet of Curiosities*. Analyses range from dinosaur fossils to 3D CT scans, Google Earth fire data, and animal movement. Written with contributors and a team of UC Berkeley undergraduate interns I led in 2018–2019.
-
-- [**Eisen Lab Coding Club**](https://meisenlab.github.io/coding_site/): As a postdoc I led this body of work sharing computational techniques for analyzing genomic and 3D image data.
+I build the educational infrastructure, communities, and curricula that make rigorous methods accessible to researchers at all levels. My training work spans formal university instruction, community-led knowledge sharing, and self-paced open resources — across topics including reproducible research, statistical modeling, machine learning, biodiversity data, and R & Python programming.
 
 ---
 
-## In-Person Workshops
+## Communities Built
 
-- [**Using Biodiversity and Natural History Museum Databases**](https://cabinetofcuriosity.github.io/coc_rladies_workshop/): Introduction to natural history and biodiversity databases with exploratory analysis in R using the Neotoma database.
+The most durable training happens through community. I have co-founded and led organizations that create sustained spaces for knowledge sharing, peer learning, and collaborative publishing.
 
-- [**The Data Science of Shape Using Momocs**](https://iamciera.github.io/rladies_copenhagen/html/Copenhagen_Raldies_part1.html): Explores the Momocs R package for 2D morphometric analysis.
+- [**Data Science by Design (DSxD)**](http://datasciencebydesign.org/blog/): Co-founded and led this international organization of data scientists, artists, and designers dedicated to communicating data science visually and accessibly. I led the editorial and leadership team, coordinating contributions from across the community. Our collective work is published as a [print book](http://datasciencebydesign.org/book) and continues to grow as a living resource.
 
-- [**Reproducible Research Version Control (Data Carpentry)**](https://github.com/datacarpentry/rr-version-control): Teaches version control with git, from GitHub-only exercises to local git in RStudio.
+- [**Curiosity Data Project**](https://cabinetofcuriosity.github.io/cabinetofcuriosity_site/): Founded and directed this open tutorial platform exploring biodiversity and ecological data — from dinosaur fossils and 3D CT scans to Google Earth fire data and animal movement. Produced in collaboration with contributors and a team of UC Berkeley undergraduate researchers I mentored during 2018–2019.
 
-- [**SOM Clustering Visualization**](https://iamciera.github.io/rladies_copenhagen/html/Copenhagen_Raldies_part2.html): Uses the Titanic dataset to explore Self Organizing Maps (SOM) with ggplot and the kohonen R package.
-
-- [**Evo Devo Module**](https://iamciera.github.io/evoDevoClass/): A lecture and lab on evolutionary development using fresh-cut flowers to explore evo-devo concepts. Taught at three colleges.
-
-- [**MACS2 for ChIP-Seq Data**](https://github.com/iamciera/chipSeqTutorial): Built and taught while TAing Genomics (BIS180L) at UC Davis.
-
-- [**Introduction to Git and GitHub**](http://www.thehackerwithin.org/berkeley/posts/2017-02-21-git-github.html): Co-written and co-taught with Matthias Bussonnier for the Hacker Within group at UC Berkeley.
-
-- [**Reproducible Science Workshop**](http://reproducible-science-curriculum.github.io/2015-06-01-reproducible-science-idigbio/): Tools, resources, and practices for reproducible research.
+- [**Eisen Lab Coding Club**](https://meisenlab.github.io/coding_site/): Organized and led a recurring computational knowledge-sharing series within Michael Eisen's lab at UC Berkeley, producing a body of documented techniques for genomic and 3D image analysis available to the broader research community.
 
 ---
 
-## Tutorials
+## Courses & Workshops
 
-- [**Become a Superhero, Handle Your Data with R**](http://cierareports.org/blog/2013/10/18/rCourse2013/index.html): A beginner R course aimed at learners with no programming experience. Originally written for high school students; used in undergraduate and graduate courses ever since.
+I have designed and taught in-person workshops across universities, conferences, and research institutes. Materials are openly available for reuse and remixing.
 
-- [**Gene Expression Analysis with Self Organizing Maps**](https://iamciera.github.io/SOMexample/): Using SOM clustering for gene expression analysis, with a focus on constrained clustering by variables like genotype.
+- [**Using Biodiversity and Natural History Museum Databases**](https://cabinetofcuriosity.github.io/coc_rladies_workshop/): Workshop introducing researchers to natural history and biodiversity databases, with hands-on exploratory analysis in R using the Neotoma database. Developed for R-Ladies and adapted for multiple audiences.
 
-- [**Mixed Effect Linear Modeling in R**](https://github.com/iamciera/lme4tutorial): A tutorial using the lme4 R package, co-developed with Dan Chitwood.
+- [**Evo Devo Module**](https://iamciera.github.io/evoDevoClass/): A three-hour lecture and wet lab on evolutionary developmental biology using fresh-cut flowers. Designed to be taught at the undergraduate level; delivered at three colleges and universities.
+
+- [**Reproducible Research Version Control (Data Carpentry)**](https://github.com/datacarpentry/rr-version-control): Co-authored and taught this lesson on version control with git as part of the Reproducible Science Curriculum, used across multiple Data Carpentry workshops internationally.
+
+- [**Introduction to Git and GitHub**](http://www.thehackerwithin.org/berkeley/posts/2017-02-21-git-github.html): Co-developed and co-taught with Matthias Bussonnier for the Hacker Within community at UC Berkeley, covering git fundamentals and collaborative workflows.
+
+- [**The Data Science of Shape Using Momocs**](https://iamciera.github.io/rladies_copenhagen/html/Copenhagen_Raldies_part1.html): Workshop on 2D morphometric analysis using the Momocs R package, taught at R-Ladies Copenhagen.
+
+- [**SOM Clustering Visualization**](https://iamciera.github.io/rladies_copenhagen/html/Copenhagen_Raldies_part2.html): Companion workshop exploring Self Organizing Maps (SOM) for clustering, using ggplot and the kohonen R package. Designed to help researchers fully understand and interpret clustering results.
+
+- [**Reproducible Science Workshop**](http://reproducible-science-curriculum.github.io/2015-06-01-reproducible-science-idigbio/): Full-day workshop on tools, resources, and practices for reproducible research. Co-written and co-taught on multiple occasions.
+
+- [**MACS2 for ChIP-Seq Data**](https://github.com/iamciera/chipSeqTutorial): Genomics lab module built and taught as part of BIS180L at UC Davis, covering peak calling and ChIP-Seq analysis workflows.
 
 ---
 
-## Documentation
+## Self-Paced Tutorials
 
-- [**Using AWS for Neural Networks**](https://github.com/iamciera/AWS_notes): Written for my research team to build neural networks on Amazon Web Services.
+Standalone resources designed for independent learners, used in both self-study and embedded in university courses.
 
-- [**BIS 180L Genomics Course**](http://jnmaloof.github.io/BIS180L_web/): A wonderful genomics course designed by Julin Maloof; I TAd this at UC Davis.
+- [**Become a Superhero, Handle Your Data with R**](http://cierareports.org/blog/2013/10/18/rCourse2013/index.html): A beginner R course written for learners with no programming background. Originally developed for high school students and later adopted in undergraduate and graduate courses across multiple institutions. Covers foundational concepts often skipped in standard R introductions.
+
+- [**Gene Expression Analysis with Self Organizing Maps**](https://iamciera.github.io/SOMexample/): A practical tutorial on SOM clustering for gene expression data, emphasizing how to constrain and interpret clustering by experimental variables such as genotype.
+
+- [**Mixed Effect Linear Modeling in R**](https://github.com/iamciera/lme4tutorial): An accessible introduction to mixed-effect linear modeling using the lme4 R package, co-developed with Dan Chitwood for researchers working with nested and repeated-measures data.
+
+---
+
+## Documentation & Resources
+
+- [**Using AWS for Neural Networks**](https://github.com/iamciera/AWS_notes): Technical documentation written for my research team to set up and run neural networks on Amazon Web Services — covering environment configuration, job submission, and cost management.
+
+- [**BIS 180L Genomics Course**](http://jnmaloof.github.io/BIS180L_web/): Supporting materials from UC Davis's genomics lab course, designed by Julin Maloof. I served as teaching assistant and contributed to lab instruction.
