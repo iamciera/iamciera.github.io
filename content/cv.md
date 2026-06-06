@@ -133,19 +133,112 @@ Challenges of doing data-intensive research in teams, labs, and groups. Gieger S
 
 ---
 
-## Selected Presentations
+## Presentations
 
-**2023** Lewis & Clark College — *Uncovering Patterns in Nature with Data Science Tools* (invited)\
-**2023** Academic Data Science Alliance — *Informal Training Opportunities in Data Science* (invited)\
-**2022** Women in Data Science (WiDS) Berkeley — *Designing Our World with Data* (invited)\
-**2021** Data Science Coast to Coast — *Open science in the wild* (invited)\
-**2020** Open Science Symposium, Carnegie Mellon University (invited)\
-**2019** Alien CSI, Ljubljana, Slovenia — *Defining the Usability of Biodiversity Databases* (plenary)\
-**2019** Yale Digital Data Conference (selected abstract)\
-**2019** rOpenSci Community Call — *Research Applications of rOpenSci Taxonomy and Biodiversity Tools* (invited)\
-**2018** UC Berkeley Statistics and Genomics Seminar Series (invited)\
-**2017** EARL Conference, San Francisco — *R-Ladies: promoting gender diversity in the R community* (keynote)\
-**2016** Leonardo Art Science Evening Rendezvous, UC Davis — *The hidden beauty of plant architecture* (invited)
+**2023** Lewis & Clark College, Portland, OR\
+Talk (invited): *Uncovering Patterns in Nature with Data Science Tools*
+
+**2023** Academic Data Science Alliance (Virtual)\
+Talk / Panel (invited): *Informal Training Opportunities in Data Science*
+
+**2022** Women in Data Science (WiDS) Berkeley, Virtual\
+Talk (invited): *Designing Our World with Data*
+
+**2021** Data Science Coast to Coast\
+Talk (invited): *Open science in the wild: a guide to train researchers to build reproducible and collaborative workflows*
+
+**2020** Open Science Symposium, Carnegie Mellon University, Pittsburgh, PA\
+Talk (invited): *Alternative Research Products within the life cycle of data analysis workflows*
+
+**2020** Academic Data Science Alliance Annual Conference\
+Talk (selected abstract): *Principles for data-intensive research workflows: Guidance for the classroom and the computational laboratory*
+
+**2020** University of Wyoming, INBRE 2020 Summer of Code\
+Talk (invited): *Bird's Eye View of Reproducibility*
+
+**2019** Alien CSI, Ljubljana, Slovenia\
+Talk (plenary): *Defining the Usability of Biodiversity Databases — Lessons Learned from Tutorial Creation*
+
+**2019** Yale, Digital Data Conference, New Haven, CT\
+Talk (selected abstract): *Designing a Synergistic Relationship Between Undergraduate Data Science Education and Usability of Biodiversity Databases*
+
+**2019** rOpenSci Community Call, Online\
+Talk (invited): *Research Applications of rOpenSci Taxonomy and Biodiversity Tools*
+
+**2019** Lewis & Clark College, Portland, OR\
+Talk (invited): *Unleashing the Power of Biodiversity Data with Data Science*
+
+**2019** OpenCon, Portland, OR\
+Talk: *Empowering Computer Scientists to Build Tools and Tutorials for Biodiversity Data*
+
+**2018** MSDSE Summit, Park City, Utah\
+Talk: *Reproducibility and Management of Data Science Teams*
+
+**2018** UC Berkeley Statistics and Genomics Seminar Series\
+Talk (invited): *Data Science and the Evolution of Plant and Animal Morphology*
+
+**2018** University of San Francisco Biology Seminar Series, San Francisco, CA\
+Talk (invited): *What data science can tell us about organism shape and evolution*
+
+**2017** University of Kansas EEB Seminar, Lawrence, KS\
+Talk (invited): *Evo-Devo in the data science age*
+
+**2017** Berkeley Institute for Data Science, Berkeley, CA\
+Talk: *How do organisms get their shape?*
+
+**2017** Enterprise Applications of the R Language (EARL), San Francisco, CA\
+Talk (Keynote): *R-Ladies: a world-wide organization to promote gender diversity in the R community*
+
+**2017** 58th Annual Drosophila Research Conference, San Diego, CA\
+Poster: *Using comparative genomic approaches to reveal underlying constraints on enhancer sequence divergence*
+
+**2016** Berkeley Molecular and Cell Biology Colloquium, Asilomar, CA\
+Poster: *Using comparative genomic approaches to reveal underlying constraints on enhancer sequence divergence*
+
+**2016** Leonardo Art Science Evening Rendezvous, University of California, Davis\
+Talk (invited): *The hidden beauty of plant architecture*
+
+**2015** Nagoya University · RIKEN-Kobe · NAIST Institute, Nara\
+Three Talks: *Using laser capture micro-dissection and characterization of a* Solanum lycopersicum *pin1 mutant to understand developmental and cellular differentiation patterns in plants*
+
+**2015** International Plant Meeting in Kyoto, Kyoto Sangyo University\
+Talk (invited): *Investigating the molecular mechanisms regulating leaf initiation, morphogenesis, and cellular differentiation in* Solanum lycopersicum
+
+**2014** American Society of Plant Biology, Portland, OR\
+Poster: *Global Gene Expression Map of a Complex Leaf*
+
+**2014** Stanford Carnegie Institution for Science, Palo Alto, CA\
+Talk (invited): *Getting started on making your computational work reproducible*
+
+**2013** FASEB Mechanisms in Plant Development, Saxtons River, VT\
+Talk (selected abstract): *Understanding the phylogenetic history and function of members of the PIN-FORMED1 clade using* Solanum lycopersicum *(tomato)*
+
+**2013** American Society of Plant Biology, Providence, RI\
+Poster: *Understanding the phylogenetic history and function of members of the PIN-FORMED1 clade using* Solanum lycopersicum *(tomato)*
+
+**2012** Plant Biology Graduate Group Fall Colloquium, Davis, CA\
+Talk: *Developing a Global Expression Map of a Developing Leaf*
+
+**2012** American Society of Plant Biology, Austin, TX\
+Poster: *Exploring the Forgotten Axis of Leaf Development*
+
+**2011** NAIST Global COE International Symposium, Nara, Japan\
+Talk: *Exploring the Forgotten Axis of Leaf Development*
+
+**2011** UC Davis Plant Cell Seminar Series, Asilomar, CA\
+Talk: *Auxin's Influence on the* trifoliate *Mutant Leaf Phenotype*
+
+**2008** UC Riverside 25th Symposium in Plant Biology, CA\
+Poster: *Duplication and Divergence of Veronicaceae Floral Symmetry Genes — Implications for the Reduction/Loss of Floral Zygomorphy and Stamen Number*
+
+**2008** NEIU Research Symposium, Chicago, IL\
+Talk: *Using Chloroplast Genome Regions to Assess Phylogenetic Relationships of* Corydalis
+
+**2007** REU Research Symposium, Boulder, CO\
+Talk: *Fw2.2 Effect on Floral and Fruit Development in Tomato Plants*
+
+**2007** NEIU Research Symposium, Chicago, IL\
+Poster: *Effects of Gibberellic Acid, Light, and Cold Stratification on* Echinacea pallida *and* Aquilegia canadensis *Germination Rates*
 
 ---
 
