@@ -14,6 +14,8 @@ The most durable training happens through community. I have co-founded and led o
 
 - [**Curiosity Data Project**](https://cabinetofcuriosity.github.io/cabinetofcuriosity_site/): Founded and directed this open tutorial platform exploring biodiversity and ecological data — from dinosaur fossils and 3D CT scans to Google Earth fire data and animal movement. Produced in collaboration with contributors and a team of UC Berkeley undergraduate researchers I mentored during 2018–2019.
 
+- [**BIDS Best Practices in Data Science**](https://stuartgeiger.com/articles/2018-11-11-BIDS-best-practices/): Led this biweekly discussion series at the Berkeley Institute for Data Science for three years, bringing together over 30 core academic participants to collectively develop standards for how data-intensive research is conducted, documented, and shared. The series produced two peer-reviewed publications: [Principles for data analysis workflows](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008770) (Stoudt, Valeri, **Martinez**. *PLOS Computational Biology*, 2021) and [Ten simple rules on writing clean and reliable open-source scientific software](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009481) (Hunter-Zinck, de Siqueira, Vásquez, Barnes, **Martinez**. *PLOS Computational Biology*, 2021).
+
 - [**Eisen Lab Coding Club**](https://meisenlab.github.io/coding_site/): Organized and led a recurring computational knowledge-sharing series within Michael Eisen's lab at UC Berkeley, producing a body of documented techniques for genomic and 3D image analysis available to the broader research community.
 
 ---
