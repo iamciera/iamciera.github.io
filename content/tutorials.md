@@ -1,5 +1,5 @@
 ---
-title: "Training & Community"
+title: "Community & Training"
 ---
 
 I build the educational infrastructure, communities, and curricula that make rigorous methods accessible to researchers at all levels. My training work spans formal university instruction, community-led knowledge sharing, and self-paced open resources — across topics including reproducible research, statistical modeling, machine learning, biodiversity data, and R & Python programming.
