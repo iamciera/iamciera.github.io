@@ -23,7 +23,6 @@ The most durable training happens through community. I have co-founded and led o
   - [Best Practices for Managing Turnover in Data Science Groups, Teams, and Labs](https://osf.io/preprints/socarxiv/wsxru_v1) — Preprint
   - [Resistance to Adoption of Best Practices](https://osf.io/preprints/socarxiv/qr8cz) — Preprint
 
-- [**Eisen Lab Coding Club**](https://meisenlab.github.io/coding_site/): Organized and led a recurring computational knowledge-sharing series within Michael Eisen's lab at UC Berkeley, producing a body of documented techniques for genomic and 3D image analysis available to the broader research community.
 
 ---
 
@@ -58,6 +57,8 @@ Standalone resources designed for independent learners, used in both self-study 
 - [**Gene Expression Analysis with Self Organizing Maps**](https://iamciera.github.io/SOMexample/): A practical tutorial on SOM clustering for gene expression data, emphasizing how to constrain and interpret clustering by experimental variables such as genotype.
 
 - [**Mixed Effect Linear Modeling in R**](https://github.com/iamciera/lme4tutorial): An accessible introduction to mixed-effect linear modeling using the lme4 R package, co-developed with Dan Chitwood for researchers working with nested and repeated-measures data.
+
+- [**Eisen Lab Coding Club**](https://meisenlab.github.io/coding_site/): A documented collection of computational techniques for genomic and 3D image analysis, produced through a recurring knowledge-sharing series I organized and led within Michael Eisen's lab at UC Berkeley.
 
 ---
 
