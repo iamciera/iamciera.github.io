@@ -21,14 +21,11 @@ title: "Community & Training"
 <div class="tufte-row">
 <div class="tufte-body">
 
-**[Data Science by Design (DSxD)](http://datasciencebydesign.org/blog/)** — Co-founded and led this international organization of data scientists, artists, and designers dedicated to communicating data science visually and accessibly. I led the editorial and leadership team, coordinating contributions from across the community. Our collective work has been published as two print books.
+**[Data Science by Design (DSxD)](http://datasciencebydesign.org/blog/)** — Co-founded and led this international organization of data scientists, artists, and designers dedicated to communicating data science visually and accessibly. I led the editorial and leadership team, coordinating contributions from across the community. Our collective work has been published as two print books: [Volume 1 — Our Environment](http://datasciencebydesign.org/book) and [Volume 2 — The Future of Data Science](https://datasciencebydesign.org/book-2).
 
 </div>
 <div class="tufte-margin">
-  <img src="/img/dsxd-vol1.png" alt="DSxD Volume 1">
-  <span class="tufte-margin-caption">Volume 1 — Our Environment</span>
-  <a href="http://datasciencebydesign.org/book" class="tufte-margin-link">Read →</a>
-  <img src="/img/dsxd-vol2.png" alt="DSxD Volume 2" style="margin-top:1rem;">
+  <img src="/img/dsxd-vol2.png" alt="DSxD Volume 2">
   <span class="tufte-margin-caption">Volume 2 — The Future of Data Science</span>
   <a href="https://datasciencebydesign.org/book-2" class="tufte-margin-link">Read →</a>
 </div>
