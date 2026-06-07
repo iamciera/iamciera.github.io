@@ -34,18 +34,14 @@ title: "Community & Training"
 <div class="tufte-row">
 <div class="tufte-body">
 
-**[BIDS Best Practices in Data Science](https://stuartgeiger.com/articles/2018-11-11-BIDS-best-practices/)** — Led this biweekly discussion series at the Berkeley Institute for Data Science for three years, bringing together over 30 core academic participants to collectively develop standards for how data-intensive research is conducted, documented, and shared.
+**[BIDS Best Practices in Data Science](https://stuartgeiger.com/articles/2018-11-11-BIDS-best-practices/)** — Led this biweekly discussion series at the Berkeley Institute for Data Science for three years, bringing together over 30 core academic participants to collectively develop standards for how data-intensive research is conducted, documented, and shared. The series produced two peer-reviewed publications — [Principles for data analysis workflows](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008770) and [Ten simple rules on writing clean and reliable open-source scientific software](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009481) — and four preprints: [Challenges of doing data-intensive research in teams](https://osf.io/preprints/socarxiv/a7b3m/), [Best practices for fostering diversity and inclusion](https://osf.io/preprints/socarxiv/8gsjz_v1), [Best practices for managing turnover](https://osf.io/preprints/socarxiv/wsxru_v1), and [Resistance to adoption of best practices](https://osf.io/preprints/socarxiv/qr8cz).
 
 </div>
 <div class="tufte-margin">
-  <div class="tufte-margin-label">Publications & Preprints</div>
+  <div class="tufte-margin-label">Selected Publications</div>
   <div class="tufte-margin-pubs">
     <p><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008770">Principles for data analysis workflows</a> — PLOS Comp. Bio., 2021</p>
     <p><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009481">Ten simple rules on writing clean open-source scientific software</a> — PLOS Comp. Bio., 2021</p>
-    <p><a href="https://osf.io/preprints/socarxiv/a7b3m/">Challenges of doing data-intensive research in teams</a> — Preprint</p>
-    <p><a href="https://osf.io/preprints/socarxiv/8gsjz_v1">Best practices for fostering diversity and inclusion</a> — Preprint</p>
-    <p><a href="https://osf.io/preprints/socarxiv/wsxru_v1">Best practices for managing turnover</a> — Preprint</p>
-    <p><a href="https://osf.io/preprints/socarxiv/qr8cz">Resistance to adoption of best practices</a> — Preprint</p>
   </div>
 </div>
 </div>
