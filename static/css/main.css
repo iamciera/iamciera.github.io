@@ -354,6 +354,82 @@ a:hover { text-decoration: underline; }
 }
 .footer-copy a { color: var(--muted); }
 
+/* ── Tufte Margin Layout ───────────────────────────────────── */
+.tufte-row {
+  display: grid;
+  grid-template-columns: 1fr 160px;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  align-items: start;
+}
+
+.tufte-row.full {
+  grid-template-columns: 1fr;
+}
+
+.tufte-margin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 0.1rem;
+}
+
+.tufte-margin img {
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+  transition: transform 0.2s;
+  margin-bottom: 0.75rem;
+}
+.tufte-margin img:hover { transform: scale(1.03); }
+
+.tufte-margin-caption {
+  font-size: 0.68rem;
+  color: var(--purple);
+  text-align: center;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.tufte-margin-link {
+  font-size: 0.68rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+.tufte-margin-link:hover { text-decoration: underline; }
+
+.tufte-margin-pubs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  border-left: 2px solid var(--lavender);
+  padding-left: 0.75rem;
+}
+
+.tufte-margin-pubs p {
+  font-size: 0.68rem !important;
+  line-height: 1.45 !important;
+  color: var(--muted) !important;
+  margin: 0 !important;
+}
+
+.tufte-margin-pubs a {
+  color: var(--accent);
+  font-size: 0.68rem;
+}
+
+.tufte-margin-label {
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--purple);
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
 /* ── Scroll Research Page ──────────────────────────────────── */
 .scroll-page {
   position: relative;
