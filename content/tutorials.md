@@ -60,10 +60,3 @@ Standalone resources designed for independent learners, used in both self-study 
 
 - [**Eisen Lab Coding Club**](https://meisenlab.github.io/coding_site/): A documented collection of computational techniques for genomic and 3D image analysis, produced through a recurring knowledge-sharing series I organized and led within Michael Eisen's lab at UC Berkeley.
 
----
-
-## Documentation & Resources
-
-- [**Using AWS for Neural Networks**](https://github.com/iamciera/AWS_notes): Technical documentation written for my research team to set up and run neural networks on Amazon Web Services — covering environment configuration, job submission, and cost management.
-
-- [**BIS 180L Genomics Course**](http://jnmaloof.github.io/BIS180L_web/): Supporting materials from UC Davis's genomics lab course, designed by Julin Maloof. I served as teaching assistant and contributed to lab instruction.
