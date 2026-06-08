@@ -94,6 +94,8 @@ GeoJupyter: Streamlining the lifecycle of geospatial research with the Jupyter e
 
 Disentangling blade and vasculature shape in grapevine leaves. Yahiaoui W, Smail S, Ayub Y, Lu Q, Cousins P, Diaz-Garcia L, Frank M, et al. including **Martinez C**. **2026.** [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.01.27.701982)
 
+Using game design to inform a plastics treaty: Fostering collaboration between science, machine learning, and policymaking. Pottinger AS, Biyani N, Geyer R, McCauley DJ, de Bruyn M, Morse MR, Nathan N, Koy K, **Martinez C**. **2023.** [arXiv](https://arxiv.org/abs/2312.11359)
+
 Challenges of doing data-intensive research in teams, labs, and groups. Gieger S, and ten other authors including **Martinez C**. [SocArXiv](https://osf.io/preprints/socarxiv/a7b3m/)
 
 ---

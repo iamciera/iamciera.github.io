@@ -20,7 +20,7 @@ disableKinds = ["taxonomy", "term"]
     url = "/work/"
     weight = 1
   [[menu.main]]
-    name = "Coalitions"
+    name = "Community"
     url = "/coalitions/"
     weight = 2
   [[menu.main]]

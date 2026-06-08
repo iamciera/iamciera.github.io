@@ -1,5 +1,5 @@
 ---
-title: "Coalition Building"
+title: "Community Leadership"
 ---
 
 <div class="tufte-row full">
