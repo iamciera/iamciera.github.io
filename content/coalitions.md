@@ -10,7 +10,7 @@ title: "Coalition Building"
 
 ---
 
-## Coalition Building
+## Community Leadership
 
 <div class="tufte-row">
 <div class="tufte-body">
