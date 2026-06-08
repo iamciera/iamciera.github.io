@@ -2,15 +2,11 @@
 {{ $sections := .RegularPages.ByWeight }}
 <div class="scroll-page">
 
-  <!-- Fixed side nav -->
-  <nav class="scroll-nav" aria-label="Section navigation">
-    <a class="scroll-nav-item" href="#end-plastic-pollution">Plastic Pollution</a>
-    <a class="scroll-nav-item" href="#reduce-greenhouse-gases">Greenhouse Gases</a>
-    <a class="scroll-nav-item" href="#environmental-stewardship">Stewardship</a>
-    <a class="scroll-nav-item" href="#open-geospatial-data">Geospatial Data</a>
-    {{ range $sections }}
-    <a class="scroll-nav-item" href="#{{ .Title | anchorize }}">{{ .Title }}</a>
-    {{ end }}
+  <!-- Timeline nav -->
+  <nav class="timeline-nav">
+    <div class="tl-chart" id="tl-chart">
+      <div class="tl-axis"></div>
+    </div>
   </nav>
 
   <!-- Intro -->
@@ -21,13 +17,13 @@
     </div>
   </div>
 
-  <!-- Program 1: End Plastic Pollution (2023-present) -->
+  <!-- Program 1: End Plastic Pollution -->
   <section id="end-plastic-pollution" class="scroll-section">
     <div class="container scroll-section-inner programs-inner">
-      <h2 class="program-title"><a href="https://dse.berkeley.edu/programs/end-plastic-pollution">End Plastic Pollution</a> <span class="role-badge">Lead</span><span class="program-years">2023 – present</span></h2>
+      <h2 class="program-title" style="color:#4CAF72"><a href="https://dse.berkeley.edu/programs/end-plastic-pollution" style="color:inherit">End Plastic Pollution</a> <span class="role-badge">Lead</span><span class="program-years">2023 – present</span></h2>
       <div class="tufte-row">
         <div class="tufte-body">
-          <span class="tool-name">Global Plastics AI Policy Tool</span>
+          <span class="tool-name" style="color:#4CAF72">Global Plastics AI Policy Tool</span>
           <p>Developed AI-powered policy tools and predictive models to support UN plastic treaty negotiations. Research demonstrated that four coordinated policies could reduce mismanaged plastic waste by 91% and greenhouse gases by one-third by 2050.</p>
           <p>Briefed global and national delegations throughout treaty negotiations. Results presented at the World Economic Forum and New York Climate Week. Peer-reviewed research published in <em>Science</em>.</p>
         </div>
@@ -49,13 +45,13 @@
     </div>
   </section>
 
-  <!-- Program 2: Reduce Greenhouse Gases (2023-present) -->
-  <section id="reduce-greenhouse-gases" class="scroll-section scroll-section--alt">
+  <!-- Program 2: Reduce Greenhouse Gases -->
+  <section id="reduce-greenhouse-gases" class="scroll-section">
     <div class="container scroll-section-inner programs-inner">
-      <h2 class="program-title"><a href="https://dse.berkeley.edu/programs/reduce-worst-greenhouse-gases">Reduce the Worst Greenhouse Gases</a> <span class="role-badge">Lead</span><span class="program-years">2023 – present</span></h2>
+      <h2 class="program-title" style="color:#9088C8"><a href="https://dse.berkeley.edu/programs/reduce-worst-greenhouse-gases" style="color:inherit">Reduce the Worst Greenhouse Gases</a> <span class="role-badge">Lead</span><span class="program-years">2023 – present</span></h2>
       <div class="tufte-row">
         <div class="tufte-body">
-          <span class="tool-name">Kigali Sim</span>
+          <span class="tool-name" style="color:#9088C8">Kigali Sim</span>
           <p>Built Kigali Sim in partnership with the United Nations — a free, open-source modeling tool that helps policymakers optimize investments in reducing hydrofluorocarbon (HFC) emissions under the Montreal Protocol, without requiring coding expertise.</p>
           <p>Beta tested with over a dozen countries, NGOs, and agencies. Officially launched December 2025. Conservative estimates suggest the tool could help middle-income nations reduce overall greenhouse gas emissions by approximately 5% by 2040.</p>
         </div>
@@ -77,13 +73,13 @@
     </div>
   </section>
 
-  <!-- Program 3: Stewardship (2023-present, dark) -->
-  <section id="environmental-stewardship" class="scroll-section scroll-section--dark-program">
+  <!-- Program 3: Stewardship -->
+  <section id="environmental-stewardship" class="scroll-section">
     <div class="container scroll-section-inner programs-inner">
-      <h2 class="program-title program-title--light"><a href="https://dse.berkeley.edu/programs/co-design-environmental-stewardship">Co-Design Environmental Stewardship</a> <span class="role-badge">Lead</span><span class="program-years program-years--light">2023 – present</span></h2>
+      <h2 class="program-title" style="color:#88c8a8"><a href="https://dse.berkeley.edu/programs/co-design-environmental-stewardship" style="color:inherit">Co-Design Environmental Stewardship</a> <span class="role-badge">Lead</span><span class="program-years">2023 – present</span></h2>
       <div class="tufte-row">
         <div class="tufte-body">
-          <span class="tool-name">Game Cam App · Soundhub</span>
+          <span class="tool-name" style="color:#88c8a8">Game Cam App · Soundhub</span>
           <p>Partnered with Indigenous and local communities to co-design land management tools that integrate traditional ecological knowledge with modern data science. Built software applications with the Karuk Wildlife Team, including the Game Cam app and data automation tools currently in active use.</p>
           <p>Expanded Soundhub, a web platform using AI to identify and classify animal sounds at scale across 80 California Sentinel Sites. Advancing frameworks for Indigenous data sovereignty and community-controlled environmental monitoring.</p>
         </div>
@@ -96,31 +92,23 @@
           <div class="tufte-margin-pubs">
             <p>Karuk Tribe · 80 CA Sentinel Sites</p>
           </div>
-          <div class="tufte-margin-label" style="margin-top:0.75rem">Focus</div>
-          <div class="tufte-margin-pubs">
-            <p>Data sovereignty · Bioacoustics · Indigenous co-design</p>
-          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Program 4: Geospatial (2024-2026, completed) -->
+  <!-- Program 4: Geospatial -->
   <section id="open-geospatial-data" class="scroll-section">
     <div class="container scroll-section-inner programs-inner">
-      <h2 class="program-title"><a href="https://dse.berkeley.edu/index.php/programs/open-democratize-methods-geospatial-data-analysis">Open &amp; Democratize Geospatial Data</a> <span class="role-badge">Lead</span><span class="program-years">2024 – 2026</span></h2>
+      <h2 class="program-title" style="color:#d4a830"><a href="https://dse.berkeley.edu/index.php/programs/open-democratize-methods-geospatial-data-analysis" style="color:inherit">Open &amp; Democratize Geospatial Data</a> <span class="role-badge">Lead</span><span class="program-years">2024 – 2026</span></h2>
       <div class="tufte-row">
         <div class="tufte-body">
-          <span class="tool-name">GeoJupyter · JupyterGIS</span>
+          <span class="tool-name" style="color:#d4a830">GeoJupyter · JupyterGIS</span>
           <p>Co-launched GeoJupyter to make geospatial data analysis accessible through open-source tools integrated with Jupyter's collaborative infrastructure. I led user research (40+ hours of interviews), organized in-person and virtual hackathons, and ran workshops with scientists and programmers to drive adoption and shape the platform's design.</p>
-          <p>A Nature publication used JupyterGIS for global carbon storage analysis, validating the tool's research readiness. I also built a Team Compass resource guide and convened working groups to sustain the contributor community.</p>
+          <p>A Nature publication used JupyterGIS for global carbon storage analysis, validating the tool's research readiness.</p>
         </div>
         <div class="tufte-margin">
-          <div class="tufte-margin-label">Press</div>
-          <div class="tufte-margin-pubs">
-            <p><a href="https://dse.berkeley.edu/index.php/programs/open-democratize-methods-geospatial-data-analysis">GeoJupyter at AGU 2025</a> — AGU Annual Meeting</p>
-          </div>
-          <div class="tufte-margin-label" style="margin-top:0.75rem">Tools</div>
+          <div class="tufte-margin-label">Tools</div>
           <div class="tufte-margin-pubs">
             <p><a href="https://github.com/geojupyter/jupytergis">JupyterGIS</a> — open source geospatial extension for Jupyter</p>
           </div>
@@ -134,10 +122,11 @@
   </section>
 
   <!-- Research Sections -->
+  {{ $colors := slice "#2a6347" "#b86e18" "#364A70" "#a83828" }}
   {{ range $i, $s := $sections }}
-  <section id="{{ .Title | anchorize }}" class="scroll-section{{ if modBool $i 2 }} scroll-section--alt{{ end }}">
+  <section id="{{ .Title | anchorize }}" class="scroll-section">
     <div class="container scroll-section-inner">
-      <h2>{{ .Title }}{{ with .Params.years }} <span class="program-years">{{ . }}</span>{{ end }}</h2>
+      <h2 style="color:{{ index $colors $i }}">{{ .Title }}{{ with .Params.years }} <span class="program-years">{{ . }}</span>{{ end }}</h2>
       <div class="scroll-section-body">{{ .Content }}</div>
     </div>
   </section>
@@ -146,19 +135,161 @@
 </div>
 
 <script>
-  const navItems = document.querySelectorAll('.scroll-nav-item');
-  const sections = document.querySelectorAll('.scroll-section');
+const COLORS = {
+  'end-plastic-pollution':                      '#4CAF72',
+  'reduce-greenhouse-gases':                    '#9088C8',
+  'environmental-stewardship':                  '#88c8a8',
+  'open-geospatial-data':                       '#d4a830',
+  'biological--environmental-data-collections': '#2a6347',
+  'data-science-as-a-practice':                 '#b86e18',
+  'genome-evolution':                           '#364A70',
+  'genetic-regulation-of-plant-morphology':     '#a83828',
+};
 
-  const observer = new IntersectionObserver((entries) => {
+const START = 2026.5;
+const END   = 2007;
+const RANGE = START - END;
+const YEARS = [2026, 2023, 2020, 2017, 2013, 2010, 2007];
+
+const projects = [
+  { id: 'end-plastic-pollution',                      label: 'Plastic Pollution',  start: 2023, end: 2026.5, present: true  },
+  { id: 'reduce-greenhouse-gases',                    label: 'Greenhouse Gases',   start: 2023, end: 2026.5, present: true  },
+  { id: 'environmental-stewardship',                  label: 'Stewardship',        start: 2023, end: 2026.5, present: true  },
+  { id: 'open-geospatial-data',                       label: 'Geospatial Data',    start: 2024, end: 2026,   present: false },
+  { id: 'biological--environmental-data-collections', label: 'Bio & Env Data',     start: 2018, end: 2026.5, present: true  },
+  { id: 'data-science-as-a-practice',                 label: 'Data Science',       start: 2017, end: 2026.5, present: true  },
+  { id: 'genome-evolution',                           label: 'Genome Evolution',   start: 2013, end: 2020,   present: false },
+  { id: 'genetic-regulation-of-plant-morphology',     label: 'Genetic Regulation', start: 2007, end: 2021,   present: false },
+];
+
+const offsets = [91, 84, 77, 70, 63, 56, 49, 42];
+
+window.addEventListener('load', () => {
+  const chart = document.getElementById('tl-chart');
+  const H = chart.offsetHeight;
+
+  function toY(year) { return ((START - year) / RANGE * H); }
+
+  YEARS.forEach(y => {
+    const tick = document.createElement('div');
+    tick.className = 'tl-tick';
+    tick.style.top = toY(y) + 'px';
+    chart.appendChild(tick);
+    const lbl = document.createElement('div');
+    lbl.className = 'tl-tick-label';
+    lbl.textContent = y;
+    lbl.style.top = toY(y) + 'px';
+    chart.appendChild(lbl);
+  });
+
+  projects.forEach((p, i) => {
+    const topY = toY(Math.max(p.start, p.end));
+    const botY = toY(Math.min(p.start, p.end));
+    const midY = (topY + botY) / 2;
+    const color = COLORS[p.id];
+    const offset = offsets[i];
+
+    const bar = document.createElement('div');
+    bar.className = `tl-bar${p.present ? ' tl-bar--present' : ''}`;
+    bar.dataset.id = p.id;
+    bar.style.top = topY + 'px';
+    bar.style.height = (botY - topY) + 'px';
+    bar.style.left = offset + 'px';
+    bar.style.background = color;
+    bar.addEventListener('click', () => {
+      document.getElementById(p.id)?.scrollIntoView({ behavior: 'smooth' });
+    });
+    chart.appendChild(bar);
+
+    const dot = document.createElement('div');
+    dot.className = 'tl-dot';
+    dot.style.top = midY + 'px';
+    dot.style.left = (offset + 1) + 'px';
+    dot.style.background = color;
+    chart.appendChild(dot);
+
+    const conn = document.createElement('div');
+    conn.className = 'tl-connector';
+    conn.style.top = midY + 'px';
+    conn.style.left = (offset + 3) + 'px';
+    conn.style.background = color;
+    conn.style.opacity = '0.25';
+    chart.appendChild(conn);
+
+    const lbl = document.createElement('div');
+    lbl.className = 'tl-label';
+    lbl.dataset.id = p.id;
+    lbl.dataset.midy = midY;
+    lbl.style.opacity = '0.65';
+    lbl.textContent = p.label;
+    lbl.addEventListener('click', () => {
+      document.getElementById(p.id)?.scrollIntoView({ behavior: 'smooth' });
+    });
+    chart.appendChild(lbl);
+
+    bar.addEventListener('mouseenter', () => { dot.style.opacity = '1'; });
+    bar.addEventListener('mouseleave', () => { if (!bar.classList.contains('active')) dot.style.opacity = '0'; });
+    lbl.addEventListener('mouseenter', () => { dot.style.opacity = '1'; bar.style.opacity = '0.75'; });
+    lbl.addEventListener('mouseleave', () => { if (!bar.classList.contains('active')) { dot.style.opacity = '0'; bar.style.opacity = '0.35'; }});
+
+    bar._dot = dot;
+    bar._conn = conn;
+    bar._lbl = lbl;
+  });
+
+  // Label positioning — natural midpoint, nudge to prevent overlap
+  const MIN_H = 20;
+  const LABEL_TOP_OFFSET = -30;
+  const allLabels = Array.from(chart.querySelectorAll('.tl-label'));
+  let lblData = allLabels.map(lbl => ({
+    el: lbl, id: lbl.dataset.id,
+    natural: parseFloat(lbl.dataset.midy),
+    y: parseFloat(lbl.dataset.midy) + LABEL_TOP_OFFSET
+  }));
+
+  for (let i = 1; i < lblData.length; i++) {
+    if (lblData[i].y - lblData[i-1].y < MIN_H) lblData[i].y = lblData[i-1].y + MIN_H;
+  }
+  for (let i = lblData.length - 2; i >= 0; i--) {
+    if (lblData[i+1].y - lblData[i].y < MIN_H) lblData[i].y = lblData[i+1].y - MIN_H;
+  }
+
+  lblData.forEach(d => {
+    d.el.style.top = d.y + 'px';
+    const bar = document.querySelector(`.tl-bar[data-id="${d.id}"]`);
+    if (bar?._dot) bar._dot.style.top = d.natural + 'px';
+  });
+
+  // IntersectionObserver
+  const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        navItems.forEach(a => a.classList.remove('active'));
-        const active = document.querySelector(`.scroll-nav-item[href="#${entry.target.id}"]`);
-        if (active) active.classList.add('active');
+        document.querySelectorAll('.tl-bar').forEach(b => {
+          b.classList.remove('active');
+          if (b._dot) b._dot.style.opacity = '0';
+          if (b._lbl) { b._lbl.style.opacity = '0.65'; b._lbl.classList.remove('active'); }
+        });
+        const active = document.querySelector(`.tl-bar[data-id="${entry.target.id}"]`);
+        if (active) {
+          active.classList.add('active');
+          if (active._dot) active._dot.style.opacity = '1';
+          if (active._lbl) { active._lbl.style.opacity = '1'; active._lbl.style.color = '#1a1a1a'; active._lbl.classList.add('active'); }
+        }
       }
     });
-  }, { threshold: 0.4 });
+  }, { threshold: 0.15, rootMargin: '-10% 0px -10% 0px' });
 
-  sections.forEach(s => observer.observe(s));
+  projects.forEach(p => {
+    const section = document.getElementById(p.id);
+    if (section) observer.observe(section);
+  });
+
+  // Highlight first on load
+  const firstBar = document.querySelector(`.tl-bar[data-id="${projects[0].id}"]`);
+  if (firstBar) {
+    firstBar.classList.add('active');
+    if (firstBar._lbl) { firstBar._lbl.style.opacity = '1'; firstBar._lbl.classList.add('active'); }
+  }
+});
 </script>
 {{ end }}
