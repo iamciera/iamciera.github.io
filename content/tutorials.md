@@ -52,7 +52,11 @@ title: "Community & Training"
 **[Curiosity Data Project](https://cabinetofcuriosity.github.io/cabinetofcuriosity_site/)** — Founded and directed this open tutorial platform exploring biodiversity and ecological data — from dinosaur fossils and 3D CT scans to Google Earth fire data and animal movement. Produced in collaboration with contributors and a team of UC Berkeley undergraduate researchers I mentored during 2018–2019.
 
 </div>
-<div class="tufte-margin"></div>
+<div class="tufte-margin">
+  <img src="/img/cabinet-of-curiosity.png" alt="Cabinet of Curiosity website">
+  <span class="tufte-margin-caption">Cabinet of Curiosity</span>
+  <a href="https://cabinetofcuriosity.github.io/cabinetofcuriosity_site/" class="tufte-margin-link">Visit →</a>
+</div>
 </div>
 
 ---
