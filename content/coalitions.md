@@ -1,5 +1,5 @@
 ---
-title: "Community Leadership"
+title: "Community"
 ---
 
 <div class="tufte-row full">

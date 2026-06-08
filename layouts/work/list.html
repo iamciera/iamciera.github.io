@@ -4,7 +4,10 @@
 
   <!-- Fixed side nav -->
   <nav class="scroll-nav" aria-label="Section navigation">
-    <a class="scroll-nav-item" href="#program-leadership">Program Leadership</a>
+    <a class="scroll-nav-item" href="#open-geospatial-data">Geospatial Data</a>
+    <a class="scroll-nav-item" href="#reduce-greenhouse-gases">Greenhouse Gases</a>
+    <a class="scroll-nav-item" href="#end-plastic-pollution">Plastic Pollution</a>
+    <a class="scroll-nav-item" href="#environmental-stewardship">Stewardship</a>
     {{ range $sections }}
     <a class="scroll-nav-item" href="#{{ .Title | anchorize }}">{{ .Title }}</a>
     {{ end }}
@@ -18,61 +21,114 @@
     </div>
   </div>
 
-  <!-- Program Leadership -->
-  <section id="program-leadership" class="scroll-section scroll-section--programs">
+  <!-- Program 1: Geospatial -->
+  <section id="open-geospatial-data" class="scroll-section">
     <div class="container scroll-section-inner programs-inner">
-      <h2>Program Leadership</h2>
-      <p class="programs-subtitle">As Senior Program Manager at the Eric and Wendy Schmidt Center for Data Science and Environment, I developed and led four programmatic areas — each combining original research, tool development, policy engagement, and cross-sector partnership.</p>
-      <div class="programs-grid">
-
-        <div class="program-card">
-          <div class="program-card-body">
-            <h3><a href="https://dse.berkeley.edu/index.php/programs/open-democratize-methods-geospatial-data-analysis">Open &amp; Democratize Geospatial Data</a></h3>
-            <p>Co-launched GeoJupyter to make geospatial data analysis accessible through open-source tools and Jupyter's collaborative infrastructure. Led user research (40+ hours of interviews), organized hackathons and workshops, and supported researchers publishing with the platform.</p>
+      <h2 class="program-title"><a href="https://dse.berkeley.edu/index.php/programs/open-democratize-methods-geospatial-data-analysis">Open &amp; Democratize Geospatial Data</a> <span class="role-badge">Lead</span></h2>
+      <div class="tufte-row">
+        <div class="tufte-body">
+          <span class="tool-name">GeoJupyter · JupyterGIS</span>
+          <p>Co-launched GeoJupyter to make geospatial data analysis accessible through open-source tools integrated with Jupyter's collaborative infrastructure. I led user research (40+ hours of interviews), organized in-person and virtual hackathons, and ran workshops with scientists and programmers to drive adoption and shape the platform's design.</p>
+          <p>A Nature publication used JupyterGIS for global carbon storage analysis, validating the tool's research readiness. I also built a Team Compass resource guide and convened working groups to sustain the contributor community.</p>
+        </div>
+        <div class="tufte-margin">
+          <div class="tufte-margin-label">Press</div>
+          <div class="tufte-margin-pubs">
+            <p><a href="https://dse.berkeley.edu/index.php/programs/open-democratize-methods-geospatial-data-analysis">GeoJupyter at AGU 2025</a> — AGU Annual Meeting</p>
           </div>
-          <div class="program-card-meta">
-            <span class="program-tag">JupyterGIS</span>
-            <span class="program-tag">Open Source</span>
-            <span class="program-tag">Geospatial</span>
+          <div class="tufte-margin-label" style="margin-top:0.75rem">Tools</div>
+          <div class="tufte-margin-pubs">
+            <p><a href="https://github.com/geojupyter/jupytergis">JupyterGIS</a> — open source geospatial extension for Jupyter</p>
+          </div>
+          <div class="tufte-margin-label" style="margin-top:0.75rem">Partners</div>
+          <div class="tufte-margin-pubs">
+            <p>Jupyter Community · UC Berkeley DSE</p>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="program-card">
-          <div class="program-card-body">
-            <h3><a href="https://dse.berkeley.edu/programs/reduce-worst-greenhouse-gases">Reduce the Worst Greenhouse Gases</a></h3>
-            <p>Built Kigali Sim in partnership with the United Nations — a free, open-source modeling tool helping policymakers optimize HFC emissions reductions under the Montreal Protocol. Beta tested with 12+ countries and NGOs; officially launched December 2025. Estimated potential: 5% GHG reduction in middle-income nations by 2040.</p>
+  <!-- Program 2: Greenhouse Gases -->
+  <section id="reduce-greenhouse-gases" class="scroll-section scroll-section--alt">
+    <div class="container scroll-section-inner programs-inner">
+      <h2 class="program-title"><a href="https://dse.berkeley.edu/programs/reduce-worst-greenhouse-gases">Reduce the Worst Greenhouse Gases</a> <span class="role-badge">Lead</span></h2>
+      <div class="tufte-row">
+        <div class="tufte-body">
+          <span class="tool-name">Kigali Sim</span>
+          <p>Built Kigali Sim in partnership with the United Nations — a free, open-source modeling tool that helps policymakers optimize investments in reducing hydrofluorocarbon (HFC) emissions under the Montreal Protocol, without requiring coding expertise.</p>
+          <p>Beta tested with over a dozen countries, NGOs, and agencies. Officially launched December 2025. Conservative estimates suggest the tool could help middle-income nations reduce overall greenhouse gas emissions by approximately 5% by 2040.</p>
+        </div>
+        <div class="tufte-margin">
+          <div class="tufte-margin-label">Publication</div>
+          <div class="tufte-margin-pubs">
+            <p><a href="https://arxiv.org/abs/2312.11359">Using game design to inform a plastics treaty</a> — arXiv, 2023</p>
           </div>
-          <div class="program-card-meta">
-            <span class="program-tag">UN Partnership</span>
-            <span class="program-tag">Climate Policy</span>
-            <span class="program-tag">Open Source</span>
+          <div class="tufte-margin-label" style="margin-top:0.75rem">Partners</div>
+          <div class="tufte-margin-pubs">
+            <p>United Nations · 12+ countries &amp; NGOs</p>
+          </div>
+          <div class="tufte-margin-label" style="margin-top:0.75rem">Impact</div>
+          <div class="tufte-margin-pubs">
+            <p>~5% GHG reduction potential in middle-income nations by 2040</p>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="program-card">
-          <div class="program-card-body">
-            <h3><a href="https://dse.berkeley.edu/programs/end-plastic-pollution">End Plastic Pollution</a></h3>
-            <p>Developed AI-powered policy tools and predictive models to support UN plastic treaty negotiations. Research published in <em>Science</em> demonstrated that four coordinated policies could reduce mismanaged plastic waste by 91% by 2050. Briefed delegations globally and presented at the World Economic Forum and New York Climate Week.</p>
+  <!-- Program 3: Plastic Pollution (dark) -->
+  <section id="end-plastic-pollution" class="scroll-section scroll-section--dark-program">
+    <div class="container scroll-section-inner programs-inner">
+      <h2 class="program-title program-title--light"><a href="https://dse.berkeley.edu/programs/end-plastic-pollution">End Plastic Pollution</a> <span class="role-badge">Lead</span></h2>
+      <div class="tufte-row">
+        <div class="tufte-body">
+          <span class="tool-name">Global Plastics AI Policy Tool</span>
+          <p>Developed AI-powered policy tools and predictive models to support UN plastic treaty negotiations. Research demonstrated that four coordinated policies could reduce mismanaged plastic waste by 91% and greenhouse gases by one-third by 2050.</p>
+          <p>Briefed global and national delegations throughout treaty negotiations. Results presented at the World Economic Forum and New York Climate Week. Peer-reviewed research published in <em>Science</em>.</p>
+        </div>
+        <div class="tufte-margin">
+          <div class="tufte-margin-label">Publication</div>
+          <div class="tufte-margin-pubs">
+            <p><a href="https://www.science.org/doi/10.1126/science.adp8174">Pathways to reduce global plastic waste</a> — Science, 2024</p>
           </div>
-          <div class="program-card-meta">
-            <span class="program-tag">UN Treaty</span>
-            <span class="program-tag">AI Policy Tools</span>
-            <span class="program-tag">Published in Science</span>
+          <div class="tufte-margin-label" style="margin-top:0.75rem">Press</div>
+          <div class="tufte-margin-pubs">
+            <p>World Economic Forum · New York Climate Week · UN Treaty Sessions</p>
+          </div>
+          <div class="tufte-margin-label" style="margin-top:0.75rem">Impact</div>
+          <div class="tufte-margin-pubs">
+            <p>91% reduction in mismanaged plastic waste possible by 2050</p>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="program-card">
-          <div class="program-card-body">
-            <h3><a href="https://dse.berkeley.edu/programs/co-design-environmental-stewardship">Co-Design Environmental Stewardship</a></h3>
-            <p>Partnered with Indigenous and local communities to co-design land management tools that integrate traditional ecological knowledge with modern data science. Built software with the Karuk Wildlife Team, expanded Soundhub for bioacoustic AI monitoring across 80 Sentinel Sites, and advanced frameworks for Indigenous data sovereignty.</p>
+  <!-- Program 4: Stewardship -->
+  <section id="environmental-stewardship" class="scroll-section">
+    <div class="container scroll-section-inner programs-inner">
+      <h2 class="program-title"><a href="https://dse.berkeley.edu/programs/co-design-environmental-stewardship">Co-Design Environmental Stewardship</a> <span class="role-badge">Lead</span></h2>
+      <div class="tufte-row">
+        <div class="tufte-body">
+          <span class="tool-name">Game Cam App · Soundhub</span>
+          <p>Partnered with Indigenous and local communities to co-design land management tools that integrate traditional ecological knowledge with modern data science. Built software applications with the Karuk Wildlife Team, including the Game Cam app and data automation tools currently in active use.</p>
+          <p>Expanded Soundhub, a web platform using AI to identify and classify animal sounds at scale across 80 California Sentinel Sites. Advancing frameworks for Indigenous data sovereignty and community-controlled environmental monitoring.</p>
+        </div>
+        <div class="tufte-margin">
+          <div class="tufte-margin-label">Publication</div>
+          <div class="tufte-margin-pubs">
+            <p><a href="https://onlinelibrary.wiley.com/doi/10.1002/ece3.72355">Indigenous knowledge and wildlife population estimates</a> — Ecology &amp; Evolution, 2025</p>
           </div>
-          <div class="program-card-meta">
-            <span class="program-tag">Indigenous Partnership</span>
-            <span class="program-tag">Data Sovereignty</span>
-            <span class="program-tag">Biodiversity</span>
+          <div class="tufte-margin-label" style="margin-top:0.75rem">Partners</div>
+          <div class="tufte-margin-pubs">
+            <p>Karuk Tribe · 80 CA Sentinel Sites</p>
+          </div>
+          <div class="tufte-margin-label" style="margin-top:0.75rem">Focus</div>
+          <div class="tufte-margin-pubs">
+            <p>Data sovereignty · Bioacoustics · Indigenous co-design</p>
           </div>
         </div>
-
       </div>
     </div>
   </section>

@@ -354,93 +354,63 @@ a:hover { text-decoration: underline; }
 }
 .footer-copy a { color: var(--muted); }
 
-/* ── Program Cards ─────────────────────────────────────────── */
-.scroll-section--programs {
-  background: var(--navy);
-}
-
-.scroll-section--programs h2 {
-  color: var(--lavender);
-}
-
+/* ── Program Sections ──────────────────────────────────────── */
 .programs-inner {
   max-width: var(--max-w);
 }
 
-.programs-subtitle {
-  font-size: 0.95rem;
-  color: #9088C8;
-  line-height: 1.7;
-  margin-bottom: 2rem;
-  max-width: 600px;
-}
-
-.programs-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.25rem;
-}
-
-.program-card {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(144,136,200,0.25);
-  border-radius: 8px;
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 1rem;
-  transition: border-color 0.2s, background 0.2s;
-}
-
-.program-card:hover {
-  background: rgba(255,255,255,0.08);
-  border-color: rgba(144,136,200,0.5);
-}
-
-.program-card h3 {
-  font-size: 0.95rem;
+.program-title {
+  font-size: 1.15rem !important;
   font-weight: 600;
-  margin-bottom: 0.6rem;
-  line-height: 1.35;
+  margin-bottom: 1.25rem !important;
+  color: var(--text) !important;
 }
 
-.program-card h3 a {
-  color: #D6D0F5;
+.program-title a {
+  color: var(--accent);
   text-decoration: none;
 }
+.program-title a:hover { text-decoration: underline; }
 
-.program-card h3 a:hover {
-  color: var(--green);
-  text-decoration: none;
-}
+.program-title--light a { color: #D6D0F5; }
+.program-title--light a:hover { color: var(--green); }
 
-.program-card p {
-  font-size: 0.85rem;
-  color: #9088C8;
-  line-height: 1.65;
-}
-
-.program-card-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-}
-
-.program-tag {
-  font-size: 0.68rem;
+.role-badge {
+  display: inline-block;
+  font-size: 0.62rem;
   font-weight: 600;
-  letter-spacing: 0.04em;
-  color: var(--green);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
   background: rgba(76,175,114,0.12);
+  color: var(--green);
   border: 1px solid rgba(76,175,114,0.3);
   border-radius: 3px;
-  padding: 0.15rem 0.5rem;
+  padding: 0.15rem 0.45rem;
+  margin-left: 0.5rem;
+  vertical-align: middle;
 }
 
-@media (max-width: 640px) {
-  .programs-grid { grid-template-columns: 1fr; }
+.tool-name {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--purple);
+  letter-spacing: 0.02em;
+  margin-bottom: 0.6rem;
 }
+
+.scroll-section--dark-program {
+  background: var(--navy);
+}
+
+.scroll-section--dark-program .program-title--light { color: var(--lavender); }
+.scroll-section--dark-program .tool-name { color: #9088C8; }
+.scroll-section--dark-program .scroll-section-body p,
+.scroll-section--dark-program .tufte-body p { color: #9088C8; }
+.scroll-section--dark-program .tufte-margin-label { color: #7B7EB8; }
+.scroll-section--dark-program .tufte-margin-pubs p { color: #7B7EB8 !important; }
+.scroll-section--dark-program .tufte-margin-pubs { border-left-color: rgba(144,136,200,0.3); }
+.scroll-section--dark-program em { color: #9088C8; }
 
 /* ── Tufte Margin Layout ───────────────────────────────────── */
 .tufte-row {
