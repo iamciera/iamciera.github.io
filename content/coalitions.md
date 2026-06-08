@@ -55,7 +55,7 @@ title: "Coalition Building"
 
 ---
 
-## Events & Convenings
+## Selected Events & Convenings
 
 | Year | Event | Role |
 |------|-------|------|
