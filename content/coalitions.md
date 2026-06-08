@@ -1,5 +1,5 @@
 ---
-title: "Coalitions"
+title: "Coalition Building"
 ---
 
 <div class="tufte-row full">
