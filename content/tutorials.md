@@ -63,129 +63,34 @@ title: "Community & Training"
 
 ## Courses & Workshops
 
-<div class="tufte-row full">
-<div class="tufte-body">
-<p>I have designed and taught in-person workshops across universities, conferences, and research institutes. Materials are openly available for reuse and remixing.</p>
-</div>
-</div>
+I have designed and taught in-person workshops across universities, conferences, and research institutes. Materials are openly available for reuse and remixing.
 
-<div class="tufte-row">
-<div class="tufte-body">
+- **[Using Biodiversity and Natural History Museum Databases](https://cabinetofcuriosity.github.io/coc_rladies_workshop/)** — Workshop introducing researchers to natural history and biodiversity databases, with hands-on exploratory analysis in R using the Neotoma database. Developed for R-Ladies and adapted for multiple audiences.
 
-**[Using Biodiversity and Natural History Museum Databases](https://cabinetofcuriosity.github.io/coc_rladies_workshop/)** — Workshop introducing researchers to natural history and biodiversity databases, with hands-on exploratory analysis in R using the Neotoma database. Developed for R-Ladies and adapted for multiple audiences.
+- **[Evo Devo Module](https://iamciera.github.io/evoDevoClass/)** — A three-hour lecture and wet lab on evolutionary developmental biology using fresh-cut flowers. Designed to be taught at the undergraduate level; delivered at three colleges and universities.
 
-</div>
-<div class="tufte-margin"></div>
-</div>
+- **[Reproducible Research Version Control (Data Carpentry)](https://github.com/datacarpentry/rr-version-control)** — Co-authored and taught this lesson on version control with git as part of the Reproducible Science Curriculum, used across multiple Data Carpentry workshops internationally.
 
-<div class="tufte-row">
-<div class="tufte-body">
+- **[Introduction to Git and GitHub](http://www.thehackerwithin.org/berkeley/posts/2017-02-21-git-github.html)** — Co-developed and co-taught with Matthias Bussonnier for the Hacker Within community at UC Berkeley, covering git fundamentals and collaborative workflows.
 
-**[Evo Devo Module](https://iamciera.github.io/evoDevoClass/)** — A three-hour lecture and wet lab on evolutionary developmental biology using fresh-cut flowers. Designed to be taught at the undergraduate level; delivered at three colleges and universities.
+- **[The Data Science of Shape Using Momocs](https://iamciera.github.io/rladies_copenhagen/html/Copenhagen_Raldies_part1.html)** — Workshop on 2D morphometric analysis using the Momocs R package, taught at R-Ladies Copenhagen.
 
-</div>
-<div class="tufte-margin">
-  <img src="/img/evo-devo-class.png" alt="Student flower dissection drawing from Evo Devo class">
-  <span class="tufte-margin-caption">Student work from the flower dissection lab</span>
-</div>
-</div>
+- **[SOM Clustering Visualization](https://iamciera.github.io/rladies_copenhagen/html/Copenhagen_Raldies_part2.html)** — Companion workshop exploring Self Organizing Maps for clustering using ggplot and the kohonen R package.
 
-<div class="tufte-row">
-<div class="tufte-body">
+- **[Reproducible Science Workshop](http://reproducible-science-curriculum.github.io/2015-06-01-reproducible-science-idigbio/)** — Full-day workshop on tools, resources, and practices for reproducible research. Co-written and co-taught on multiple occasions.
 
-**[Reproducible Research Version Control (Data Carpentry)](https://github.com/datacarpentry/rr-version-control)** — Co-authored and taught this lesson on version control with git as part of the Reproducible Science Curriculum, used across multiple Data Carpentry workshops internationally.
-
-</div>
-<div class="tufte-margin"></div>
-</div>
-
-<div class="tufte-row">
-<div class="tufte-body">
-
-**[Introduction to Git and GitHub](http://www.thehackerwithin.org/berkeley/posts/2017-02-21-git-github.html)** — Co-developed and co-taught with Matthias Bussonnier for the Hacker Within community at UC Berkeley, covering git fundamentals and collaborative workflows.
-
-</div>
-<div class="tufte-margin"></div>
-</div>
-
-<div class="tufte-row">
-<div class="tufte-body">
-
-**[The Data Science of Shape Using Momocs](https://iamciera.github.io/rladies_copenhagen/html/Copenhagen_Raldies_part1.html)** — Workshop on 2D morphometric analysis using the Momocs R package, taught at R-Ladies Copenhagen.
-
-</div>
-<div class="tufte-margin"></div>
-</div>
-
-<div class="tufte-row">
-<div class="tufte-body">
-
-**[SOM Clustering Visualization](https://iamciera.github.io/rladies_copenhagen/html/Copenhagen_Raldies_part2.html)** — Companion workshop exploring Self Organizing Maps for clustering using ggplot and the kohonen R package. Designed to help researchers fully understand and interpret clustering results.
-
-</div>
-<div class="tufte-margin"></div>
-</div>
-
-<div class="tufte-row">
-<div class="tufte-body">
-
-**[Reproducible Science Workshop](http://reproducible-science-curriculum.github.io/2015-06-01-reproducible-science-idigbio/)** — Full-day workshop on tools, resources, and practices for reproducible research. Co-written and co-taught on multiple occasions.
-
-</div>
-<div class="tufte-margin"></div>
-</div>
-
-<div class="tufte-row">
-<div class="tufte-body">
-
-**[MACS2 for ChIP-Seq Data](https://github.com/iamciera/chipSeqTutorial)** — Genomics lab module built and taught as part of BIS180L at UC Davis, covering peak calling and ChIP-Seq analysis workflows.
-
-</div>
-<div class="tufte-margin"></div>
-</div>
+- **[MACS2 for ChIP-Seq Data](https://github.com/iamciera/chipSeqTutorial)** — Genomics lab module built and taught as part of BIS180L at UC Davis, covering peak calling and ChIP-Seq analysis workflows.
 
 ---
 
 ## Self-Paced Tutorials
 
-<div class="tufte-row full">
-<div class="tufte-body">
-<p>Standalone resources designed for independent learners, used in both self-study and embedded in university courses.</p>
-</div>
-</div>
+Standalone resources designed for independent learners, used in both self-study and embedded in university courses.
 
-<div class="tufte-row">
-<div class="tufte-body">
+- **[Become a Superhero, Handle Your Data with R](http://cierareports.org/blog/2013/10/18/rCourse2013/index.html)** — A beginner R course written for learners with no programming background. Originally developed for high school students and later adopted in undergraduate and graduate courses across multiple institutions.
 
-**[Become a Superhero, Handle Your Data with R](http://cierareports.org/blog/2013/10/18/rCourse2013/index.html)** — A beginner R course written for learners with no programming background. Originally developed for high school students and later adopted in undergraduate and graduate courses across multiple institutions. Covers foundational concepts often skipped in standard R introductions.
+- **[Gene Expression Analysis with Self Organizing Maps](https://iamciera.github.io/SOMexample/)** — A practical tutorial on SOM clustering for gene expression data, emphasizing how to constrain and interpret clustering by experimental variables such as genotype.
 
-</div>
-<div class="tufte-margin"></div>
-</div>
+- **[Mixed Effect Linear Modeling in R](https://github.com/iamciera/lme4tutorial)** — An accessible introduction to mixed-effect linear modeling using the lme4 R package, co-developed with Dan Chitwood for researchers working with nested and repeated-measures data.
 
-<div class="tufte-row">
-<div class="tufte-body">
-
-**[Gene Expression Analysis with Self Organizing Maps](https://iamciera.github.io/SOMexample/)** — A practical tutorial on SOM clustering for gene expression data, emphasizing how to constrain and interpret clustering by experimental variables such as genotype.
-
-</div>
-<div class="tufte-margin"></div>
-</div>
-
-<div class="tufte-row">
-<div class="tufte-body">
-
-**[Mixed Effect Linear Modeling in R](https://github.com/iamciera/lme4tutorial)** — An accessible introduction to mixed-effect linear modeling using the lme4 R package, co-developed with Dan Chitwood for researchers working with nested and repeated-measures data.
-
-</div>
-<div class="tufte-margin"></div>
-</div>
-
-<div class="tufte-row">
-<div class="tufte-body">
-
-**[Eisen Lab Coding Club](https://meisenlab.github.io/coding_site/)** — A documented collection of computational techniques for genomic and 3D image analysis, produced through a recurring knowledge-sharing series I organized and led within Michael Eisen's lab at UC Berkeley.
-
-</div>
-<div class="tufte-margin"></div>
-</div>
+- **[Eisen Lab Coding Club](https://meisenlab.github.io/coding_site/)** — A documented collection of computational techniques for genomic and 3D image analysis, produced through a recurring knowledge-sharing series I organized and led within Michael Eisen's lab at UC Berkeley.
