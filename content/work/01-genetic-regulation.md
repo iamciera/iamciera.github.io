@@ -1,7 +1,7 @@
 ---
 title: "Genetic Regulation of Plant Morphology"
 years: "2010 – 2021"
-weight: 1
+weight: 3
 ---
 
 <div class="tufte-row">

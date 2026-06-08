@@ -1,7 +1,7 @@
 ---
 title: "Biological & Environmental Data Collections"
 years: "2018 – present"
-weight: 3
+weight: 1
 ---
 
 <div class="tufte-row">

@@ -4,10 +4,10 @@
 
   <!-- Fixed side nav -->
   <nav class="scroll-nav" aria-label="Section navigation">
-    <a class="scroll-nav-item" href="#open-geospatial-data">Geospatial Data</a>
-    <a class="scroll-nav-item" href="#reduce-greenhouse-gases">Greenhouse Gases</a>
     <a class="scroll-nav-item" href="#end-plastic-pollution">Plastic Pollution</a>
+    <a class="scroll-nav-item" href="#reduce-greenhouse-gases">Greenhouse Gases</a>
     <a class="scroll-nav-item" href="#environmental-stewardship">Stewardship</a>
+    <a class="scroll-nav-item" href="#open-geospatial-data">Geospatial Data</a>
     {{ range $sections }}
     <a class="scroll-nav-item" href="#{{ .Title | anchorize }}">{{ .Title }}</a>
     {{ end }}
@@ -21,66 +21,10 @@
     </div>
   </div>
 
-  <!-- Program 1: Geospatial -->
-  <section id="open-geospatial-data" class="scroll-section">
+  <!-- Program 1: End Plastic Pollution (2023-present) -->
+  <section id="end-plastic-pollution" class="scroll-section">
     <div class="container scroll-section-inner programs-inner">
-      <h2 class="program-title"><a href="https://dse.berkeley.edu/index.php/programs/open-democratize-methods-geospatial-data-analysis">Open &amp; Democratize Geospatial Data</a> <span class="role-badge">Lead</span> <span class="program-years">2024 – 2026</span></h2>
-      <div class="tufte-row">
-        <div class="tufte-body">
-          <span class="tool-name">GeoJupyter · JupyterGIS</span>
-          <p>Co-launched GeoJupyter to make geospatial data analysis accessible through open-source tools integrated with Jupyter's collaborative infrastructure. I led user research (40+ hours of interviews), organized in-person and virtual hackathons, and ran workshops with scientists and programmers to drive adoption and shape the platform's design.</p>
-          <p>A Nature publication used JupyterGIS for global carbon storage analysis, validating the tool's research readiness. I also built a Team Compass resource guide and convened working groups to sustain the contributor community.</p>
-        </div>
-        <div class="tufte-margin">
-          <div class="tufte-margin-label">Press</div>
-          <div class="tufte-margin-pubs">
-            <p><a href="https://dse.berkeley.edu/index.php/programs/open-democratize-methods-geospatial-data-analysis">GeoJupyter at AGU 2025</a> — AGU Annual Meeting</p>
-          </div>
-          <div class="tufte-margin-label" style="margin-top:0.75rem">Tools</div>
-          <div class="tufte-margin-pubs">
-            <p><a href="https://github.com/geojupyter/jupytergis">JupyterGIS</a> — open source geospatial extension for Jupyter</p>
-          </div>
-          <div class="tufte-margin-label" style="margin-top:0.75rem">Partners</div>
-          <div class="tufte-margin-pubs">
-            <p>Jupyter Community · UC Berkeley DSE</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Program 2: Greenhouse Gases -->
-  <section id="reduce-greenhouse-gases" class="scroll-section scroll-section--alt">
-    <div class="container scroll-section-inner programs-inner">
-      <h2 class="program-title"><a href="https://dse.berkeley.edu/programs/reduce-worst-greenhouse-gases">Reduce the Worst Greenhouse Gases</a> <span class="role-badge">Lead</span> <span class="program-years">2023 – present</span></h2>
-      <div class="tufte-row">
-        <div class="tufte-body">
-          <span class="tool-name">Kigali Sim</span>
-          <p>Built Kigali Sim in partnership with the United Nations — a free, open-source modeling tool that helps policymakers optimize investments in reducing hydrofluorocarbon (HFC) emissions under the Montreal Protocol, without requiring coding expertise.</p>
-          <p>Beta tested with over a dozen countries, NGOs, and agencies. Officially launched December 2025. Conservative estimates suggest the tool could help middle-income nations reduce overall greenhouse gas emissions by approximately 5% by 2040.</p>
-        </div>
-        <div class="tufte-margin">
-          <div class="tufte-margin-label">Publication</div>
-          <div class="tufte-margin-pubs">
-            <p><a href="https://arxiv.org/abs/2312.11359">Using game design to inform a plastics treaty</a> — arXiv, 2023</p>
-          </div>
-          <div class="tufte-margin-label" style="margin-top:0.75rem">Partners</div>
-          <div class="tufte-margin-pubs">
-            <p>United Nations · 12+ countries &amp; NGOs</p>
-          </div>
-          <div class="tufte-margin-label" style="margin-top:0.75rem">Impact</div>
-          <div class="tufte-margin-pubs">
-            <p>~5% GHG reduction potential in middle-income nations by 2040</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Program 3: Plastic Pollution (dark) -->
-  <section id="end-plastic-pollution" class="scroll-section scroll-section--dark-program">
-    <div class="container scroll-section-inner programs-inner">
-      <h2 class="program-title program-title--light"><a href="https://dse.berkeley.edu/programs/end-plastic-pollution">End Plastic Pollution</a> <span class="role-badge">Lead</span> <span class="program-years program-years--light">2023 – present</span></h2>
+      <h2 class="program-title"><a href="https://dse.berkeley.edu/programs/end-plastic-pollution">End Plastic Pollution</a> <span class="role-badge">Lead</span><span class="program-years">2023 – present</span></h2>
       <div class="tufte-row">
         <div class="tufte-body">
           <span class="tool-name">Global Plastics AI Policy Tool</span>
@@ -105,10 +49,38 @@
     </div>
   </section>
 
-  <!-- Program 4: Stewardship -->
-  <section id="environmental-stewardship" class="scroll-section">
+  <!-- Program 2: Reduce Greenhouse Gases (2023-present) -->
+  <section id="reduce-greenhouse-gases" class="scroll-section scroll-section--alt">
     <div class="container scroll-section-inner programs-inner">
-      <h2 class="program-title"><a href="https://dse.berkeley.edu/programs/co-design-environmental-stewardship">Co-Design Environmental Stewardship</a> <span class="role-badge">Lead</span> <span class="program-years">2023 – present</span></h2>
+      <h2 class="program-title"><a href="https://dse.berkeley.edu/programs/reduce-worst-greenhouse-gases">Reduce the Worst Greenhouse Gases</a> <span class="role-badge">Lead</span><span class="program-years">2023 – present</span></h2>
+      <div class="tufte-row">
+        <div class="tufte-body">
+          <span class="tool-name">Kigali Sim</span>
+          <p>Built Kigali Sim in partnership with the United Nations — a free, open-source modeling tool that helps policymakers optimize investments in reducing hydrofluorocarbon (HFC) emissions under the Montreal Protocol, without requiring coding expertise.</p>
+          <p>Beta tested with over a dozen countries, NGOs, and agencies. Officially launched December 2025. Conservative estimates suggest the tool could help middle-income nations reduce overall greenhouse gas emissions by approximately 5% by 2040.</p>
+        </div>
+        <div class="tufte-margin">
+          <div class="tufte-margin-label">Publication</div>
+          <div class="tufte-margin-pubs">
+            <p><a href="https://arxiv.org/abs/2312.11359">Using game design to inform a plastics treaty</a> — arXiv, 2023</p>
+          </div>
+          <div class="tufte-margin-label" style="margin-top:0.75rem">Partners</div>
+          <div class="tufte-margin-pubs">
+            <p>United Nations · 12+ countries &amp; NGOs</p>
+          </div>
+          <div class="tufte-margin-label" style="margin-top:0.75rem">Impact</div>
+          <div class="tufte-margin-pubs">
+            <p>~5% GHG reduction potential in middle-income nations by 2040</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Program 3: Stewardship (2023-present, dark) -->
+  <section id="environmental-stewardship" class="scroll-section scroll-section--dark-program">
+    <div class="container scroll-section-inner programs-inner">
+      <h2 class="program-title program-title--light"><a href="https://dse.berkeley.edu/programs/co-design-environmental-stewardship">Co-Design Environmental Stewardship</a> <span class="role-badge">Lead</span><span class="program-years program-years--light">2023 – present</span></h2>
       <div class="tufte-row">
         <div class="tufte-body">
           <span class="tool-name">Game Cam App · Soundhub</span>
@@ -127,6 +99,34 @@
           <div class="tufte-margin-label" style="margin-top:0.75rem">Focus</div>
           <div class="tufte-margin-pubs">
             <p>Data sovereignty · Bioacoustics · Indigenous co-design</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Program 4: Geospatial (2024-2026, completed) -->
+  <section id="open-geospatial-data" class="scroll-section">
+    <div class="container scroll-section-inner programs-inner">
+      <h2 class="program-title"><a href="https://dse.berkeley.edu/index.php/programs/open-democratize-methods-geospatial-data-analysis">Open &amp; Democratize Geospatial Data</a> <span class="role-badge">Lead</span><span class="program-years">2024 – 2026</span></h2>
+      <div class="tufte-row">
+        <div class="tufte-body">
+          <span class="tool-name">GeoJupyter · JupyterGIS</span>
+          <p>Co-launched GeoJupyter to make geospatial data analysis accessible through open-source tools integrated with Jupyter's collaborative infrastructure. I led user research (40+ hours of interviews), organized in-person and virtual hackathons, and ran workshops with scientists and programmers to drive adoption and shape the platform's design.</p>
+          <p>A Nature publication used JupyterGIS for global carbon storage analysis, validating the tool's research readiness. I also built a Team Compass resource guide and convened working groups to sustain the contributor community.</p>
+        </div>
+        <div class="tufte-margin">
+          <div class="tufte-margin-label">Press</div>
+          <div class="tufte-margin-pubs">
+            <p><a href="https://dse.berkeley.edu/index.php/programs/open-democratize-methods-geospatial-data-analysis">GeoJupyter at AGU 2025</a> — AGU Annual Meeting</p>
+          </div>
+          <div class="tufte-margin-label" style="margin-top:0.75rem">Tools</div>
+          <div class="tufte-margin-pubs">
+            <p><a href="https://github.com/geojupyter/jupytergis">JupyterGIS</a> — open source geospatial extension for Jupyter</p>
+          </div>
+          <div class="tufte-margin-label" style="margin-top:0.75rem">Partners</div>
+          <div class="tufte-margin-pubs">
+            <p>Jupyter Community · UC Berkeley DSE</p>
           </div>
         </div>
       </div>

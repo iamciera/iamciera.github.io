@@ -1,7 +1,7 @@
 ---
 title: "Genome Evolution"
 years: "2013 – 2020"
-weight: 2
+weight: 4
 ---
 
 <div class="tufte-row">
