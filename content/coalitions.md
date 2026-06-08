@@ -40,21 +40,6 @@ title: "Coalition Building"
 </div>
 </div>
 
----
-
-## Events & Convenings
-
-| Year | Event | Role |
-|------|-------|------|
-| 2025 | [GeoJupyter Hackathon](https://events.geojupyter.org/hackathons/202508-berkeley/) | Co-Lead Organizer |
-| 2024 | [U.S. NSF SEEKCommons Network Convening](https://seekcommons.org/in-person-convenings.html) | Organizer |
-| 2023 | [ImageXD 2023](http://imageXD.org/) | Lead Organizer |
-| 2020–2024 | Data Science by Design Events & Workshops (Online) | Lead Organizer |
-| 2018–2022 | [TextXD Annual Conference](https://www.textxd.org/) | Organizing Committee |
-| 2017–2018 | R-Ladies San Francisco | Co-Organizer |
-
----
-
 <div class="tufte-row">
 <div class="tufte-body">
 
@@ -67,3 +52,16 @@ title: "Coalition Building"
   </div>
 </div>
 </div>
+
+---
+
+## Events & Convenings
+
+| Year | Event | Role |
+|------|-------|------|
+| 2025 | [GeoJupyter Hackathon](https://events.geojupyter.org/hackathons/202508-berkeley/) | Co-Lead Organizer |
+| 2024 | [U.S. NSF SEEKCommons Network Convening](https://seekcommons.org/in-person-convenings.html) | Organizer |
+| 2023 | [ImageXD 2023](http://imageXD.org/) | Lead Organizer |
+| 2020–2024 | Data Science by Design Events & Workshops (Online) | Lead Organizer |
+| 2018–2022 | [TextXD Annual Conference](https://www.textxd.org/) | Organizing Committee |
+| 2017–2018 | R-Ladies San Francisco | Co-Organizer |
