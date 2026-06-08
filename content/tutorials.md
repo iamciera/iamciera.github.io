@@ -1,5 +1,5 @@
 ---
-title: "Training"
+title: "Technical Training"
 ---
 
 I have an extensive record of developing and delivering technical education, from one-on-one mentorship to large workshop curricula, across topics including reproducible research, statistical modeling, machine learning, biodiversity data, and R & Python programming. I believe rigorous methods should be accessible to anyone willing to learn.
