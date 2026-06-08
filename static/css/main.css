@@ -415,7 +415,7 @@ a:hover { text-decoration: underline; }
 /* ── Tufte Margin Layout ───────────────────────────────────── */
 .tufte-row {
   display: grid;
-  grid-template-columns: 1fr 160px;
+  grid-template-columns: 1fr 150px;
   gap: 2rem;
   margin-bottom: 1.5rem;
   align-items: start;
@@ -552,7 +552,7 @@ a:hover { text-decoration: underline; }
 }
 
 .scroll-section-inner {
-  max-width: 620px;
+  max-width: 720px;
 }
 
 .scroll-section h2 {
