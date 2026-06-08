@@ -84,7 +84,10 @@ title: "Community & Training"
 **[Evo Devo Module](https://iamciera.github.io/evoDevoClass/)** — A three-hour lecture and wet lab on evolutionary developmental biology using fresh-cut flowers. Designed to be taught at the undergraduate level; delivered at three colleges and universities.
 
 </div>
-<div class="tufte-margin"></div>
+<div class="tufte-margin">
+  <img src="/img/evo-devo-class.png" alt="Student flower dissection drawing from Evo Devo class">
+  <span class="tufte-margin-caption">Student work from the flower dissection lab</span>
+</div>
 </div>
 
 <div class="tufte-row">
