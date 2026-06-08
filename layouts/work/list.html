@@ -4,6 +4,7 @@
 
   <!-- Fixed side nav -->
   <nav class="scroll-nav" aria-label="Section navigation">
+    <a class="scroll-nav-item" href="#program-leadership">Program Leadership</a>
     {{ range $sections }}
     <a class="scroll-nav-item" href="#{{ .Title | anchorize }}">{{ .Title }}</a>
     {{ end }}
@@ -17,7 +18,66 @@
     </div>
   </div>
 
-  <!-- Sections -->
+  <!-- Program Leadership -->
+  <section id="program-leadership" class="scroll-section scroll-section--programs">
+    <div class="container scroll-section-inner programs-inner">
+      <h2>Program Leadership</h2>
+      <p class="programs-subtitle">As Senior Program Manager at the Eric and Wendy Schmidt Center for Data Science and Environment, I developed and led four programmatic areas — each combining original research, tool development, policy engagement, and cross-sector partnership.</p>
+      <div class="programs-grid">
+
+        <div class="program-card">
+          <div class="program-card-body">
+            <h3><a href="https://dse.berkeley.edu/index.php/programs/open-democratize-methods-geospatial-data-analysis">Open &amp; Democratize Geospatial Data</a></h3>
+            <p>Co-launched GeoJupyter to make geospatial data analysis accessible through open-source tools and Jupyter's collaborative infrastructure. Led user research (40+ hours of interviews), organized hackathons and workshops, and supported researchers publishing with the platform.</p>
+          </div>
+          <div class="program-card-meta">
+            <span class="program-tag">JupyterGIS</span>
+            <span class="program-tag">Open Source</span>
+            <span class="program-tag">Geospatial</span>
+          </div>
+        </div>
+
+        <div class="program-card">
+          <div class="program-card-body">
+            <h3><a href="https://dse.berkeley.edu/programs/reduce-worst-greenhouse-gases">Reduce the Worst Greenhouse Gases</a></h3>
+            <p>Built Kigali Sim in partnership with the United Nations — a free, open-source modeling tool helping policymakers optimize HFC emissions reductions under the Montreal Protocol. Beta tested with 12+ countries and NGOs; officially launched December 2025. Estimated potential: 5% GHG reduction in middle-income nations by 2040.</p>
+          </div>
+          <div class="program-card-meta">
+            <span class="program-tag">UN Partnership</span>
+            <span class="program-tag">Climate Policy</span>
+            <span class="program-tag">Open Source</span>
+          </div>
+        </div>
+
+        <div class="program-card">
+          <div class="program-card-body">
+            <h3><a href="https://dse.berkeley.edu/programs/end-plastic-pollution">End Plastic Pollution</a></h3>
+            <p>Developed AI-powered policy tools and predictive models to support UN plastic treaty negotiations. Research published in <em>Science</em> demonstrated that four coordinated policies could reduce mismanaged plastic waste by 91% by 2050. Briefed delegations globally and presented at the World Economic Forum and New York Climate Week.</p>
+          </div>
+          <div class="program-card-meta">
+            <span class="program-tag">UN Treaty</span>
+            <span class="program-tag">AI Policy Tools</span>
+            <span class="program-tag">Published in Science</span>
+          </div>
+        </div>
+
+        <div class="program-card">
+          <div class="program-card-body">
+            <h3><a href="https://dse.berkeley.edu/programs/co-design-environmental-stewardship">Co-Design Environmental Stewardship</a></h3>
+            <p>Partnered with Indigenous and local communities to co-design land management tools that integrate traditional ecological knowledge with modern data science. Built software with the Karuk Wildlife Team, expanded Soundhub for bioacoustic AI monitoring across 80 Sentinel Sites, and advanced frameworks for Indigenous data sovereignty.</p>
+          </div>
+          <div class="program-card-meta">
+            <span class="program-tag">Indigenous Partnership</span>
+            <span class="program-tag">Data Sovereignty</span>
+            <span class="program-tag">Biodiversity</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Sections -->
   {{ range $i, $s := $sections }}
   <section id="{{ .Title | anchorize }}" class="scroll-section{{ if modBool $i 2 }} scroll-section--alt{{ end }}">
     <div class="container scroll-section-inner">
