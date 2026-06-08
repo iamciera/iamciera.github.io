@@ -10,11 +10,11 @@ title: "Community & Training"
 
 ---
 
-## Communities Built
+## Coalition Building
 
 <div class="tufte-row full">
 <div class="tufte-body">
-<p>The most durable training happens through community. I have co-founded and led organizations that create sustained spaces for knowledge sharing, peer learning, and collaborative publishing.</p>
+<p>Some of the most important work in data science happens outside the boundaries of any single institution — in the spaces between disciplines, between sectors, and between the kinds of people who rarely end up in the same room. I have spent a significant part of my career deliberately building in those spaces: convening researchers, designers, artists, engineers, and policy thinkers across universities, nonprofits, museums, and industry to work on shared problems that no one organization could address alone.</p>
 </div>
 </div>
 
