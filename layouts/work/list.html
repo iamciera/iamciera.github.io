@@ -24,7 +24,7 @@
   <!-- Program 1: Geospatial -->
   <section id="open-geospatial-data" class="scroll-section">
     <div class="container scroll-section-inner programs-inner">
-      <h2 class="program-title"><a href="https://dse.berkeley.edu/index.php/programs/open-democratize-methods-geospatial-data-analysis">Open &amp; Democratize Geospatial Data</a> <span class="role-badge">Lead</span></h2>
+      <h2 class="program-title"><a href="https://dse.berkeley.edu/index.php/programs/open-democratize-methods-geospatial-data-analysis">Open &amp; Democratize Geospatial Data</a> <span class="role-badge">Lead</span> <span class="program-years">2024 – 2026</span></h2>
       <div class="tufte-row">
         <div class="tufte-body">
           <span class="tool-name">GeoJupyter · JupyterGIS</span>
@@ -52,7 +52,7 @@
   <!-- Program 2: Greenhouse Gases -->
   <section id="reduce-greenhouse-gases" class="scroll-section scroll-section--alt">
     <div class="container scroll-section-inner programs-inner">
-      <h2 class="program-title"><a href="https://dse.berkeley.edu/programs/reduce-worst-greenhouse-gases">Reduce the Worst Greenhouse Gases</a> <span class="role-badge">Lead</span></h2>
+      <h2 class="program-title"><a href="https://dse.berkeley.edu/programs/reduce-worst-greenhouse-gases">Reduce the Worst Greenhouse Gases</a> <span class="role-badge">Lead</span> <span class="program-years">2023 – present</span></h2>
       <div class="tufte-row">
         <div class="tufte-body">
           <span class="tool-name">Kigali Sim</span>
@@ -80,7 +80,7 @@
   <!-- Program 3: Plastic Pollution (dark) -->
   <section id="end-plastic-pollution" class="scroll-section scroll-section--dark-program">
     <div class="container scroll-section-inner programs-inner">
-      <h2 class="program-title program-title--light"><a href="https://dse.berkeley.edu/programs/end-plastic-pollution">End Plastic Pollution</a> <span class="role-badge">Lead</span></h2>
+      <h2 class="program-title program-title--light"><a href="https://dse.berkeley.edu/programs/end-plastic-pollution">End Plastic Pollution</a> <span class="role-badge">Lead</span> <span class="program-years program-years--light">2023 – present</span></h2>
       <div class="tufte-row">
         <div class="tufte-body">
           <span class="tool-name">Global Plastics AI Policy Tool</span>
@@ -108,7 +108,7 @@
   <!-- Program 4: Stewardship -->
   <section id="environmental-stewardship" class="scroll-section">
     <div class="container scroll-section-inner programs-inner">
-      <h2 class="program-title"><a href="https://dse.berkeley.edu/programs/co-design-environmental-stewardship">Co-Design Environmental Stewardship</a> <span class="role-badge">Lead</span></h2>
+      <h2 class="program-title"><a href="https://dse.berkeley.edu/programs/co-design-environmental-stewardship">Co-Design Environmental Stewardship</a> <span class="role-badge">Lead</span> <span class="program-years">2023 – present</span></h2>
       <div class="tufte-row">
         <div class="tufte-body">
           <span class="tool-name">Game Cam App · Soundhub</span>
@@ -137,7 +137,7 @@
   {{ range $i, $s := $sections }}
   <section id="{{ .Title | anchorize }}" class="scroll-section{{ if modBool $i 2 }} scroll-section--alt{{ end }}">
     <div class="container scroll-section-inner">
-      <h2>{{ .Title }}</h2>
+      <h2>{{ .Title }}{{ with .Params.years }} <span class="program-years">{{ . }}</span>{{ end }}</h2>
       <div class="scroll-section-body">{{ .Content }}</div>
     </div>
   </section>
