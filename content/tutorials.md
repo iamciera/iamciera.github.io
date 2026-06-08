@@ -53,9 +53,9 @@ title: "Community & Training"
 
 </div>
 <div class="tufte-margin">
-  <img src="/img/cabinet-of-curiosity.png" alt="Cabinet of Curiosity website">
-  <span class="tufte-margin-caption">Cabinet of Curiosity</span>
-  <a href="https://cabinetofcuriosity.github.io/cabinetofcuriosity_site/" class="tufte-margin-link">Visit →</a>
+  <div class="tufte-margin-pubs">
+    <a href="https://cabinetofcuriosity.github.io/cabinetofcuriosity_site/" class="tufte-margin-link">Visit the project →</a>
+  </div>
 </div>
 </div>
 
