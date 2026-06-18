@@ -114,8 +114,11 @@ Challenges of doing data-intensive research in teams, labs, and groups. Gieger S
 
 ## Grants, Fellowships & Awards
 
+<p style="font-size:0.85em; font-style:italic; color:#6b7280; margin-bottom:0.75rem;">Awarded over $1.5 million in research funding across grants and fellowships.</p>
+
 | Year | Award |
 |------|-------|
+| 2026 | Chancellor's Excellence in Management Award |
 | 2023 | Alfred P. Sloan Foundation Grant |
 | 2021 | Code for Science and Society Grant |
 | 2020 | Academic Data Science Alliance CDN Seed Grant |
@@ -244,15 +247,16 @@ Poster: *Effects of Gibberellic Acid, Light, and Cold Stratification on* Echinac
 
 ---
 
-## Service & Professional Development
+## Facilitation, Organizing & Service
 
+**2025** [GeoJupyter Hackathon](https://events.geojupyter.org/hackathons/202508-berkeley/) — Lead Organizer\
+**2024** [SEEKCommons Network Convening](https://seekcommons.org/in-person-convenings.html) — Organizer\
 **2023** [ImageXD 2023](http://imageXD.org/) — Lead Organizer\
 **2021–present** [Data Science by Design (DSxD)](http://datasciencebydesign.org/) — Co-founder, Leadership Team\
 **2018–2022** [TextXD Annual Conference](https://www.textxd.org/) — Organizing Committee\
 **2019–2021** ADSA CDN Executive Committee\
 **2017–2021** [BIDS Best Practices Working Group](https://osf.io/ctfqn/) — Lead\
-**2017–2018** Co-Organizer, R-Ladies San Francisco\
-**2016** Reviewer, PLOS One · Annals of Botany · New Phytologist · Molecular Biology and Evolution
+**2017–2018** Co-Organizer, R-Ladies San Francisco
 
 ---
 
