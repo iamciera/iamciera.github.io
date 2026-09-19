@@ -2,13 +2,6 @@
 {{ $sections := .RegularPages.ByWeight }}
 <div class="scroll-page">
 
-  <!-- Timeline nav -->
-  <nav class="timeline-nav">
-    <div class="tl-chart" id="tl-chart">
-      <div class="tl-axis"></div>
-    </div>
-  </nav>
-
   <!-- Intro -->
   <div class="scroll-intro">
     <div class="container">
@@ -17,22 +10,38 @@
     </div>
   </div>
 
-  <!-- Program 1: End Plastic Pollution -->
+  <!-- Timeline nav (horizontal) -->
+  <nav class="timeline-nav">
+    <div class="tl-chart" id="tl-chart">
+      <div class="tl-axis"></div>
+    </div>
+  </nav>
+
+  <!-- Program 1: Plastic Pollution Policy -->
   <section id="end-plastic-pollution" class="scroll-section">
     <div class="container scroll-section-inner programs-inner">
-      <h2 class="program-title" style="color:#4CAF72"><a href="https://dse.berkeley.edu/programs/end-plastic-pollution" style="color:inherit">End Plastic Pollution</a><span class="program-years">2023 – present</span></h2>
+      <h2 class="program-title" style="color:#4CAF72"><a href="https://dse.berkeley.edu/programs/end-plastic-pollution" style="color:inherit">Plastic Pollution Policy</a><span class="program-years">2023 – present</span></h2>
       <div class="tufte-row">
         <div class="tufte-body">
           <span class="tool-name" style="color:#4CAF72">Global Plastics AI Policy Tool</span>
-          <p>Developed AI-powered policy tools and predictive models to support UN plastic treaty negotiations. Research demonstrated that four coordinated policies could reduce mismanaged plastic waste by 91% and greenhouse gases by one-third by 2050.</p>
-          <p>Briefed global and national delegations throughout treaty negotiations. Results presented at the World Economic Forum and New York Climate Week. Peer-reviewed research published in <em>Science</em>.</p>
+          <p>Developed open-source policy tools and predictive models to support UN plastic treaty negotiations. Our research demonstrated that four coordinated policies could reduce mismanaged plastic waste by 91% and greenhouse gases by one-third by 2050.</p>
+          <p>Briefed global and national delegations throughout the negotiations, with results presented at the World Economic Forum and New York Climate Week and published in <em>Science</em>. We are now extending this work to California's SB 54, a landmark law that shifts responsibility for reducing single-use packaging waste onto producers.</p>
+          <div class="section-photos">
+            <figure>
+              <img src="/img/research/plastics-viz.png" alt="Data visualization of mismanaged plastic waste concentrated over an urban area">
+            </figure>
+            <figure>
+              <img src="/img/research/plastics-un-panel.png" alt="Panel at the UN Environment Programme plastic treaty negotiations">
+            </figure>
+          </div>
         </div>
         <div class="tufte-margin">
-          <div class="tufte-margin-label">Publication</div>
+          <div class="tufte-margin-label">Publications</div>
           <div class="tufte-margin-pubs">
             <p><a href="https://www.science.org/doi/10.1126/science.adp8174">Pathways to reduce global plastic waste</a> — Science, 2024</p>
+            <p><a href="https://arxiv.org/abs/2312.11359">Using game design to inform a plastics treaty</a> — arXiv, 2023</p>
           </div>
-          <div class="tufte-margin-label" style="margin-top:0.75rem">Software Tools</div>
+          <div class="tufte-margin-label" style="margin-top:0.75rem">Open-Source Tools</div>
           <div class="tufte-margin-pubs">
             <p><a href="https://global-plastics-tool.org/">Global Plastics AI Policy Tool</a></p>
           </div>
@@ -51,6 +60,41 @@
     </div>
   </section>
 
+  <!-- Program 3: Stewardship -->
+  <section id="environmental-stewardship" class="scroll-section">
+    <div class="container scroll-section-inner programs-inner">
+      <h2 class="program-title" style="color:#88c8a8"><a href="https://dse.berkeley.edu/programs/co-design-environmental-stewardship" style="color:inherit">Biodiversity Monitoring</a><span class="program-years">2021 – present</span></h2>
+      <div class="tufte-row">
+        <div class="tufte-body">
+          <span class="tool-name" style="color:#88c8a8">eDNA · Camera Traps · Bioacoustics</span>
+          <p>The loss of biodiversity is one of the defining concerns of our time. I work to understand its patterns and how we can use novel technologies to monitor them and make decisions from what we find. Starting with eDNA and expanding to camera trap and bioacoustic data analysis, I have approached this work from an academic research perspective and in partnership with Indigenous and local communities, co-designing land management tools that integrate traditional ecological knowledge with modern data science.</p>
+          <p>My team focuses on building workflows that respect both the sensitivities surrounding biodiversity and the data privacy of communities, while holding to open science principles. With the California Wildlife Soundhub project, for example, we design governance strategies for the software and build the open infrastructure (see <a href="https://schmidtdse.github.io/jupyter_bioacoustic/">Jupyter Bioacoustic</a>) that brings more flexibility and accessibility to bioacoustic analysis.</p>
+          <div class="section-photos section-photos--single">
+            <figure>
+              <img src="/img/research/karuk-wildlife-sightings.png" alt="Radial chart of Karuk wildlife sightings by month and season, 2016–2024">
+              <figcaption>Karuk Community Poster design by <a href="https://www.amandersonyou.com/" target="_blank" rel="noopener">Amanda Anderson-You</a> in collaboration with the Karuk Wildlife Team</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="tufte-margin">
+          <div class="tufte-margin-label">Publication</div>
+          <div class="tufte-margin-pubs">
+            <p><a href="https://onlinelibrary.wiley.com/doi/10.1002/ece3.72355">Indigenous knowledge and wildlife population estimates</a> — Ecology &amp; Evolution, 2025</p>
+          </div>
+          <div class="tufte-margin-label" style="margin-top:0.75rem">Software</div>
+          <div class="tufte-margin-pubs">
+            <p><a href="https://wildlifesoundhub.org/">California Wildlife Soundhub</a></p>
+            <p><a href="https://schmidtdse.github.io/jupyter_bioacoustic/">Jupyter Bioacoustic</a></p>
+          </div>
+          <div class="tufte-margin-label" style="margin-top:0.75rem">Partners</div>
+          <div class="tufte-margin-pubs">
+            <p>Karuk Tribe · CDFW · Geospatial Informatics Facility</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Program 2: Reduce Greenhouse Gases -->
   <section id="reduce-greenhouse-gases" class="scroll-section">
     <div class="container scroll-section-inner programs-inner">
@@ -58,13 +102,13 @@
       <div class="tufte-row">
         <div class="tufte-body">
           <span class="tool-name" style="color:#9088C8">Kigali Sim</span>
-          <p>Built Kigali Sim in partnership with the United Nations — a free, open-source modeling tool that helps policymakers optimize investments in reducing hydrofluorocarbon (HFC) emissions under the Montreal Protocol, without requiring coding expertise.</p>
+          <p>Built Kigali Sim in partnership with the United Nations, a free, open-source modeling tool that helps policymakers optimize investments in reducing hydrofluorocarbon (HFC) emissions under the Montreal Protocol, without requiring coding expertise.</p>
           <p>Beta tested with over a dozen countries, NGOs, and agencies. Officially launched December 2025. Conservative estimates suggest the tool could help middle-income nations reduce overall greenhouse gas emissions by approximately 5% by 2040.</p>
         </div>
         <div class="tufte-margin">
           <div class="tufte-margin-label">Publication</div>
           <div class="tufte-margin-pubs">
-            <p><a href="https://arxiv.org/abs/2312.11359">Using game design to inform a plastics treaty</a> — arXiv, 2023</p>
+            <p><a href="https://joss.theoj.org/papers/10.21105/joss.10104">Kigali Sim: an open-source Montreal Protocol toolkit</a> — Journal of Open Source Software, 2026</p>
           </div>
           <div class="tufte-margin-label" style="margin-top:0.75rem">Partners</div>
           <div class="tufte-margin-pubs">
@@ -73,30 +117,6 @@
           <div class="tufte-margin-label" style="margin-top:0.75rem">Impact</div>
           <div class="tufte-margin-pubs">
             <p>~5% GHG reduction potential in middle-income nations by 2040</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Program 3: Stewardship -->
-  <section id="environmental-stewardship" class="scroll-section">
-    <div class="container scroll-section-inner programs-inner">
-      <h2 class="program-title" style="color:#88c8a8"><a href="https://dse.berkeley.edu/programs/co-design-environmental-stewardship" style="color:inherit">Co-Design Environmental Stewardship</a><span class="program-years">2023 – present</span></h2>
-      <div class="tufte-row">
-        <div class="tufte-body">
-          <span class="tool-name" style="color:#88c8a8">Game Cam App · Soundhub</span>
-          <p>Partnered with Indigenous and local communities to co-design land management tools that integrate traditional ecological knowledge with modern data science. Built software applications with the Karuk Wildlife Team, including the Game Cam app and data automation tools currently in active use.</p>
-          <p>Expanded Soundhub, a web platform using AI to identify and classify animal sounds at scale across 80 California Sentinel Sites. Advancing frameworks for Indigenous data sovereignty and community-controlled environmental monitoring.</p>
-        </div>
-        <div class="tufte-margin">
-          <div class="tufte-margin-label">Publication</div>
-          <div class="tufte-margin-pubs">
-            <p><a href="https://onlinelibrary.wiley.com/doi/10.1002/ece3.72355">Indigenous knowledge and wildlife population estimates</a> — Ecology &amp; Evolution, 2025</p>
-          </div>
-          <div class="tufte-margin-label" style="margin-top:0.75rem">Partners</div>
-          <div class="tufte-margin-pubs">
-            <p>Karuk Tribe · 80 CA Sentinel Sites</p>
           </div>
         </div>
       </div>
@@ -117,6 +137,10 @@
           <div class="tufte-margin-label">Tools</div>
           <div class="tufte-margin-pubs">
             <p><a href="https://github.com/geojupyter/jupytergis">JupyterGIS</a> — open source geospatial extension for Jupyter</p>
+          </div>
+          <div class="tufte-margin-label" style="margin-top:0.75rem">Selected Conference Proceedings</div>
+          <div class="tufte-margin-pubs">
+            <p><a href="https://ui.adsabs.harvard.edu/abs/2025AGUFMIN23A..02F/abstract">GeoJupyter and JupyterGIS: Exploring More Approachable Geospatial Data Workflows as an Open Source Software Community</a> — AGU Fall Meeting, 2025</p>
           </div>
           <div class="tufte-margin-label" style="margin-top:0.75rem">Partners</div>
           <div class="tufte-margin-pubs">
@@ -160,126 +184,103 @@ const YEARS = [2026, 2023, 2020, 2017, 2013, 2010, 2007];
 const projects = [
   { id: 'end-plastic-pollution',                      label: 'Plastic Pollution',  start: 2023, end: 2026.5, present: true  },
   { id: 'reduce-greenhouse-gases',                    label: 'Greenhouse Gases',   start: 2023, end: 2026.5, present: true  },
-  { id: 'environmental-stewardship',                  label: 'Stewardship',        start: 2023, end: 2026.5, present: true  },
+  { id: 'environmental-stewardship',                  label: 'Biodiversity',       start: 2021, end: 2026.5, present: true  },
   { id: 'open-geospatial-data',                       label: 'Geospatial Data',    start: 2024, end: 2026,   present: false },
   { id: 'biological--environmental-data-collections', label: 'Bio & Env Data',     start: 2018, end: 2026.5, present: true  },
-  { id: 'data-science-as-a-practice',                 label: 'Data Science',       start: 2017, end: 2026.5, present: true  },
+  { id: 'data-science-as-a-practice',                 label: 'Data Science',       start: 2011, end: 2026.5, present: true  },
   { id: 'genome-evolution',                           label: 'Genome Evolution',   start: 2013, end: 2020,   present: false },
   { id: 'genetic-regulation-of-plant-morphology',     label: 'Genetic Regulation', start: 2007, end: 2021,   present: false },
 ];
 
-const offsets = [91, 84, 77, 70, 63, 56, 49, 42];
+// Row height and top padding inside the chart area
+const ROW_H = 12;   // px per row (bar height 8, gap 4)
+const ROW_PAD = 8;  // top padding before first row
 
 window.addEventListener('load', () => {
   const chart = document.getElementById('tl-chart');
-  const H = chart.offsetHeight;
 
-  function toY(year) { return ((START - year) / RANGE * H); }
+  const ticks = [];   // { el, lblEl, year }
+  const bars = [];    // { el, lblEl, p }
 
+  function toX(year, W) { return (year - END) / RANGE * W; }
+
+  // Build year ticks
   YEARS.forEach(y => {
     const tick = document.createElement('div');
     tick.className = 'tl-tick';
-    tick.style.top = toY(y) + 'px';
     chart.appendChild(tick);
     const lbl = document.createElement('div');
     lbl.className = 'tl-tick-label';
-    lbl.textContent = y;
-    lbl.style.top = toY(y) + 'px';
+    lbl.textContent = (y === 2026) ? 'now' : y;
     chart.appendChild(lbl);
+    ticks.push({ el: tick, lblEl: lbl, year: y });
   });
 
+  // Build bars + labels
   projects.forEach((p, i) => {
-    const topY = toY(Math.max(p.start, p.end));
-    const botY = toY(Math.min(p.start, p.end));
-    const midY = (topY + botY) / 2;
+    const rowTop = ROW_PAD + i * ROW_H;
     const color = COLORS[p.id];
-    const offset = offsets[i];
 
     const bar = document.createElement('div');
     bar.className = `tl-bar${p.present ? ' tl-bar--present' : ''}`;
     bar.dataset.id = p.id;
-    bar.style.top = topY + 'px';
-    bar.style.height = (botY - topY) + 'px';
-    bar.style.left = offset + 'px';
+    bar.style.top = rowTop + 'px';
     bar.style.background = color;
     bar.addEventListener('click', () => {
       document.getElementById(p.id)?.scrollIntoView({ behavior: 'smooth' });
     });
     chart.appendChild(bar);
 
-    const dot = document.createElement('div');
-    dot.className = 'tl-dot';
-    dot.style.top = midY + 'px';
-    dot.style.left = (offset + 1) + 'px';
-    dot.style.background = color;
-    chart.appendChild(dot);
-
-    const conn = document.createElement('div');
-    conn.className = 'tl-connector';
-    conn.style.top = midY + 'px';
-    conn.style.left = (offset + 3) + 'px';
-    conn.style.background = color;
-    conn.style.opacity = '0.25';
-    chart.appendChild(conn);
-
+    // Tooltip label — floats just above the bar, hidden until hovered
     const lbl = document.createElement('div');
     lbl.className = 'tl-label';
     lbl.dataset.id = p.id;
-    lbl.dataset.midy = midY;
-    lbl.style.opacity = '0.65';
+    lbl.style.top = (rowTop + 12) + 'px';  // sits just below the 8px bar
+    lbl.style.opacity = '0';
     lbl.textContent = p.label;
-    lbl.addEventListener('click', () => {
-      document.getElementById(p.id)?.scrollIntoView({ behavior: 'smooth' });
-    });
     chart.appendChild(lbl);
 
-    bar.addEventListener('mouseenter', () => { dot.style.opacity = '1'; });
-    bar.addEventListener('mouseleave', () => { if (!bar.classList.contains('active')) dot.style.opacity = '0'; });
-    lbl.addEventListener('mouseenter', () => { dot.style.opacity = '1'; bar.style.opacity = '0.75'; });
-    lbl.addEventListener('mouseleave', () => { if (!bar.classList.contains('active')) { dot.style.opacity = '0'; bar.style.opacity = '0.35'; }});
-
-    bar._dot = dot;
-    bar._conn = conn;
     bar._lbl = lbl;
+
+    bar.addEventListener('mouseenter', () => { lbl.style.opacity = '1'; bar.style.opacity = '0.75'; });
+    bar.addEventListener('mouseleave', () => { lbl.style.opacity = '0'; if (!bar.classList.contains('active')) bar.style.opacity = '0.35'; });
+
+    bars.push({ el: bar, lbl, p });
   });
 
-  // Label positioning — natural midpoint, nudge to prevent overlap
-  const MIN_H = 20;
-  const LABEL_TOP_OFFSET = -30;
-  const allLabels = Array.from(chart.querySelectorAll('.tl-label'));
-  let lblData = allLabels.map(lbl => ({
-    el: lbl, id: lbl.dataset.id,
-    natural: parseFloat(lbl.dataset.midy),
-    y: parseFloat(lbl.dataset.midy) + LABEL_TOP_OFFSET
-  }));
-
-  for (let i = 1; i < lblData.length; i++) {
-    if (lblData[i].y - lblData[i-1].y < MIN_H) lblData[i].y = lblData[i-1].y + MIN_H;
+  // Responsive layout — position everything based on current chart width
+  function layout() {
+    const W = chart.offsetWidth;
+    ticks.forEach(t => {
+      const x = toX(t.year, W);
+      t.el.style.left = x + 'px';
+      t.lblEl.style.left = x + 'px';
+    });
+    bars.forEach(b => {
+      const x1 = toX(b.p.start, W);
+      const x2 = toX(b.p.end, W);
+      b.el.style.left = x1 + 'px';
+      b.el.style.width = (x2 - x1) + 'px';
+      // Center the tooltip over the bar, clamped within the chart
+      const mid = (x1 + x2) / 2;
+      b.lbl.style.left = Math.min(Math.max(mid, 0), W) + 'px';
+    });
   }
-  for (let i = lblData.length - 2; i >= 0; i--) {
-    if (lblData[i+1].y - lblData[i].y < MIN_H) lblData[i].y = lblData[i+1].y - MIN_H;
-  }
+  layout();
+  window.addEventListener('resize', layout);
 
-  lblData.forEach(d => {
-    d.el.style.top = d.y + 'px';
-    const bar = document.querySelector(`.tl-bar[data-id="${d.id}"]`);
-    if (bar?._dot) bar._dot.style.top = d.natural + 'px';
-  });
-
-  // IntersectionObserver
+  // IntersectionObserver — highlight active bar (no label shown unless hovered)
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         document.querySelectorAll('.tl-bar').forEach(b => {
           b.classList.remove('active');
-          if (b._dot) b._dot.style.opacity = '0';
-          if (b._lbl) { b._lbl.style.opacity = '0.65'; b._lbl.classList.remove('active'); }
+          b.style.opacity = '0.35';
         });
         const active = document.querySelector(`.tl-bar[data-id="${entry.target.id}"]`);
         if (active) {
           active.classList.add('active');
-          if (active._dot) active._dot.style.opacity = '1';
-          if (active._lbl) { active._lbl.style.opacity = '1'; active._lbl.style.color = '#1a1a1a'; active._lbl.classList.add('active'); }
+          active.style.opacity = '1';
         }
       }
     });
@@ -292,10 +293,7 @@ window.addEventListener('load', () => {
 
   // Highlight first on load
   const firstBar = document.querySelector(`.tl-bar[data-id="${projects[0].id}"]`);
-  if (firstBar) {
-    firstBar.classList.add('active');
-    if (firstBar._lbl) { firstBar._lbl.style.opacity = '1'; firstBar._lbl.classList.add('active'); }
-  }
+  if (firstBar) { firstBar.classList.add('active'); firstBar.style.opacity = '1'; }
 });
 </script>
 {{ end }}

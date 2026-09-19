@@ -16,7 +16,7 @@ disableKinds = ["taxonomy", "term"]
 
 [menu]
   [[menu.main]]
-    name = "Research"
+    name = "Portfolio"
     url = "/work/"
     weight = 1
   [[menu.main]]
@@ -28,10 +28,6 @@ disableKinds = ["taxonomy", "term"]
     url = "/tutorials/"
     weight = 3
   [[menu.main]]
-    name = "Press"
-    url = "/press/"
-    weight = 4
-  [[menu.main]]
     name = "CV"
     url = "/cv/"
-    weight = 5
+    weight = 4

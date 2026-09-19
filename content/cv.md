@@ -10,7 +10,11 @@ hide_title: true
   <p class="cv-contact">
     <a href="mailto:ccmartinez@berkeley.edu">ccmartinez@berkeley.edu</a>
     &nbsp;·&nbsp;
-    <a href="https://scholar.google.com/citations?user=JGUnmZoAAAAJ&hl=en&oi=ao">Google Scholar Profile</a>
+    <a href="https://scholar.google.com/citations?user=JGUnmZoAAAAJ&hl=en&oi=ao">Google Scholar</a>
+    &nbsp;·&nbsp;
+    <a href="/ciera-martinez-cv.pdf" download title="Download PDF">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-bottom:2px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> pdf
+    </a>
   </p>
 </div>
 
@@ -41,6 +45,8 @@ Chemistry Minor · Northeastern Illinois University, Chicago
 ---
 
 ## Publications
+
+21\. AI and Indigenous Data Sovereignty: Responsible Use for Biodiversity Monitoring. Steen M, Hutchins L, de Bruyn M, Van Scoyoc A, Synder A, Montealegre-Mora F, Tripp E, Sarna-Wojcicki D, Chapman M, Jennings L, **Martinez CC**. *In review.*
 
 20\. Kigali Sim: Open source simulation toolkit for modeling substances and policies related to the Montreal Protocol. Pottinger AS, Natarajan B, de Bruyn M, **Martinez CC**. **2026.** [Journal of Open Source Software](https://joss.theoj.org/)
 
@@ -114,7 +120,7 @@ Challenges of doing data-intensive research in teams, labs, and groups. Gieger S
 
 ## Grants, Fellowships & Awards
 
-<p style="font-size:0.85em; font-style:italic; color:#6b7280; margin-bottom:0.75rem;">Awarded over $1.5 million in research funding across grants and fellowships.</p>
+<p style="font-size:0.85em; font-style:italic; color:#6b7280; margin-bottom:0.75rem;">Awarded over $2.3 million in research funding across grants and fellowships.</p>
 
 | Year | Award |
 |------|-------|
@@ -127,6 +133,7 @@ Challenges of doing data-intensive research in teams, labs, and groups. Gieger S
 | 2017 | BIDS Data Science Fellowship |
 | 2017 | Burroughs Wellcome Postdoctoral Enrichment Grant |
 | 2016 | NSF Postdoctoral Fellowship |
+| 2015 | Ford Fellowship |
 | 2015 | Katherine Esau Summer Graduate Fellowship |
 | 2014 | NSF Graduate Research Opportunities Worldwide (GROW) Fellowship |
 | 2014 | Walter R. and Roselinde H. Russell Fellowship |
@@ -139,6 +146,9 @@ Challenges of doing data-intensive research in teams, labs, and groups. Gieger S
 ---
 
 ## Presentations
+
+**2025** National Workshop on Data Science Education Panel\
+Talk (invited): *GeoJupyter: An Accessible Open Source Geospatial Ecosystem*
 
 **2023** Lewis & Clark College, Portland, OR\
 Talk (invited): *Uncovering Patterns in Nature with Data Science Tools*
@@ -161,7 +171,7 @@ Talk (selected abstract): *Principles for data-intensive research workflows: Gui
 **2020** University of Wyoming, INBRE 2020 Summer of Code\
 Talk (invited): *Bird's Eye View of Reproducibility*
 
-**2019** Alien CSI, Ljubljana, Slovenia\
+**2019** Invasive Species CSI, Ljubljana, Slovenia\
 Talk (plenary): *Defining the Usability of Biodiversity Databases — Lessons Learned from Tutorial Creation*
 
 **2019** Yale, Digital Data Conference, New Haven, CT\
@@ -256,7 +266,7 @@ Poster: *Effects of Gibberellic Acid, Light, and Cold Stratification on* Echinac
 **2018–2022** [TextXD Annual Conference](https://www.textxd.org/) — Organizing Committee\
 **2019–2021** ADSA CDN Executive Committee\
 **2017–2021** [BIDS Best Practices Working Group](https://osf.io/ctfqn/) — Lead\
-**2017–2018** Co-Organizer, R-Ladies San Francisco
+**2017–2018** R-Ladies San Francisco — Leadership Team, Organizer
 
 ---
 
@@ -271,3 +281,22 @@ Poster: *Effects of Gibberellic Acid, Light, and Cold Stratification on* Echinac
 **2015** [Reproducible Research Bootcamp](http://reproducible-science-curriculum.github.io/2015-06-01-reproducible-science-idigbio/), Instructor · Gainesville, FL\
 **2014** [BIS 180L Genomics](http://jnmaloof.github.io/BIS180L_web/), Teaching Assistant · UC Davis\
 **2014** Introduction to R, Instructor · Woodland Pioneer High School
+
+---
+
+## Media, Interviews & Public Writing
+
+**2024** [Global Plastics AI Policy Tool — UN Treaty Coverage](https://www.nytimes.com/2024/11/24/climate/plastic-pollution-south-korea-talks.html) — *The New York Times* · Also covered by [The Guardian](https://www.theguardian.com/environment/2024/nov/14/global-plastic-production-cut-pollution-waste-un-treaty), [NPR](https://www.npr.org/2024/11/25/nx-s1-5199658/plastic-pollution-un-treaty-fossil-fuel-climate-change-health), [Newsweek](https://www.newsweek.com/plastic-treaty-talks-near-study-shows-how-cut-waste-clogging-oceans-1985919), and [The Washington Post](https://www.washingtonpost.com/opinions/interactive/2023/plastic-pollution-united-nations-agreement-science-recycle/)\
+**2023** [How to make your scientific data accessible, discoverable and useful](https://www.nature.com/articles/d41586-023-01929-7) — *Nature*\
+**2022** [Behind the Scenes of "The Future of Data Science": An Interview with Ciera Martinez](https://nightingaledvs.com/behind-the-scenes-of-the-future-of-data-science-an-interview-with-ciera-martinez/) — *Nightingale Magazine*\
+**2022** [150 Years Celebration of Women in Computing at Berkeley](https://data.berkeley.edu/people/ciera-martinez) — *UC Berkeley*\
+**2021** [How to approach accessibility in academic data science](https://academicdatascience.org/resources/2021-09-23-blog) — *Academic Data Science Alliance*\
+**2021** [The Gateway at UC Berkeley: Lighting the Way to Prevent California Wildfires](https://www.youtube.com/watch?v=kJa8UJ-udu8&ab_channel=UCBerkeley%3ALighttheWay) — *UC Berkeley*\
+**2020** [100 Inspiring Hispanic/Latinx Scientists in America](http://crosstalk.cell.com/blog/100-inspiring-hispanic-latinx-scientists-in-america) — *Cell Crosstalk*\
+**2019** [Decoding the Secrets of Plants' Stunning Leaf Patterns](https://www.smithsonianmag.com/science-nature/decoding-mathematical-secrets-plants-stunning-leaf-patterns-180972367/) — *Smithsonian Magazine*\
+**2019** [11 Ways to Avert a Data-storage Disaster](https://www.nature.com/articles/d41586-019-01040-w) — *Nature*\
+**2018** [Watch These Flies Turn Into Zombies](https://www.nationalgeographic.com/animals/2018/08/zombie-flies-mind-control-fungus-animals/) — *National Geographic*\
+**2018** [The State of Open Science and What's Ahead](https://medium.com/read-write-participate/the-state-of-open-science-and-whats-ahead-ce2718689281) — *Medium*\
+**2018** [Mozilla Announces 25 New Fellows in Openness, Science, and Tech Policy](https://blog.mozilla.org/blog/2018/08/21/mozilla-announces-25-new-fellows-in-openness-science-and-tech-policy/) — *Mozilla*\
+**2015** [Rule Rewrite Aims to Clean up Scientific Software](https://www.nature.com/news/rule-rewrite-aims-to-clean-up-scientific-software-1.17323) — *Nature*\
+**2012** [Is Your Leaf Left Handed?](https://www.sciencedaily.com/releases/2012/06/120623094318.htm) — *Science Daily*

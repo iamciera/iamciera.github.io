@@ -14,5 +14,9 @@ weight: 4
     <p><a href="https://www.g3journal.org/content/10/5/1443.long">Whole genome sequences of 23 <em>Drosophila montium</em> species</a> — G3, 2020</p>
     <p><a href="https://elifesciences.org/articles/34414">A fungal pathogen that robustly manipulates <em>Drosophila melanogaster</em></a> — eLIFE, 2018</p>
   </div>
+  <div class="tufte-margin-label" style="margin-top:0.75rem">Selected Press</div>
+  <div class="tufte-margin-pubs">
+    <p><a href="https://www.nationalgeographic.com/animals/2018/08/zombie-flies-mind-control-fungus-animals/">Watch These Flies Turn Into Zombies</a> — National Geographic, 2018</p>
+  </div>
 </div>
 </div>

@@ -1,8 +1,13 @@
 ---
 title: "Technical Training"
+center_header: true
 ---
 
+<div class="page-intro">
+
 I have an extensive record of developing and delivering technical education, from one-on-one mentorship to large workshop curricula, across topics including reproducible research, statistical modeling, machine learning, biodiversity data, and R & Python programming. I believe rigorous methods should be accessible to anyone willing to learn.
+
+</div>
 
 ---
 
@@ -25,6 +30,11 @@ I have designed and taught in-person workshops across universities, conferences,
 - **[Reproducible Science Workshop](http://reproducible-science-curriculum.github.io/2015-06-01-reproducible-science-idigbio/)** — Full-day workshop on tools, resources, and practices for reproducible research. Co-written and co-taught on multiple occasions.
 
 - **[MACS2 for ChIP-Seq Data](https://github.com/iamciera/chipSeqTutorial)** — Genomics lab module built and taught as part of BIS180L at UC Davis, covering peak calling and ChIP-Seq analysis workflows.
+
+<figure class="page-hero">
+  <img src="/img/training-hero.png" alt="Ciera Martinez presenting the Global Plastics AI Policy Tool to a group">
+  <figcaption>UC Berkeley · photo by Mathew Burciaga</figcaption>
+</figure>
 
 ---
 

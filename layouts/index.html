@@ -13,8 +13,8 @@
       </div>
       <h1>Ciera Martinez, PhD</h1>
       <p class="home-role">Senior Program Manager · <a href="https://dse.berkeley.edu/">Schmidt Center for Data Science &amp; Environment</a> · UC Berkeley</p>
-      <p>I'm a scientist and program leader who builds the tools, methods, and partnerships that translates complex biological and environmental data into actionable insight.</p>
-      <p>My work has spanned strategic program management, multidisciplinary research, and open science advocacy, with a consistent focus on making science more accessible, reproducible, and impactful across institutions and communities.</p>
+      <p>I'm a scientist and program leader who builds the tools, methods, and partnerships that translate complex biological and environmental data into actionable insight.</p>
+      <p>My work centers on open and reproducible science, from the software and data infrastructure researchers rely on to the publishing practices that make results usable by others. I move between strategic program management, multidisciplinary research, and community building, with a consistent focus on making science more accessible and impactful.</p>
       <div class="home-contact">
         <a href="mailto:{{ .Site.Params.email }}" class="contact-icon-link" title="{{ .Site.Params.email }}">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg>
@@ -39,21 +39,15 @@ const PALETTE = [
   '#b86e18','#d4a830','#a83828','#c07050','#b86878'
 ];
 
-function getSize() {
-  const el = document.querySelector('.home-tree');
-  return Math.min(el.offsetWidth, el.offsetHeight);
-}
-
-let SIZE = getSize();
-let R = SIZE / 2 - 40;
+// Fixed logical coordinate space; CSS scales the SVG to fill the panel.
+// (Avoids depending on offset measurements that can be wrong at load time.)
+const SIZE = 600;
+const R = SIZE / 2 - 40;
 
 const svg = d3.select('#tree')
-  .attr('width', SIZE)
-  .attr('height', SIZE)
   .attr('viewBox', [-SIZE/2, -SIZE/2, SIZE, SIZE])
-  .style('cursor', 'pointer')
-  .style('max-width', '100%')
-  .style('max-height', '100%');
+  .attr('preserveAspectRatio', 'xMidYMid meet')
+  .style('cursor', 'pointer');
 
 const linkG = svg.append('g');
 const nodeG = svg.append('g');

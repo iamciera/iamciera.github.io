@@ -126,8 +126,10 @@ a:hover { text-decoration: underline; }
 }
 
 .home-tree svg {
-  max-width: 75%;
-  max-height: 75%;
+  width: 80%;
+  max-width: 480px;
+  height: auto;
+  aspect-ratio: 1 / 1;
 }
 
 .tree-hint {
@@ -300,6 +302,35 @@ a:hover { text-decoration: underline; }
   color: var(--muted);
 }
 
+.cv-section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.cv-section-head h2 {
+  margin: 0;
+}
+
+.cv-download-btn {
+  display: inline-block;
+  margin-top: 0;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: #aab0be;
+  text-decoration: none;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.cv-download-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
 .page table {
   width: 100%;
   border-collapse: collapse;
@@ -326,6 +357,57 @@ a:hover { text-decoration: underline; }
   color: var(--muted);
   font-variant-numeric: tabular-nums;
   padding-right: 1rem;
+}
+
+/* ── Press Page ────────────────────────────────────────────── */
+.press-topic {
+  margin-bottom: 3.5rem;
+}
+
+.press-banner {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.press-banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(26,37,64,0.82) 0%, rgba(26,37,64,0.35) 100%);
+  display: flex;
+  align-items: flex-end;
+  padding: 1.25rem 1.5rem;
+}
+
+.press-banner-overlay h2 {
+  color: white;
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: -0.01em;
+  border: none;
+  padding: 0;
+}
+
+.press-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.press-items li {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.press-items li:last-child {
+  border-bottom: none;
 }
 
 /* ── Footer ────────────────────────────────────────────────── */
@@ -514,12 +596,23 @@ a:hover { text-decoration: underline; }
 /* ── Scroll / Work Page ────────────────────────────────────── */
 .scroll-page {
   position: relative;
-  padding-left: 288px;
+  padding-left: 0;
 }
 
 .scroll-intro {
-  padding: 4rem 0 3rem;
-  border-bottom: 1px solid var(--border);
+  padding: 3rem 0 2.5rem;
+  text-align: center;
+}
+
+.scroll-intro::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  margin: 2rem auto 0;
+  background: var(--purple);
+  border-radius: 1px;
+  opacity: 0.6;
 }
 
 .scroll-intro h1 {
@@ -534,71 +627,73 @@ a:hover { text-decoration: underline; }
   color: #374151;
   max-width: 600px;
   line-height: 1.7;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* ── Timeline Nav ──────────────────────────────────────────── */
+/* ── Timeline Nav (horizontal) ─────────────────────────────── */
 .timeline-nav {
-  position: fixed;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 280px;
+  position: sticky;
+  top: var(--nav-h);
+  height: 152px;
+  background: white;
+  border-bottom: 1px solid var(--border);
   z-index: 50;
-  padding: 0 0.75rem;
+  display: flex;
+  align-items: stretch;
 }
 
 .tl-chart {
+  flex: 1;
   position: relative;
-  width: 100%;
-  height: 340px;
+  margin: 0 24px;
 }
 
 .tl-axis {
   position: absolute;
-  left: 35px;
-  top: 0; bottom: 0;
-  width: 1px;
+  left: 0; right: 0;
+  top: 128px;
+  height: 1px;
   background: var(--border);
 }
 
 .tl-tick {
   position: absolute;
-  left: 30px;
-  width: 6px;
-  height: 1px;
+  width: 1px;
+  height: 6px;
+  top: 123px;
   background: var(--border);
 }
 
 .tl-tick-label {
   position: absolute;
-  left: 0;
-  font-size: 0.55rem;
-  color: #9ca3af;
-  transform: translateY(-50%);
+  top: 132px;
+  transform: translateX(-50%);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #4b5563;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
-  width: 28px;
-  text-align: right;
 }
 
 .tl-bar {
   position: absolute;
-  width: 2px;
-  border-radius: 1px;
+  height: 8px;
+  border-radius: 3px;
   opacity: 0.35;
   cursor: pointer;
-  transition: opacity 0.2s, width 0.15s;
+  transition: opacity 0.2s, height 0.15s;
 }
 
 .tl-bar:hover { opacity: 0.75; }
-.tl-bar.active { opacity: 1; width: 3px; }
+.tl-bar.active { opacity: 1; height: 10px; }
 
 .tl-bar--present::after {
   content: '';
   position: absolute;
-  bottom: -3px;
-  left: 50%;
-  transform: translateX(-50%);
+  right: -3px;
+  top: 50%;
+  transform: translateY(-50%);
   width: 4px; height: 4px;
   border-radius: 50%;
   background: inherit;
@@ -610,34 +705,157 @@ a:hover { text-decoration: underline; }
   50% { opacity: 0.2; }
 }
 
-.tl-dot {
-  position: absolute;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: opacity 0.2s;
-  pointer-events: none;
-  border: 1.5px solid white;
-}
-
 .tl-connector { display: none; }
+.tl-dot { display: none; }
 
 .tl-label {
   position: absolute;
-  left: 100px;
-  transform: translateY(-50%);
-  font-size: 0.68rem;
-  color: #4b5563;
-  line-height: 1.25;
-  cursor: pointer;
-  transition: color 0.15s;
-  right: 0;
+  transform: translateX(-50%);
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  line-height: 1.2;
+  white-space: nowrap;
+  pointer-events: none;
+  background: white;
+  padding: 1px 6px;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+  transition: opacity 0.15s;
+  z-index: 5;
 }
 
-.tl-label:hover { color: #1a1a1a; }
-.tl-label.active { font-weight: 600; color: #1a1a1a; }
+/* ── Section photos ────────────────────────────────────────── */
+.section-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+
+.section-photos figure {
+  margin: 0;
+}
+
+.section-photos figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.section-photos-credit {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.72rem;
+  color: #aab0be;
+}
+
+.section-photos.section-photos--mini {
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  max-width: 520px;
+  align-items: start;
+}
+
+.section-photos--mini img {
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
+.section-photos img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.section-photos--single {
+  grid-template-columns: 1fr;
+  max-width: 460px;
+}
+
+.section-photos--single img {
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
+.section-photos--covers {
+  max-width: 620px;
+  align-items: start;
+}
+
+.section-photos--covers img {
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 640px) {
+  .section-photos { grid-template-columns: 1fr; }
+}
+
+/* ── Page hero image ───────────────────────────────────────── */
+.page-hero {
+  margin: 0 0 2rem;
+}
+
+.page-hero img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+.page-hero figcaption {
+  margin-top: 0.35rem;
+  font-size: 0.68rem;
+  color: #aab0be;
+  text-align: right;
+}
+
+/* ── Centered page header + intro ──────────────────────────── */
+.page--centered .page-title {
+  text-align: center;
+}
+
+.page--centered .page-intro,
+.page--centered .page-intro .tufte-body {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* ── DSxD book showcase ────────────────────────────────────── */
+.dsxd-books {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem 0 1rem;
+}
+
+.dsxd-books figure {
+  margin: 0;
+  text-align: center;
+}
+
+.dsxd-books img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: left center;
+  border-radius: 10px;
+  display: block;
+}
+
+.dsxd-books figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+@media (max-width: 640px) {
+  .dsxd-books { grid-template-columns: 1fr; }
+}
 
 /* ── Work page section colors ──────────────────────────────── */
 .scroll-section {
