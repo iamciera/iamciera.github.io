@@ -120,8 +120,6 @@ Challenges of doing data-intensive research in teams, labs, and groups. Gieger S
 
 ## Grants, Fellowships & Awards
 
-<p style="font-size:0.85em; font-style:italic; color:#6b7280; margin-bottom:0.75rem;">Awarded over $2.3 million in research funding across grants and fellowships.</p>
-
 | Year | Award |
 |------|-------|
 | 2026 | Chancellor's Excellence in Management Award |
