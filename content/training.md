@@ -1,6 +1,8 @@
 ---
 title: "Technical Training"
 center_header: true
+aliases:
+  - /tutorials/
 ---
 
 <div class="page-intro">
