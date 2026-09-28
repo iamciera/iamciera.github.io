@@ -920,9 +920,10 @@ a:hover { text-decoration: underline; }
     font-size: 1rem;
   }
 
+  .container { padding: 0 2rem; }
   .home-grid { grid-template-columns: 1fr; }
   .home-tree { min-height: 60vw; }
-  .home-bio { padding: 3rem 1.5rem 2rem; }
+  .home-bio { padding: 3rem 2rem 2rem; }
   .home h1 { font-size: 1.6rem; }
   .page-title { font-size: 1.4rem; }
   .scroll-nav { display: none; }
