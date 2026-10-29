@@ -46,9 +46,9 @@ Chemistry Minor · Northeastern Illinois University, Chicago
 
 ## Publications
 
-22\. Using game design to inform a plastics treaty: Fostering collaboration between science, machine learning, and policymaking. Pottinger AS, Biyani N, Geyer R, McCauley DJ, de Bruyn M, Morse MR, Nathan N, Koy K, **Martinez C**. *In press.* [arXiv](https://arxiv.org/abs/2312.11359)
+22\. AI and Indigenous Data Sovereignty: Responsible Use for Biodiversity Monitoring. Steen M, Hutchins L, de Bruyn M, Van Scoyoc A, Synder A, Montealegre-Mora F, Tripp E, Sarna-Wojcicki D, Chapman M, Jennings L, **Martinez CC**. *In review.*
 
-21\. AI and Indigenous Data Sovereignty: Responsible Use for Biodiversity Monitoring. Steen M, Hutchins L, de Bruyn M, Van Scoyoc A, Synder A, Montealegre-Mora F, Tripp E, Sarna-Wojcicki D, Chapman M, Jennings L, **Martinez CC**. *In review.*
+21\. Using game design to inform a plastics treaty: Fostering collaboration between science, machine learning, and policymaking. Pottinger AS, Biyani N, Geyer R, McCauley DJ, de Bruyn M, Morse MR, Nathan N, Koy K, **Martinez C**. **2026.** [Journal of Visualization and Interaction](https://journals.aau.dk/index.php/jovi/article/view/11208)
 
 20\. Kigali Sim: Open source simulation toolkit for modeling substances and policies related to the Montreal Protocol. Pottinger AS, Natarajan B, de Bruyn M, **Martinez CC**. **2026.** [Journal of Open Source Software](https://joss.theoj.org/)
 

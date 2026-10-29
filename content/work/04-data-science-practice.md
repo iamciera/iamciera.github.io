@@ -14,6 +14,7 @@ weight: 2
     <p><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008770">Principles for data analysis workflows</a> — PLOS Comp. Bio., 2021</p>
     <p><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009481">Ten simple rules for clean scientific software</a> — PLOS Comp. Bio., 2021</p>
     <p><a href="https://joss.theoj.org/">Kigali Sim</a> — JOSS, 2026</p>
+    <p><a href="https://journals.aau.dk/index.php/jovi/article/view/11208">Using game design to inform a plastics treaty</a> — J. Visualization and Interaction, 2026</p>
   </div>
   <div class="tufte-margin-label" style="margin-top:0.75rem">Selected Press</div>
   <div class="tufte-margin-pubs">
